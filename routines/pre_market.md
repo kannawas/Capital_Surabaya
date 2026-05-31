@@ -10,8 +10,9 @@ then re-runs the deterministic core with fresh prices before market open.
 ## Environment setup
 
 ```bash
-cd /repo
-pip install -r requirements.txt -q
+REPO=$(pwd)
+echo "Repo: $REPO"
+pip3 install -r requirements.txt -q
 export USE_SUPABASE=true
 export SUPABASE_URL="https://bjiynevanmgopegmwcbi.supabase.co"
 export SUPABASE_KEY="FILL_IN_SUPABASE_KEY"
@@ -22,7 +23,7 @@ echo "Cutoff: $CUTOFF_TS"
 ## Step 1 — Fetch fresh pre-market data
 
 ```bash
-python -c "
+python3 -c "
 from data.watchlist import sync_from_file, get_active
 from data.packets import build_packet
 import json, os
@@ -54,7 +55,7 @@ Read the packets. Act as Macro Intelligence and News Reporter agents (abbreviate
 ## Step 3 — Load post-close intents from Supabase
 
 ```bash
-python -c "
+python3 -c "
 from ledger.storage import select
 import json
 
@@ -75,7 +76,7 @@ print(f'Loaded intents: {len(exec_out.get(\"intents\", []))} tickers')
 ## Step 4 — Run deterministic core with fresh prices
 
 ```bash
-python -c "
+python3 -c "
 import json, os
 from ledger.storage import init_schema
 from core.run import run

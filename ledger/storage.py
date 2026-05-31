@@ -16,7 +16,7 @@ from pathlib import Path
 from typing import Any
 
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv(override=False)  # don't override vars already set in environment (e.g. by tests)
 
 USE_SUPABASE: bool = os.getenv("USE_SUPABASE", "false").lower() == "true"
 
@@ -70,13 +70,31 @@ def get_conn():
 
 # ── Unified storage operations (work in both modes) ──────────────────────────
 
+# Table PK column names (Supabase returns the full row — need to know which col is the PK)
+_PK_COLS: dict[str, str] = {
+    "runs":             "run_id",
+    "orders":           "order_id",
+    "cash_ledger":      "tx_id",
+    "nav_history":      "nav_id",
+    "agent_outputs":    "id",
+    # tables with TEXT PKs — no serial id to return
+    "positions":        "ticker",
+    "watchlist":        "ticker",
+    "conviction_store": "ticker",
+    "verdict_store":    "ticker",
+}
+
+
 def insert(table: str, data: dict) -> int | None:
-    """Insert a row. Returns the new row id (SQLite) or None (Supabase)."""
+    """Insert a row. Returns the new serial PK (int) or None."""
     if USE_SUPABASE:
         sb = _get_supabase()
         result = sb.table(table).insert(data).execute()
         rows = result.data
-        return rows[0].get("id") if rows else None
+        if not rows:
+            return None
+        pk_col = _PK_COLS.get(table, "id")
+        return rows[0].get(pk_col)
     else:
         cols = ", ".join(data.keys())
         placeholders = ", ".join("?" * len(data))

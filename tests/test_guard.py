@@ -1,8 +1,13 @@
 """Tests for look-ahead bias guard."""
 
-import sys
+import sys, os
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
+
+# Force SQLite mode BEFORE importing any ledger code
+os.environ["USE_SUPABASE"] = "false"
+os.environ.pop("SUPABASE_URL", None)
+os.environ.pop("SUPABASE_KEY", None)
 
 from ledger.guard import assert_no_lookahead, LookAheadError
 
@@ -50,14 +55,14 @@ def test_missing_ts_field_raises():
 
 def test_seed_positions_and_guard():
     """Integration: seeded positions have past timestamps → guard passes."""
-    import os, tempfile
+    import tempfile
     from pathlib import Path
-    import ledger.db as _db
+    import ledger.storage as _db
     tmp = tempfile.NamedTemporaryFile(suffix=".db", delete=False)
     tmp.close()
     _db.DB_PATH = Path(tmp.name)
 
-    from ledger.db import init_db
+    from ledger.storage import init_schema as init_db
     from ledger.positions import seed_positions, get_positions
     init_db()
 

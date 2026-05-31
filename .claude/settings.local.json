@@ -22,7 +22,11 @@
       "Bash(git init *)",
       "Bash(git remote *)",
       "Bash(rtk git *)",
-      "Bash(git config *)"
+      "Bash(git config *)",
+      "Bash(rtk read *)",
+      "Bash(git checkout *)",
+      "Bash(echo \"EXIT=$?\")",
+      "Bash(echo \"PUSH_EXIT=$?\")"
     ]
   }
 }

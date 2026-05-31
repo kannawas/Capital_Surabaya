@@ -9,12 +9,17 @@ import sys, os, tempfile
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-import ledger.db as _db
+# Force SQLite mode BEFORE importing any ledger code
+os.environ["USE_SUPABASE"] = "false"
+os.environ.pop("SUPABASE_URL", None)
+os.environ.pop("SUPABASE_KEY", None)
+
+import ledger.storage as _db
 tmp = tempfile.NamedTemporaryFile(suffix=".db", delete=False)
 tmp.close()
 _db.DB_PATH = Path(tmp.name)
 
-from ledger.db import init_db
+from ledger.storage import init_schema as init_db
 init_db()
 
 from core.limits import LimitInputs, compute_limits, REGIME_FACTOR, VERDICT_FACTOR

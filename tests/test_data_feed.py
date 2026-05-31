@@ -3,17 +3,22 @@ Data feed smoke tests — hits yfinance live (requires internet).
 Verifies: prices, macro, news, packet builder, blindness enforcement.
 """
 
-import sys
+import sys, os
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-import os, tempfile
-import ledger.db as _db
+# Force SQLite mode BEFORE importing any ledger code
+os.environ["USE_SUPABASE"] = "false"
+os.environ.pop("SUPABASE_URL", None)
+os.environ.pop("SUPABASE_KEY", None)
+
+import tempfile
+import ledger.storage as _db
 tmp = tempfile.NamedTemporaryFile(suffix=".db", delete=False)
 tmp.close()
 _db.DB_PATH = Path(tmp.name)
 
-from ledger.db import init_db
+from ledger.storage import init_schema as init_db
 init_db()
 
 from data.prices import fetch_ohlcv, compute_technicals, fetch_latest_price

@@ -7,8 +7,9 @@ You are the Capital Surabaya pipeline orchestrator running the post-close cycle.
 
 Run this first:
 ```bash
-cd /repo
-pip install -r requirements.txt -q
+REPO=$(pwd)
+echo "Repo: $REPO"
+pip3 install -r requirements.txt -q
 export USE_SUPABASE=true
 export SUPABASE_URL="https://bjiynevanmgopegmwcbi.supabase.co"
 export SUPABASE_KEY="FILL_IN_SUPABASE_KEY"
@@ -19,7 +20,7 @@ echo "Cutoff: $CUTOFF_TS"
 ## Step 1 — Fetch market data
 
 ```bash
-python -c "
+python3 -c "
 from data.watchlist import sync_from_file, get_active, get_groups
 from data.prices import fetch_ohlcv, compute_technicals
 from data.macro import fetch_macro
@@ -76,7 +77,7 @@ Read the full agent prompt from the repo file, then apply it to the packet data.
 ## Step 3 — Save thesis verdicts
 
 ```bash
-python -c "
+python3 -c "
 import json, os
 from ledger.storage import init_schema
 from core.state import save_thesis_verdict
@@ -104,7 +105,7 @@ for v in thesis.get('verdicts', []):
 ## Step 5 — Run deterministic core
 
 ```bash
-python -c "
+python3 -c "
 import json, os
 from ledger.storage import init_schema
 from core.run import run
@@ -134,7 +135,7 @@ print(json.dumps(report, indent=2, default=str))
 ## Step 6 — Save agent outputs for audit trail
 
 ```bash
-python -c "
+python3 -c "
 import json, os
 from ledger.storage import insert
 from datetime import datetime, timezone
