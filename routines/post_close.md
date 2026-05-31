@@ -154,7 +154,7 @@ for agent, fname in [
             data = json.load(f)
         insert('agent_outputs', {
             'run_ts': run_ts,
-            'agent': agent,
+            'agent_name': agent,
             'output_json': json.dumps(data, ensure_ascii=False),
             'created_at': now,
         })

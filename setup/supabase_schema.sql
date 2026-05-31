@@ -85,7 +85,7 @@ CREATE TABLE IF NOT EXISTS verdict_store (
 CREATE TABLE IF NOT EXISTS agent_outputs (
     id         SERIAL PRIMARY KEY,
     run_ts     TEXT NOT NULL,
-    agent      TEXT NOT NULL,
+    agent_name  TEXT NOT NULL,
     output_json TEXT NOT NULL,
     created_at TEXT NOT NULL
 );

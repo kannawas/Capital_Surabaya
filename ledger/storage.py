@@ -273,7 +273,7 @@ def init_schema() -> None:
             CREATE TABLE IF NOT EXISTS agent_outputs (
                 id          INTEGER PRIMARY KEY AUTOINCREMENT,
                 run_ts      TEXT NOT NULL,
-                agent       TEXT NOT NULL,
+                agent_name  TEXT NOT NULL,
                 output_json TEXT NOT NULL,
                 created_at  TEXT NOT NULL
             );

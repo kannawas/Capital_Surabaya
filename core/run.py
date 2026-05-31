@@ -19,7 +19,7 @@ from core.sizing import IntentInput, compute_order
 from core.state import load_all_convictions, load_all_verdicts
 from data.macro import fetch_macro
 from data.watchlist import get_active, get_groups
-from ledger.db import get_conn, init_db
+from ledger.storage import insert, init_schema
 from ledger.nav import compute_nav
 from ledger.orders import record_order
 from ledger.positions import get_cash, get_positions
@@ -48,7 +48,7 @@ def run(
     Returns:
         run_report dict with limits, order_plans, fills, nav_after.
     """
-    init_db()
+    init_schema()
     ts = cutoff_ts or datetime.now(timezone.utc).isoformat()
     news_flagged = news_flagged or []
 
@@ -143,12 +143,7 @@ def run(
         }
 
     # --- create run record ---
-    with get_conn() as conn:
-        cur = conn.execute(
-            "INSERT INTO runs (run_ts, nav_before, cash_before) VALUES (?,?,?)",
-            (ts, nav, cash),
-        )
-        run_id = cur.lastrowid
+    run_id = insert("runs", {"run_ts": ts, "nav_before": nav, "cash_before": cash})
 
     # --- execute fills ---
     fills = []

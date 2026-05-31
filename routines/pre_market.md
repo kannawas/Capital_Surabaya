@@ -59,7 +59,7 @@ from ledger.storage import select
 import json
 
 # Load the last execution output
-rows = select('agent_outputs', where={'agent': 'execution'})
+rows = select('agent_outputs', where={'agent_name': 'execution'})
 rows.sort(key=lambda r: r.get('run_ts',''), reverse=True)
 if not rows:
     print('No execution output found — aborting')
