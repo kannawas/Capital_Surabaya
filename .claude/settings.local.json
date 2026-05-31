@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rtk ls *)",
+      "Bash(rtk pip *)",
+      "Bash(python tests/test_spec8.py)",
+      "Bash(pip --version)",
+      "Bash(python tests/test_guard.py)",
+      "Bash(python tests/test_data_feed.py)",
+      "Bash(python tests/test_core.py)",
+      "Bash(find \"/mnt/c/Users/kanna/OneDrive - The Siam Cement Public Company Limited/Desktop/Capital Surabaya\" -name \"*.md\" 2>/dev/null | head -30)",
+      "Bash(rtk ls \"C:\\\\Users\\\\kanna\\\\OneDrive - The Siam Cement Public Company Limited\\\\Desktop\\\\Capital Surabaya\\\\examples\" *)",
+      "Bash(python -c ' *)",
+      "Bash(rtk grep *)",
+      "PowerShell(Remove-Item \"C:\\\\Users\\\\kanna\\\\OneDrive - The Siam Cement Public Company Limited\\\\Desktop\\\\Capital Surabaya - Claude Code\\\\prompts\\\\macro_intelligence_agent.md\" -Confirm:$false)",
+      "Bash(python -c \"import os; from dotenv import load_dotenv; load_dotenv\\(\\); key = os.getenv\\('ANTHROPIC_API_KEY',''\\); print\\('API key:', 'SET' if key.startswith\\('sk-'\\) else 'NOT SET'\\)\")",
+      "Skill(schedule)",
+      "Skill(schedule:*)",
+      "Bash(claude -p --tools \"\" --no-session-persistence)",
+      "Bash(claude -p --allowed-tools \"WebFetch\" --no-session-persistence)",
+      "Bash(where claude *)",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(rtk git *)"
+    ]
+  }
+}

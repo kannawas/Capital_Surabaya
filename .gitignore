@@ -1,0 +1,29 @@
+# Secrets
+.env
+
+# Database (local only — Supabase is the cloud store)
+data/ledger.db
+data/ledger.db-wal
+data/ledger.db-shm
+data/*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Logs
+logs/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+/tmp/
+*.tmp
+
+# Original zip
+*.zip

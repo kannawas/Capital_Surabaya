@@ -1,0 +1,27 @@
+{
+  "_comment": "Active watchlist. Edit here, then run: python -m data.watchlist sync",
+  "tickers": [
+    "MSFT",
+    "COST",
+    "AVGO",
+    "NVDA",
+    "MRVL",
+    "TSLA",
+    "AAPL",
+    "GOOGL",
+    "META",
+    "AMZN"
+  ],
+  "groups": {
+    "NVDA": "semis",
+    "AVGO": "semis",
+    "MRVL": "semis",
+    "MSFT": "ai",
+    "GOOGL": "ai",
+    "META": "ai",
+    "AMZN": "ai",
+    "AAPL": "consumer_tech",
+    "TSLA": "consumer_tech",
+    "COST": "consumer_staples"
+  }
+}
