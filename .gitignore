@@ -1,11 +1,12 @@
 # Secrets
 .env
 
-# Database (local only — Supabase is the cloud store)
-data/ledger.db
+# Database WAL/SHM (transient) — but ledger.db IS committed (GitHub = cloud store for CCR)
 data/ledger.db-wal
 data/ledger.db-shm
-data/*.db
+
+# Local-only run results (CCR writes these; we pull them)
+run_results/*.json
 
 # Python
 __pycache__/
@@ -27,3 +28,4 @@ Thumbs.db
 
 # Original zip
 *.zip
+check_state.py

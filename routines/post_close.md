@@ -14,18 +14,21 @@ elif [ -f /repo/requirements.txt ]; then REPO=/repo; \
 else REPO=$(dirname $(find / -name requirements.txt -path '*Capital*' 2>/dev/null | head -1)); fi
 cd "$REPO"
 echo "Repo root: $REPO"
-ls requirements.txt || echo "WARNING: requirements.txt not found"
+ls requirements.txt data/ledger.db || echo "WARNING: required files not found"
 
 pip3 install -r requirements.txt -q || pip install -r requirements.txt -q || python3 -m pip install -r requirements.txt -q
 
-export USE_SUPABASE=true
-export SUPABASE_URL="https://bjiynevanmgopegmwcbi.supabase.co"
-export SUPABASE_KEY="FILL_IN_SUPABASE_KEY"
+# SQLite mode: this container CANNOT reach Supabase (outbound network blocked).
+# The seeded ledger.db is in the repo. Results are exported to JSON and git-pushed at the end.
+export USE_SUPABASE=false
 export CUTOFF_TS=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 echo "Cutoff: $CUTOFF_TS"
+echo "Storage: SQLite (data/ledger.db) — will git-push results at end"
 ```
 
 **Important:** run every Python command from `$REPO`. Use `python3` (not `python`). If a step fails, prefix with `cd "$REPO" &&`.
+
+**Network note:** This container blocks outbound to Supabase and yfinance, but allows WebSearch/WebFetch and git. Use SQLite mode; gather live prices/news via WebSearch in the agent steps.
 
 ## Step 1 — Fetch market data
 
@@ -175,6 +178,28 @@ for agent, fname in [
 "
 ```
 
+## Step 7 — Persist results to GitHub
+
+This container cannot reach Supabase, so commit the SQLite ledger and a JSON
+snapshot back to the repo. A local machine will pull and sync to Supabase later.
+
+```bash
+# Export SQLite -> JSON snapshot
+python3 routines/git_persist.py export
+
+# Commit ledger + results back to the repo
+git config user.email "routine@capitalsurabaya.bot"
+git config user.name "Capital Surabaya Routine"
+git add data/ledger.db run_results/
+git commit -m "Post-close run $CUTOFF_TS" || echo "Nothing to commit"
+git push origin HEAD:main 2>&1 || echo "PUSH FAILED — check CCR git credentials"
+```
+
+If `git push` fails with an auth error, report the exact error — we'll need to
+configure a deploy key or token for the routine. The JSON snapshot is still in
+`run_results/` and the commit is local, so nothing is lost.
+
 ## Done
 
-Post-close pipeline complete. Results are in Supabase. The pre-market run at 15:00 ICT will use the same Execution intents to confirm fills.
+Post-close pipeline complete. Results committed to GitHub (data/ledger.db + run_results/).
+The pre-market run at 15:00 ICT will pull the latest ledger and confirm fills.

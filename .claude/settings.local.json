@@ -28,7 +28,10 @@
       "Bash(echo \"EXIT=$?\")",
       "Bash(echo \"PUSH_EXIT=$?\")",
       "PowerShell(cd \"C:\\\\Users\\\\kanna\\\\OneDrive - The Siam Cement Public Company Limited\\\\Desktop\\\\Capital Surabaya - Claude Code\"; $env:USE_SUPABASE='true'; $env:SUPABASE_URL='https://bjiynevanmgopegmwcbi.supabase.co'; $env:SUPABASE_KEY='sb_publishable_IUgqztyhNTQc1gNXTXmFpQ_TsbqGuh7'; python -c \"from ledger.storage import select, scalar_sum; print\\('runs:', len\\(select\\('runs'\\)\\)\\); print\\('orders:', len\\(select\\('orders'\\)\\)\\); print\\('positions:', len\\(select\\('positions'\\)\\)\\); print\\('cash:', scalar_sum\\('cash_ledger','delta'\\)\\); print\\('nav_history:', len\\(select\\('nav_history'\\)\\)\\); [print\\('ORDER', o['ticker'], o['side'], o['shares'], o['status'], 'run_id=', o['run_id']\\) for o in select\\('orders'\\)]\")",
-      "Bash(python check_state.py)"
+      "Bash(python check_state.py)",
+      "Bash(rm -f data/ledger.db data/ledger.db-wal data/ledger.db-shm)",
+      "Bash(python routines/seed_ledger.py 30000)",
+      "Bash(python routines/git_persist.py export)"
     ]
   }
 }
