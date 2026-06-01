@@ -5,17 +5,27 @@ You are the Capital Surabaya pipeline orchestrator running the post-close cycle.
 
 ## Environment setup
 
-Run this first:
+Run this first. It locates the repo root, installs deps, and exports env vars.
+Every Python command below must run from this same directory.
+
 ```bash
-REPO=$(pwd)
-echo "Repo: $REPO"
-pip3 install -r requirements.txt -q
+if [ -f requirements.txt ]; then REPO=$(pwd); \
+elif [ -f /repo/requirements.txt ]; then REPO=/repo; \
+else REPO=$(dirname $(find / -name requirements.txt -path '*Capital*' 2>/dev/null | head -1)); fi
+cd "$REPO"
+echo "Repo root: $REPO"
+ls requirements.txt || echo "WARNING: requirements.txt not found"
+
+pip3 install -r requirements.txt -q || pip install -r requirements.txt -q || python3 -m pip install -r requirements.txt -q
+
 export USE_SUPABASE=true
 export SUPABASE_URL="https://bjiynevanmgopegmwcbi.supabase.co"
 export SUPABASE_KEY="FILL_IN_SUPABASE_KEY"
 export CUTOFF_TS=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 echo "Cutoff: $CUTOFF_TS"
 ```
+
+**Important:** run every Python command from `$REPO`. Use `python3` (not `python`). If a step fails, prefix with `cd "$REPO" &&`.
 
 ## Step 1 — Fetch market data
 
@@ -52,24 +62,24 @@ Read the packets from `/tmp/packets.json`. Then, in sequence, act as each of the
 Read the full agent prompt from the repo file, then apply it to the packet data.
 
 ### 2a. Technical Screener Agent
-- Read prompt: `/repo/prompts/technical_screener_agent.md`
+- Read prompt: `prompts/technical_screener_agent.md`
 - Data: `packets["technical_screener"]`
 - Save output JSON to `/tmp/out_technical.json`
 
 ### 2b. Macro Intelligence Agent
-- Read prompt: `/repo/prompts/macro_intelligence_agent.md`
+- Read prompt: `prompts/macro_intelligence_agent.md`
 - Data: `packets["macro_intelligence"]`
 - Use WebFetch/WebSearch for current macro news (Fed, CPI, NFP)
 - Save output JSON to `/tmp/out_macro.json`
 
 ### 2c. News Reporter Agent
-- Read prompt: `/repo/prompts/news_reporter_agent.md`
+- Read prompt: `prompts/news_reporter_agent.md`
 - Data: `packets["news_reporter"]`
 - Use WebFetch/WebSearch for ticker news
 - Save output JSON to `/tmp/out_news.json`
 
 ### 2d. Fundamental Thesis Agent
-- Read prompt: `/repo/prompts/fundamental_thesis_agent.md`
+- Read prompt: `prompts/fundamental_thesis_agent.md`
 - Data: `packets["fundamental_thesis"]`
 - Use WebFetch/WebSearch for SEC filings and financial data for triggered tickers only
 - Save output JSON to `/tmp/out_thesis.json`
@@ -97,7 +107,7 @@ for v in thesis.get('verdicts', []):
 
 ## Step 4 — Act as Execution Agent
 
-- Read prompt: `/repo/prompts/execution_agent.md`
+- Read prompt: `prompts/execution_agent.md`
 - Data: combine outputs from steps 2a–2d as research_outputs (NO portfolio data)
 - Produce intents JSON
 - Save to `/tmp/out_execution.json`

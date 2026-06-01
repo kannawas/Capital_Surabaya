@@ -10,15 +10,23 @@ then re-runs the deterministic core with fresh prices before market open.
 ## Environment setup
 
 ```bash
-REPO=$(pwd)
-echo "Repo: $REPO"
-pip3 install -r requirements.txt -q
+if [ -f requirements.txt ]; then REPO=$(pwd); \
+elif [ -f /repo/requirements.txt ]; then REPO=/repo; \
+else REPO=$(dirname $(find / -name requirements.txt -path '*Capital*' 2>/dev/null | head -1)); fi
+cd "$REPO"
+echo "Repo root: $REPO"
+ls requirements.txt || echo "WARNING: requirements.txt not found"
+
+pip3 install -r requirements.txt -q || pip install -r requirements.txt -q || python3 -m pip install -r requirements.txt -q
+
 export USE_SUPABASE=true
 export SUPABASE_URL="https://bjiynevanmgopegmwcbi.supabase.co"
 export SUPABASE_KEY="FILL_IN_SUPABASE_KEY"
 export CUTOFF_TS=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 echo "Cutoff: $CUTOFF_TS"
 ```
+
+**Important:** run every Python command from `$REPO`. Use `python3` (not `python`).
 
 ## Step 1 — Fetch fresh pre-market data
 
@@ -46,7 +54,7 @@ print('Pre-market packets built.')
 
 Read the packets. Act as Macro Intelligence and News Reporter agents (abbreviated — focus only on material changes since the post-close run).
 
-- Read prompts from `/repo/prompts/macro_intelligence_agent.md` and `/repo/prompts/news_reporter_agent.md`
+- Read prompts from `prompts/macro_intelligence_agent.md` and `prompts/news_reporter_agent.md`
 - Use WebFetch/WebSearch for overnight developments (Fed speeches, pre-market news)
 - If regime or event_lock changed since post-close: save updated values to `/tmp/out_macro_pm.json`
 - If new tickers are news-flagged: save to `/tmp/out_news_pm.json`
