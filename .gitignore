@@ -5,8 +5,8 @@
 data/ledger.db-wal
 data/ledger.db-shm
 
-# Local-only run results (CCR writes these; we pull them)
-run_results/*.json
+# run_results JSON snapshots ARE committed by CCR (so we can pull them)
+# dashboard.json IS committed (the UI fetches it via GitHub Pages)
 
 # Python
 __pycache__/

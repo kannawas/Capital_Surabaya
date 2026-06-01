@@ -1,0 +1,985 @@
+{
+  "generated_at": "2026-06-01T11:25:53.060666+00:00",
+  "latest_run_ts": "2026-06-01T11:02:47Z",
+  "portfolio": {
+    "nav": 30000.0,
+    "cash": 30000.0,
+    "equity": 0,
+    "cash_pct": 100.0,
+    "positions": [],
+    "position_count": 0
+  },
+  "agents": {
+    "execution": {
+      "agent": "Execution Agent",
+      "visibility": "blind_no_portfolio_no_cross_agent",
+      "cutoff_ts": "2026-06-01T11:02:47+00:00",
+      "run_ts": "2026-06-01T11:10:08.360500+00:00",
+      "regime_used": "risk_on",
+      "event_lock": false,
+      "intents": [
+        {
+          "ticker": "AAPL",
+          "side": "defer",
+          "conviction": 0.0,
+          "limit_price": null,
+          "stop_loss": null,
+          "gate_fired": "none",
+          "gate_reason": "",
+          "conviction_base": 0.0,
+          "conviction_modifiers": {
+            "thesis": 1.0,
+            "regime": 1.0,
+            "news": 1.0,
+            "group": 1.0
+          },
+          "tech_class": "watch",
+          "thesis_verdict": "intact",
+          "news_flag": "pass",
+          "data_quality": "impaired"
+        },
+        {
+          "ticker": "AMZN",
+          "side": "defer",
+          "conviction": 0.0,
+          "limit_price": null,
+          "stop_loss": null,
+          "gate_fired": "none",
+          "gate_reason": "",
+          "conviction_base": 0.0,
+          "conviction_modifiers": {
+            "thesis": 1.0,
+            "regime": 1.0,
+            "news": 1.0,
+            "group": 1.0
+          },
+          "tech_class": "watch",
+          "thesis_verdict": "intact",
+          "news_flag": "pass",
+          "data_quality": "impaired"
+        },
+        {
+          "ticker": "AVGO",
+          "side": "defer",
+          "conviction": 0.0,
+          "limit_price": null,
+          "stop_loss": null,
+          "gate_fired": "none",
+          "gate_reason": "",
+          "conviction_base": 0.0,
+          "conviction_modifiers": {
+            "thesis": 1.0,
+            "regime": 1.0,
+            "news": 1.0,
+            "group": 1.0
+          },
+          "tech_class": "watch",
+          "thesis_verdict": "intact",
+          "news_flag": "watch",
+          "data_quality": "impaired"
+        },
+        {
+          "ticker": "COST",
+          "side": "defer",
+          "conviction": 0.0,
+          "limit_price": null,
+          "stop_loss": null,
+          "gate_fired": "none",
+          "gate_reason": "",
+          "conviction_base": 0.0,
+          "conviction_modifiers": {
+            "thesis": 1.0,
+            "regime": 1.0,
+            "news": 1.0,
+            "group": 1.0
+          },
+          "tech_class": "watch",
+          "thesis_verdict": "intact",
+          "news_flag": "watch",
+          "data_quality": "impaired"
+        },
+        {
+          "ticker": "GOOGL",
+          "side": "defer",
+          "conviction": 0.0,
+          "limit_price": null,
+          "stop_loss": null,
+          "gate_fired": "none",
+          "gate_reason": "",
+          "conviction_base": 0.0,
+          "conviction_modifiers": {
+            "thesis": 1.0,
+            "regime": 1.0,
+            "news": 1.0,
+            "group": 1.0
+          },
+          "tech_class": "watch",
+          "thesis_verdict": "intact",
+          "news_flag": "pass",
+          "data_quality": "impaired"
+        },
+        {
+          "ticker": "META",
+          "side": "defer",
+          "conviction": 0.0,
+          "limit_price": null,
+          "stop_loss": null,
+          "gate_fired": "none",
+          "gate_reason": "",
+          "conviction_base": 0.0,
+          "conviction_modifiers": {
+            "thesis": 1.0,
+            "regime": 1.0,
+            "news": 1.0,
+            "group": 1.0
+          },
+          "tech_class": "watch",
+          "thesis_verdict": "intact",
+          "news_flag": "pass",
+          "data_quality": "impaired"
+        },
+        {
+          "ticker": "MRVL",
+          "side": "defer",
+          "conviction": 0.0,
+          "limit_price": null,
+          "stop_loss": null,
+          "gate_fired": "none",
+          "gate_reason": "",
+          "conviction_base": 0.0,
+          "conviction_modifiers": {
+            "thesis": 1.0,
+            "regime": 1.0,
+            "news": 1.0,
+            "group": 1.0
+          },
+          "tech_class": "watch",
+          "thesis_verdict": "watch",
+          "news_flag": "watch",
+          "data_quality": "impaired"
+        },
+        {
+          "ticker": "MSFT",
+          "side": "defer",
+          "conviction": 0.0,
+          "limit_price": null,
+          "stop_loss": null,
+          "gate_fired": "none",
+          "gate_reason": "",
+          "conviction_base": 0.0,
+          "conviction_modifiers": {
+            "thesis": 1.0,
+            "regime": 1.0,
+            "news": 1.0,
+            "group": 1.0
+          },
+          "tech_class": "watch",
+          "thesis_verdict": "intact",
+          "news_flag": "pass",
+          "data_quality": "impaired"
+        },
+        {
+          "ticker": "NVDA",
+          "side": "defer",
+          "conviction": 0.0,
+          "limit_price": null,
+          "stop_loss": null,
+          "gate_fired": "none",
+          "gate_reason": "",
+          "conviction_base": 0.0,
+          "conviction_modifiers": {
+            "thesis": 1.0,
+            "regime": 1.0,
+            "news": 1.0,
+            "group": 1.0
+          },
+          "tech_class": "watch",
+          "thesis_verdict": "intact",
+          "news_flag": "watch",
+          "data_quality": "impaired"
+        },
+        {
+          "ticker": "TSLA",
+          "side": "defer",
+          "conviction": 0.0,
+          "limit_price": null,
+          "stop_loss": null,
+          "gate_fired": "none",
+          "gate_reason": "",
+          "conviction_base": 0.0,
+          "conviction_modifiers": {
+            "thesis": 1.0,
+            "regime": 1.0,
+            "news": 1.0,
+            "group": 1.0
+          },
+          "tech_class": "watch",
+          "thesis_verdict": "watch",
+          "news_flag": "pass",
+          "data_quality": "impaired"
+        }
+      ],
+      "watchlist_removals": [],
+      "summary": {
+        "buy_count": 0,
+        "sell_or_avoid_count": 0,
+        "defer_count": 10,
+        "avoid_count": 0,
+        "removal_count": 0
+      }
+    },
+    "fundamental_thesis": {
+      "agent": "Fundamental Thesis Agent",
+      "visibility": "blind_no_portfolio_no_cross_agent",
+      "cutoff_ts": "2026-06-01T11:02:47+00:00",
+      "run_ts": "2026-06-01T11:09:36.786649+00:00",
+      "triggered_count": 10,
+      "total_count": 10,
+      "verdicts": [
+        {
+          "ticker": "NVDA",
+          "verdict": "intact",
+          "prior_verdict": "not_reviewed",
+          "verdict_changed": true,
+          "confidence": "high",
+          "data_coverage": "strong",
+          "key_evidence": "Q1 FY27 revenue 1.6B (+85% YoY), EPS .87 vs .76 est, gross margin 74.9%, Data Center 5.2B — all beats; business compounding at scale.",
+          "source": "NVIDIA SEC Form 8-K, Q1 FY27",
+          "source_date": "2026-05-20",
+          "cutoff_safe": true,
+          "dcf_invoked": false,
+          "dcf_verdict": null,
+          "risk_flags": [
+            "Blackwell supply concentration risk",
+            "US export control escalation could limit China revenue",
+            "Sequential growth deceleration after hyper-growth phase"
+          ]
+        },
+        {
+          "ticker": "MSFT",
+          "verdict": "intact",
+          "prior_verdict": "not_reviewed",
+          "verdict_changed": true,
+          "confidence": "medium",
+          "data_coverage": "partial",
+          "key_evidence": "7B annualized AI run rate; Azure cloud and Copilot driving durable revenue mix shift; management tone strongly positive on AI monetization.",
+          "source": "Yahoo Finance market reporting / Stock Market Today May 29 2026",
+          "source_date": "2026-05-29",
+          "cutoff_safe": true,
+          "dcf_invoked": false,
+          "dcf_verdict": null,
+          "risk_flags": [
+            "Full Q3 FY26 earnings details not confirmed — partial data only",
+            "Regulatory risk in EU on AI products"
+          ]
+        },
+        {
+          "ticker": "META",
+          "verdict": "intact",
+          "prior_verdict": "not_reviewed",
+          "verdict_changed": true,
+          "confidence": "medium",
+          "data_coverage": "partial",
+          "key_evidence": "Mega-cap tech broadly at attractive valuations vs fair value since 2019 per analyst commentary; META benefiting from AI-driven ad efficiency improvements.",
+          "source": "GuruFocus analyst commentary / Yahoo Finance",
+          "source_date": "2026-05-31",
+          "cutoff_safe": true,
+          "dcf_invoked": false,
+          "dcf_verdict": null,
+          "risk_flags": [
+            "Reality Labs still loss-making; uncertain path to profitability",
+            "Regulatory scrutiny in EU/US"
+          ]
+        },
+        {
+          "ticker": "AAPL",
+          "verdict": "intact",
+          "prior_verdict": "not_reviewed",
+          "verdict_changed": true,
+          "confidence": "medium",
+          "data_coverage": "partial",
+          "key_evidence": "Trading at 10.85 with strong AI-integration narrative (Apple Intelligence features in iOS 18/19); services revenue growing as a recurring high-margin stream.",
+          "source": "GuruFocus / Yahoo Finance",
+          "source_date": "2026-05-27",
+          "cutoff_safe": true,
+          "dcf_invoked": false,
+          "dcf_verdict": null,
+          "risk_flags": [
+            "China market share pressure from Huawei",
+            "Antitrust/regulatory app store rulings",
+            "Hardware upgrade cycle slowing without breakthrough product"
+          ]
+        },
+        {
+          "ticker": "AVGO",
+          "verdict": "intact",
+          "prior_verdict": "not_reviewed",
+          "verdict_changed": true,
+          "confidence": "medium",
+          "data_coverage": "partial",
+          "key_evidence": "AI revenue +106% in most recent quarter; management sees path to 00B+ AI chip revenue by 2027; custom ASIC moat strengthening with hyperscaler partnerships.",
+          "source": "Tickeron / Stockanalysis.com",
+          "source_date": "2026-05-31",
+          "cutoff_safe": true,
+          "dcf_invoked": false,
+          "dcf_verdict": null,
+          "risk_flags": [
+            "Q2 FY26 earnings June 3 — results pending; current verdict may need revision",
+            "Customer concentration in hyperscaler custom ASICs"
+          ]
+        },
+        {
+          "ticker": "MRVL",
+          "verdict": "watch",
+          "prior_verdict": "not_reviewed",
+          "verdict_changed": true,
+          "confidence": "low",
+          "data_coverage": "weak",
+          "key_evidence": "Q1 FY27 earnings this week; custom AI chip thesis plausible but unconfirmed by latest results; stock at 98 — down from recent highs pre-earnings.",
+          "source": "MoneyCheck / MarketBeat",
+          "source_date": "2026-06-01",
+          "cutoff_safe": true,
+          "dcf_invoked": false,
+          "dcf_verdict": null,
+          "risk_flags": [
+            "Earnings pending — any miss on AI chip orders would invalidate thesis",
+            "Smaller customer base vs NVDA/AVGO",
+            "Non-AI legacy business drag"
+          ]
+        },
+        {
+          "ticker": "GOOGL",
+          "verdict": "intact",
+          "prior_verdict": "not_reviewed",
+          "verdict_changed": true,
+          "confidence": "medium",
+          "data_coverage": "partial",
+          "key_evidence": "Search and advertising revenue resilient; Gemini AI integration across products; Google Cloud growing; trading at 80 with analyst views on attractive valuation.",
+          "source": "GuruFocus / Yahoo Finance",
+          "source_date": "2026-05-31",
+          "cutoff_safe": true,
+          "dcf_invoked": false,
+          "dcf_verdict": null,
+          "risk_flags": [
+            "DOJ antitrust case ongoing; potential search monopoly remedies",
+            "AI competition from OpenAI/Microsoft Bing"
+          ]
+        },
+        {
+          "ticker": "AMZN",
+          "verdict": "intact",
+          "prior_verdict": "not_reviewed",
+          "verdict_changed": true,
+          "confidence": "medium",
+          "data_coverage": "partial",
+          "key_evidence": "AWS remains cloud market leader; heavy AI infrastructure investment yielding revenue; e-commerce margin improvement on track; trading at 70.",
+          "source": "GuruFocus / Yahoo Finance",
+          "source_date": "2026-05-31",
+          "cutoff_safe": true,
+          "dcf_invoked": false,
+          "dcf_verdict": null,
+          "risk_flags": [
+            "High AI capex weighing on FCF near-term",
+            "Labor cost inflation in fulfillment",
+            "Antitrust scrutiny on marketplace practices"
+          ]
+        },
+        {
+          "ticker": "TSLA",
+          "verdict": "watch",
+          "prior_verdict": "not_reviewed",
+          "verdict_changed": true,
+          "confidence": "medium",
+          "data_coverage": "partial",
+          "key_evidence": "Robotaxi narrative drives high valuation premium (35) but full autonomous deployment timeline remains uncertain; China competition from BYD/local OEMs intensifying.",
+          "source": "Motley Fool / MoneyCheck",
+          "source_date": "2026-06-01",
+          "cutoff_safe": true,
+          "dcf_invoked": false,
+          "dcf_verdict": null,
+          "risk_flags": [
+            "Autonomous driving regulatory approval timeline unclear",
+            "China market share erosion",
+            "Valuation depends heavily on optionality; auto business alone does not justify 35"
+          ]
+        },
+        {
+          "ticker": "COST",
+          "verdict": "intact",
+          "prior_verdict": "not_reviewed",
+          "verdict_changed": true,
+          "confidence": "medium",
+          "data_coverage": "partial",
+          "key_evidence": "Costco membership model highly resilient; consumer staples/warehouse retail remains defensive; stock pullback from ATH (,094 → 56) appears to be normalization rather than thesis break.",
+          "source": "Stockanalysis.com / MoneyCheck",
+          "source_date": "2026-06-01",
+          "cutoff_safe": true,
+          "dcf_invoked": false,
+          "dcf_verdict": null,
+          "risk_flags": [
+            "Earnings report this week — any membership growth slowdown would be adverse",
+            "Consumer spending softness if labor market weakens (NFP +115K trend)"
+          ]
+        }
+      ]
+    },
+    "news_reporter": {
+      "agent": "News Reporter Agent",
+      "visibility": "blind_no_portfolio_no_cross_agent",
+      "cutoff_ts": "2026-06-01T11:02:47+00:00",
+      "run_ts": "2026-06-01T11:08:55.304584+00:00",
+      "output_language": "th",
+      "ticker_count": 10,
+      "news_flagged": [
+        "AVGO",
+        "COST",
+        "MRVL",
+        "NVDA"
+      ],
+      "events": [
+        {
+          "ticker_or_scope": "NVDA",
+          "related_tickers": [
+            "NVDA"
+          ],
+          "headline_th": "Jensen Huang ของ NVIDIA กล่าว Keynote ที่ COMPUTEX 2026 ชูนวัตกรรม AI",
+          "summary_th": "CEO Jensen Huang ของ NVIDIA เปิดตัว Keynote ที่งาน COMPUTEX 2026 เมื่อวันที่ 1 มิถุนายน 2026 นำเสนอนวัตกรรม AI และชิป Blackwell รุ่นใหม่ ซึ่งสร้างความตื่นเต้นให้แก่ตลาด หุ้น NVDA อยู่ที่ราคา 12 หลังปรับตัวลงเล็กน้อยจากการ run ขึ้นหลัง earnings",
+          "source": "Reuters / Motley Fool",
+          "url": "https://www.fool.com/investing/2026/05/31/nvda-stock-jensen-huang-keynote-computex/",
+          "published_at": "2026-06-01T00:00:00Z",
+          "source_tier": "2",
+          "scope": "ticker",
+          "direction": "positive",
+          "severity": "high",
+          "action_flag": "watch",
+          "reason": "Major product/AI catalyst event by Nvidia CEO; forward-looking catalyst that may drive momentum in the week ahead.",
+          "cutoff_safe": true,
+          "duplicate_group": "nvda_computex_2026",
+          "confidence": "high"
+        },
+        {
+          "ticker_or_scope": "AVGO",
+          "related_tickers": [
+            "AVGO"
+          ],
+          "headline_th": "Broadcom เตรียมรายงาน Q2 FY2026 วันที่ 3 มิ.ย. ราคาหุ้นอยู่ที่จุดสูงสุดตลอดกาล",
+          "summary_th": "Broadcom (AVGO) จะรายงานผลประกอบการ Q2 FY2026 ในวันที่ 3 มิถุนายน 2026 โดยหุ้นปิดที่ระดับสูงสุดตลอดกาลที่ 46.77 เมื่อวันที่ 29 พฤษภาคม AI revenue ของบริษัทเติบโต 106% และนักวิเคราะห์ 47 คนให้ consensus เป็น Strong Buy เป้าราคาเฉลี่ย 82",
+          "source": "Stockanalysis.com / Tickeron",
+          "url": "https://stockanalysis.com/stocks/avgo/",
+          "published_at": "2026-05-31T18:00:00Z",
+          "source_tier": "3",
+          "scope": "ticker",
+          "direction": "positive",
+          "severity": "medium",
+          "action_flag": "watch",
+          "reason": "Earnings event risk on June 3; pre-earnings positioning after ATH run.",
+          "cutoff_safe": true,
+          "duplicate_group": "avgo_q2_earnings_2026",
+          "confidence": "medium"
+        },
+        {
+          "ticker_or_scope": "MRVL",
+          "related_tickers": [
+            "MRVL"
+          ],
+          "headline_th": "Marvell Technology เตรียมรายงาน Q1 FY2027 สัปดาห์นี้ ตลาดจับตา AI chip demand",
+          "summary_th": "Marvell Technology (MRVL) อยู่ในรายชื่อหุ้น 5 ตัวที่น่าจับตามองสัปดาห์นี้ บริษัทจะรายงาน Q1 FY2027 โดยตลาดคาดหวังผลประกอบการที่ชัดเจนด้านความต้องการชิป AI แบบ custom ราคาหุ้นอยู่ที่ 98 ลดลงเล็กน้อยจากระดับ 05 ก่อนหน้า",
+          "source": "MoneyCheck / Blockonomi",
+          "url": "https://moneycheck.com/5-must-watch-stocks-this-week-marvell-mrvl-dell-dell-salesforce-crm-costco-cost-and-tesla-tsla/",
+          "published_at": "2026-06-01T05:00:00Z",
+          "source_tier": "3",
+          "scope": "ticker",
+          "direction": "mixed",
+          "severity": "medium",
+          "action_flag": "watch",
+          "reason": "Earnings this week; uncertainty until results confirm custom AI chip thesis.",
+          "cutoff_safe": true,
+          "duplicate_group": "mrvl_q1_earnings_2026",
+          "confidence": "medium"
+        },
+        {
+          "ticker_or_scope": "COST",
+          "related_tickers": [
+            "COST"
+          ],
+          "headline_th": "Costco เตรียมรายงาน earnings สัปดาห์นี้ ราคาหุ้นลดลง 4% จากจุดสูงสุด",
+          "summary_th": "Costco (COST) จะรายงานผลประกอบการสัปดาห์นี้ โดยหุ้นอยู่ที่ 56 ลดลง 4.24% ในช่วง 30 วันที่ผ่านมา และห่างจากระดับสูงสุดตลอดกาลที่ ,094 ราว 12.6% ตลาดจับตาการใช้จ่ายของผู้บริโภคและความแข็งแกร่งของ membership model",
+          "source": "MoneyCheck / Stockanalysis.com",
+          "url": "https://moneycheck.com/5-must-watch-stocks-this-week-marvell-mrvl-dell-dell-salesforce-crm-costco-cost-and-tesla-tsla/",
+          "published_at": "2026-06-01T05:00:00Z",
+          "source_tier": "3",
+          "scope": "ticker",
+          "direction": "mixed",
+          "severity": "medium",
+          "action_flag": "watch",
+          "reason": "Earnings event risk; stock pullback from ATH suggests some selling pressure ahead of report.",
+          "cutoff_safe": true,
+          "duplicate_group": "cost_q_earnings_2026",
+          "confidence": "medium"
+        },
+        {
+          "ticker_or_scope": "market_wide",
+          "related_tickers": [
+            "NVDA",
+            "MSFT",
+            "META",
+            "GOOGL",
+            "AAPL",
+            "AMZN",
+            "AVGO",
+            "MRVL",
+            "TSLA"
+          ],
+          "headline_th": "S&P 500 และ Nasdaq ปิดทำสถิติสูงสุดในเดือนพฤษภาคม หนุนด้วย AI rally",
+          "summary_th": "ตลาดหุ้นสหรัฐสิ้นเดือนพฤษภาคม 2026 ด้วยสถิติใหม่ Nasdaq ขึ้น 8% และ S&P 500 ขึ้น 5% ในเดือนนี้ โดยมีแรงหนุนจาก AI demand และผลประกอบการที่แข็งแกร่งของบริษัทเทคโนโลยีรายใหญ่ hyperscaler รวมกันวางแผนใช้จ่าย capex ปี 2026 ราว 25 พันล้าน",
+          "source": "Yahoo Finance / CNBC",
+          "url": "https://finance.yahoo.com/markets/live/dow-nasdaq-sp-gain-stock-market-today-friday-may-29-222720284.html",
+          "published_at": "2026-05-29T21:00:00Z",
+          "source_tier": "2",
+          "scope": "market_wide",
+          "direction": "positive",
+          "severity": "low",
+          "action_flag": "pass",
+          "reason": "Market context: record highs in May support risk-on sentiment across watchlist.",
+          "cutoff_safe": true,
+          "duplicate_group": "market_may_2026_records",
+          "confidence": "high"
+        }
+      ],
+      "ticker_summary": [
+        {
+          "ticker": "AAPL",
+          "direction": "neutral",
+          "severity": "none",
+          "action_flag": "pass",
+          "reason": "No material news in 24h window.",
+          "confidence": "high"
+        },
+        {
+          "ticker": "AMZN",
+          "direction": "neutral",
+          "severity": "none",
+          "action_flag": "pass",
+          "reason": "No material news in 24h window.",
+          "confidence": "high"
+        },
+        {
+          "ticker": "AVGO",
+          "direction": "positive",
+          "severity": "medium",
+          "action_flag": "watch",
+          "reason": "Q2 FY2026 earnings June 3; ATH pre-positioning.",
+          "confidence": "medium"
+        },
+        {
+          "ticker": "COST",
+          "direction": "mixed",
+          "severity": "medium",
+          "action_flag": "watch",
+          "reason": "Earnings this week; stock -4.24% over 30d from ATH.",
+          "confidence": "medium"
+        },
+        {
+          "ticker": "GOOGL",
+          "direction": "neutral",
+          "severity": "none",
+          "action_flag": "pass",
+          "reason": "No material news in 24h window.",
+          "confidence": "high"
+        },
+        {
+          "ticker": "META",
+          "direction": "neutral",
+          "severity": "none",
+          "action_flag": "pass",
+          "reason": "No material news in 24h window.",
+          "confidence": "high"
+        },
+        {
+          "ticker": "MRVL",
+          "direction": "mixed",
+          "severity": "medium",
+          "action_flag": "watch",
+          "reason": "Q1 FY2027 earnings this week; AI chip demand thesis unconfirmed.",
+          "confidence": "medium"
+        },
+        {
+          "ticker": "MSFT",
+          "direction": "neutral",
+          "severity": "none",
+          "action_flag": "pass",
+          "reason": "No material news in 24h window.",
+          "confidence": "high"
+        },
+        {
+          "ticker": "NVDA",
+          "direction": "positive",
+          "severity": "high",
+          "action_flag": "watch",
+          "reason": "Jensen Huang COMPUTEX keynote June 1; forward AI catalyst.",
+          "confidence": "high"
+        },
+        {
+          "ticker": "TSLA",
+          "direction": "neutral",
+          "severity": "none",
+          "action_flag": "pass",
+          "reason": "No material news in 24h window.",
+          "confidence": "high"
+        }
+      ],
+      "clean_tickers": [
+        "AAPL",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "TSLA"
+      ],
+      "data_issues": []
+    },
+    "macro_intelligence": {
+      "agent": "Macro Intelligence Agent",
+      "visibility": "blind_no_portfolio_no_cross_agent",
+      "cutoff_ts": "2026-06-01T11:02:47+00:00",
+      "run_ts": "2026-06-01T11:08:05.058697+00:00",
+      "regime": "risk_on",
+      "event_lock": false,
+      "event_lock_reason": "",
+      "confidence": "medium",
+      "indicator_override": false,
+      "override_reason": "",
+      "vix": {
+        "value": 15.32,
+        "ts": "2026-06-01",
+        "signal": "low"
+      },
+      "yield_10y": {
+        "value": 4.47,
+        "ts": "2026-06-01",
+        "signal": "normal"
+      },
+      "dxy": {
+        "value": 98.94,
+        "ts": "2026-06-01",
+        "signal": "neutral"
+      },
+      "macro_events": [
+        {
+          "event": "US-Iran ceasefire negotiations — uncertainty persists",
+          "date": "2026-05-31",
+          "direction": "mixed",
+          "severity": "medium",
+          "source": "Reuters / Bloomberg",
+          "source_tier": "2",
+          "cutoff_safe": true,
+          "summary": "10Y yield rose to 4.47% on June 1 as US-Iran ceasefire prospects remained uncertain; Washington and Tehran exchanging revised proposals. Geopolitical uncertainty mildly negative for risk appetite but VIX stable."
+        },
+        {
+          "event": "April CPI +3.8% YoY — above Fed 2% target",
+          "date": "2026-05-12",
+          "direction": "hawkish",
+          "severity": "medium",
+          "source": "BLS",
+          "source_tier": "1",
+          "cutoff_safe": true,
+          "summary": "April 2026 CPI came in at +3.8% YoY, remaining elevated well above the Fed 2% target. Keeps the Fed cautious about rate cuts."
+        },
+        {
+          "event": "April NFP +115K, unemployment 4.3%",
+          "date": "2026-05-01",
+          "direction": "dovish",
+          "severity": "medium",
+          "source": "BLS",
+          "source_tier": "1",
+          "cutoff_safe": true,
+          "summary": "April nonfarm payrolls came in at +115K, below the expected ~200K and unemployment ticked up to 4.3%, pointing to softening labor market and supporting the case for eventual Fed cuts."
+        },
+        {
+          "event": "Q1 2026 GDP +2.0% annualized — in line",
+          "date": "2026-05-28",
+          "direction": "neutral",
+          "severity": "low",
+          "source": "BEA",
+          "source_tier": "1",
+          "cutoff_safe": true,
+          "summary": "Q1 real GDP grew at +2.0% annualized, released May 28. Consistent with moderate economic expansion; no surprise."
+        },
+        {
+          "event": "Fed leadership transition — new chair Kevin Warsh expected June FOMC (June 16-17)",
+          "date": "2026-06-01",
+          "direction": "mixed",
+          "severity": "medium",
+          "source": "Federal Reserve / Bloomberg",
+          "source_tier": "1",
+          "cutoff_safe": true,
+          "summary": "Kevin Warsh set to chair first FOMC meeting June 16-17. Transition introduces policy uncertainty; Warsh historically hawkish on inflation. May NFP (due June 5) will be last data before that meeting."
+        }
+      ],
+      "historical_study_invoked": false,
+      "historical_study_summary": null,
+      "lead_time_days": null,
+      "preferred_groups": [
+        "Quality Technology",
+        "AI/Semiconductors",
+        "Consumer Staples"
+      ],
+      "reduce_groups": [
+        "High-duration fixed income",
+        "Unprofitable growth",
+        "Rate-sensitive utilities"
+      ]
+    },
+    "technical_screener": {
+      "agent": "Technical Screener Agent",
+      "visibility": "blind_no_portfolio_no_cross_agent",
+      "cutoff_ts": "2026-06-01T11:02:47+00:00",
+      "run_ts": "2026-06-01T11:07:41.076534+00:00",
+      "ticker_count": 10,
+      "buy_candidates": [],
+      "sell_or_avoid": [],
+      "watch": [
+        {
+          "ticker": "AAPL",
+          "consensus_score": 0.0,
+          "sub_scores": {
+            "candlestick": 0.0,
+            "ma_ema": 0.0,
+            "bollinger": 0.0,
+            "rsi": 0.0,
+            "momentum": 0.0,
+            "volume": 0.0
+          },
+          "data_quality": "impaired"
+        },
+        {
+          "ticker": "AMZN",
+          "consensus_score": 0.0,
+          "sub_scores": {
+            "candlestick": 0.0,
+            "ma_ema": 0.0,
+            "bollinger": 0.0,
+            "rsi": 0.0,
+            "momentum": 0.0,
+            "volume": 0.0
+          },
+          "data_quality": "impaired"
+        },
+        {
+          "ticker": "AVGO",
+          "consensus_score": 0.05,
+          "sub_scores": {
+            "candlestick": 0.0,
+            "ma_ema": 0.0,
+            "bollinger": 0.0,
+            "rsi": 0.0,
+            "momentum": 0.5,
+            "volume": 0.0
+          },
+          "data_quality": "impaired"
+        },
+        {
+          "ticker": "COST",
+          "consensus_score": -0.05,
+          "sub_scores": {
+            "candlestick": 0.0,
+            "ma_ema": 0.0,
+            "bollinger": 0.0,
+            "rsi": 0.0,
+            "momentum": -0.5,
+            "volume": 0.0
+          },
+          "data_quality": "impaired"
+        },
+        {
+          "ticker": "GOOGL",
+          "consensus_score": 0.0,
+          "sub_scores": {
+            "candlestick": 0.0,
+            "ma_ema": 0.0,
+            "bollinger": 0.0,
+            "rsi": 0.0,
+            "momentum": 0.0,
+            "volume": 0.0
+          },
+          "data_quality": "impaired"
+        },
+        {
+          "ticker": "META",
+          "consensus_score": 0.0,
+          "sub_scores": {
+            "candlestick": 0.0,
+            "ma_ema": 0.0,
+            "bollinger": 0.0,
+            "rsi": 0.0,
+            "momentum": 0.0,
+            "volume": 0.0
+          },
+          "data_quality": "impaired"
+        },
+        {
+          "ticker": "MRVL",
+          "consensus_score": -0.05,
+          "sub_scores": {
+            "candlestick": 0.0,
+            "ma_ema": 0.0,
+            "bollinger": 0.0,
+            "rsi": 0.0,
+            "momentum": -0.5,
+            "volume": 0.0
+          },
+          "data_quality": "impaired"
+        },
+        {
+          "ticker": "MSFT",
+          "consensus_score": 0.0,
+          "sub_scores": {
+            "candlestick": 0.0,
+            "ma_ema": 0.0,
+            "bollinger": 0.0,
+            "rsi": 0.0,
+            "momentum": 0.0,
+            "volume": 0.0
+          },
+          "data_quality": "impaired"
+        },
+        {
+          "ticker": "NVDA",
+          "consensus_score": 0.0,
+          "sub_scores": {
+            "candlestick": 0.0,
+            "ma_ema": 0.0,
+            "bollinger": 0.0,
+            "rsi": 0.0,
+            "momentum": 0.0,
+            "volume": 0.0
+          },
+          "data_quality": "impaired"
+        },
+        {
+          "ticker": "TSLA",
+          "consensus_score": 0.0,
+          "sub_scores": {
+            "candlestick": 0.0,
+            "ma_ema": 0.0,
+            "bollinger": 0.0,
+            "rsi": 0.0,
+            "momentum": 0.0,
+            "volume": 0.0
+          },
+          "data_quality": "impaired"
+        }
+      ],
+      "data_issues": [
+        "All OHLCV series empty — yfinance blocked in container. Prices sourced via WebSearch. OHLC-dependent techniques (candlestick, MA/EMA, BB, RSI, volume) set to 0.00. Momentum computed from WebSearch 1d/5d estimates.",
+        "ATR unavailable — entry/stop not computable for any ticker."
+      ]
+    }
+  },
+  "verdicts": [
+    {
+      "ticker": "AAPL",
+      "verdict": "intact"
+    },
+    {
+      "ticker": "AMZN",
+      "verdict": "intact"
+    },
+    {
+      "ticker": "AVGO",
+      "verdict": "intact"
+    },
+    {
+      "ticker": "COST",
+      "verdict": "intact"
+    },
+    {
+      "ticker": "GOOGL",
+      "verdict": "intact"
+    },
+    {
+      "ticker": "META",
+      "verdict": "intact"
+    },
+    {
+      "ticker": "MRVL",
+      "verdict": "watch"
+    },
+    {
+      "ticker": "MSFT",
+      "verdict": "intact"
+    },
+    {
+      "ticker": "NVDA",
+      "verdict": "intact"
+    },
+    {
+      "ticker": "TSLA",
+      "verdict": "watch"
+    }
+  ],
+  "orders": [],
+  "limits": {
+    "regime": "risk_on",
+    "regime_factor": 1.0,
+    "cash_floor_pct": 18.0,
+    "gross_exposure_cap_pct": 85.0,
+    "event_lock": false,
+    "news_addon_pct": 8.0,
+    "group_caps": {
+      "semis": 17.1,
+      "ai": 18.0,
+      "consumer_tech": 16.65,
+      "consumer_staples": 18.0
+    },
+    "ticker_caps": {
+      "TSLA": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "watch"
+      },
+      "META": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "MSFT": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "GOOGL": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "MRVL": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "watch"
+      },
+      "COST": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "AAPL": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "AVGO": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "AMZN": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "NVDA": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      }
+    }
+  },
+  "nav_history": [
+    {
+      "ts": "2026-06-01T11:10:15.750885+00:00",
+      "nav": 30000.0
+    }
+  ],
+  "runs_count": 1
+}
