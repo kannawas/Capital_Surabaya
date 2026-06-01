@@ -114,6 +114,19 @@ print(json.dumps({'nav_before': report.get('nav_before'), 'nav_after': report.ge
 "
 ```
 
+## Step 5 — Persist to GitHub
+
+```bash
+python3 routines/git_persist.py export
+python3 routines/export_dashboard.py
+
+git config user.email "routine@capitalsurabaya.bot"
+git config user.name "Capital Surabaya Routine"
+git add data/ledger.db run_results/ dashboard.json
+git commit -m "Pre-market run $CUTOFF_TS" || echo "Nothing to commit"
+git push origin HEAD:main 2>&1 || echo "PUSH FAILED — report the exact error"
+```
+
 ## Done
 
-Pre-market pipeline complete. Orders posted to ledger. US market opens in ~30 minutes.
+Pre-market pipeline complete. Orders posted, dashboard.json updated (UI auto-refreshes). US market opens in ~30 minutes.

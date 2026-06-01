@@ -180,26 +180,27 @@ for agent, fname in [
 
 ## Step 7 — Persist results to GitHub
 
-This container cannot reach Supabase, so commit the SQLite ledger and a JSON
-snapshot back to the repo. A local machine will pull and sync to Supabase later.
+This container cannot reach Supabase, so commit the SQLite ledger, a JSON
+snapshot, and the UI dashboard file back to the repo.
 
 ```bash
-# Export SQLite -> JSON snapshot
+# Export raw snapshot (audit trail)
 python3 routines/git_persist.py export
 
-# Commit ledger + results back to the repo
+# Export dashboard.json (the file the UI fetches)
+python3 routines/export_dashboard.py
+
+# Commit ledger + results + dashboard back to the repo
 git config user.email "routine@capitalsurabaya.bot"
 git config user.name "Capital Surabaya Routine"
-git add data/ledger.db run_results/
+git add data/ledger.db run_results/ dashboard.json
 git commit -m "Post-close run $CUTOFF_TS" || echo "Nothing to commit"
-git push origin HEAD:main 2>&1 || echo "PUSH FAILED — check CCR git credentials"
+git push origin HEAD:main 2>&1 || echo "PUSH FAILED — report the exact error"
 ```
 
-If `git push` fails with an auth error, report the exact error — we'll need to
-configure a deploy key or token for the routine. The JSON snapshot is still in
-`run_results/` and the commit is local, so nothing is lost.
+If `git push` fails with an auth error, report the exact error in your summary.
 
 ## Done
 
-Post-close pipeline complete. Results committed to GitHub (data/ledger.db + run_results/).
+Post-close pipeline complete. Committed to GitHub: data/ledger.db + run_results/ + dashboard.json (UI auto-updates).
 The pre-market run at 15:00 ICT will pull the latest ledger and confirm fills.
