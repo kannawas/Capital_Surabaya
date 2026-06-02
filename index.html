@@ -3103,20 +3103,11 @@
   function addTicker() {
     const t = document.getElementById('newTicker').value.trim().toUpperCase();
     if (!t) { document.getElementById('newTicker').focus(); return; }
-    if (UNIVERSE.some(u => u.ticker === t)) { alert(t + ' already in universe'); return; }
-    UNIVERSE.unshift({
-      ticker: t,
-      source: 'user',
-      group: document.getElementById('newCompany').value.trim() || '—',
-      last_close: null, pct_change_1d: null, score: null,
-      pinned: false, is_new: true,
-      notes: document.getElementById('newNotes').value.trim(),
-    });
+    if (UNIVERSE.some(u => u.ticker === t)) { showToast(t + ' already in universe', 'err'); return; }
     document.getElementById('newTicker').value = '';
     document.getElementById('newCompany').value = '';
     document.getElementById('newNotes').value = '';
-    renderUniverse();
-    showToast(`${t} added to universe. Note: this is a local view edit — to persist for the next run, add it to watchlist.json and Update Prices.`, 'ok');
+    persistTickers([t], 'manual add');  // helper writes watchlist.json + pushes
   }
 
   // Legacy handlers (superseded by Active Universe handlers above) — kept as shims
@@ -3162,21 +3153,38 @@
   function importTickerText(text, sourceName) {
     const tickers = extractTickers(text);
     const existing = new Set(UNIVERSE.map(u => u.ticker));
-    const added = [];
-    tickers.forEach(ticker => {
-      if (existing.has(ticker)) return;
-      UNIVERSE.unshift({
-        ticker, source:'user', group:'Imported',
-        last_close:null, pct_change_1d:null, score:null,
-        pinned:false, is_new:true, notes:`Imported from ${sourceName}`
+    const fresh = tickers.filter(t => !existing.has(t));
+    if (!fresh.length) {
+      showToast('No new ticker found in file (all already in universe).', 'err');
+      return;
+    }
+    persistTickers(fresh, sourceName);
+  }
+
+  // Persist tickers via local helper -> watchlist.json + push (CCR uses next run)
+  async function persistTickers(tickers, sourceName) {
+    showToast(`Adding ${tickers.length} ticker(s) via local helper… (${tickers.join(', ')})`, 'ok');
+    try {
+      const res = await fetch(HELPER_URL + '/add-tickers', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ tickers })
       });
-      existing.add(ticker);
-      added.push(ticker);
-    });
-    renderUniverse();
-    showToast(added.length
-      ? `Imported ${added.length} ticker(s): ${added.join(', ')}. To persist for the next run, add them to watchlist.json.`
-      : 'No new ticker found in file.', added.length ? 'ok' : 'err');
+      const data = await res.json();
+      if (data.ok) {
+        const added = data.added || [];
+        if (added.length) {
+          showToast(`✓ Added & pushed ${added.length}: ${added.join(', ')}. Universe now ${data.total} tickers. Reloading…`, 'ok');
+          setTimeout(() => loadLiveData(), 2000);
+        } else {
+          showToast(data.msg || 'No new tickers added.', 'ok');
+        }
+      } else {
+        showToast('Add failed: ' + (data.error || data.out || 'unknown'), 'err');
+      }
+    } catch (e) {
+      showToast('Cannot reach local helper. Double-click start_helper.bat on your PC first, then try again.', 'err');
+    }
   }
 
   function readFileAsText(file) {

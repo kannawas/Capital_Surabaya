@@ -70,6 +70,46 @@ def do_update() -> dict:
     return {"ok": rc_p == 0, "summary": summary, "steps": steps}
 
 
+def do_add_tickers(tickers: list[str]) -> dict:
+    """Add tickers to watchlist.json, fetch their prices, and push to repo."""
+    wl_path = REPO / "watchlist.json"
+    try:
+        wl = json.loads(wl_path.read_text(encoding="utf-8"))
+    except Exception as e:
+        return {"ok": False, "error": f"cannot read watchlist.json: {e}"}
+
+    existing = {t.upper() for t in wl.get("tickers", [])}
+    clean = [t.strip().upper() for t in tickers if t.strip()]
+    added = [t for t in clean if t not in existing]
+
+    if not added:
+        return {"ok": True, "added": [], "msg": "All tickers already in watchlist."}
+
+    wl["tickers"] = wl.get("tickers", []) + added
+    # Give new tickers a default group so the UI doesn't show "—" (user can refine later)
+    groups = wl.setdefault("groups", {})
+    for t in added:
+        groups.setdefault(t, "uncategorized")
+    wl_path.write_text(json.dumps(wl, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    # Fetch prices for the new full list, then push watchlist.json + prices.json + dashboard
+    rc_f, out_f = _run([sys.executable, "data/prices_local.py"], timeout=180)
+    rc_d, out_d = _run([sys.executable, "routines/export_dashboard.py"], timeout=60)
+
+    _run(["git", "add", "watchlist.json", "prices.json", "dashboard.json"])
+    _run(["git", "commit", "-m", f"Add tickers: {', '.join(added)}"])
+    _run(["git", "pull", "--rebase", "--autostash", "origin", "main"], timeout=60)
+    rc_p, out_p = _run(["git", "push", "origin", "HEAD:main"], timeout=60)
+
+    return {
+        "ok": rc_p == 0,
+        "added": added,
+        "total": len(wl["tickers"]),
+        "push_ok": rc_p == 0,
+        "out": (out_f[-150:] + "\n" + out_p[-200:]).strip(),
+    }
+
+
 class Handler(BaseHTTPRequestHandler):
     def _send(self, code: int, obj: dict):
         body = json.dumps(obj, ensure_ascii=False).encode("utf-8")
@@ -77,12 +117,29 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("Content-Type", "application/json; charset=utf-8")
         # Allow the GitHub Pages origin to call us
         self.send_header("Access-Control-Allow-Origin", "*")
-        self.send_header("Access-Control-Allow-Methods", "GET, OPTIONS")
+        self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        self.send_header("Access-Control-Allow-Headers", "Content-Type")
         self.end_headers()
         self.wfile.write(body)
 
     def do_OPTIONS(self):
         self._send(204, {})
+
+    def do_POST(self):
+        if self.path.startswith("/add-tickers"):
+            try:
+                length = int(self.headers.get("Content-Length", 0))
+                payload = json.loads(self.rfile.read(length).decode("utf-8")) if length else {}
+                tickers = payload.get("tickers", [])
+            except Exception as e:
+                self._send(400, {"ok": False, "error": f"bad request: {e}"})
+                return
+            print(f"[helper] /add-tickers requested: {tickers}")
+            result = do_add_tickers(tickers)
+            print(f"[helper] add-tickers done: ok={result.get('ok')} added={result.get('added')}")
+            self._send(200 if result.get("ok") else 500, result)
+        else:
+            self._send(404, {"ok": False, "error": "unknown endpoint"})
 
     def do_GET(self):
         if self.path.startswith("/update"):
