@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T04:25:28.851194+00:00",
+  "generated_at": "2026-06-02T04:37:06.457424+00:00",
   "latest_run_ts": "2026-06-01T11:02:47Z",
   "portfolio": {
     "nav": 30000.0,
@@ -17,7 +17,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 185.67,
         "pct_change_1d": 17.2085
@@ -28,7 +28,7 @@
         "score": null,
         "group": "consumer_tech",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 306.31,
         "pct_change_1d": -1.8426
@@ -39,7 +39,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 137.87,
         "pct_change_1d": 3.4206
@@ -50,7 +50,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 6.84,
         "pct_change_1d": 0.4405
@@ -61,7 +61,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 274.03,
         "pct_change_1d": 5.7174
@@ -72,7 +72,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 320.09,
         "pct_change_1d": -6.6385
@@ -83,7 +83,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 510.13,
         "pct_change_1d": -1.1568
@@ -94,7 +94,7 @@
         "score": null,
         "group": "ai",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 261.26,
         "pct_change_1d": -3.4659
@@ -105,7 +105,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 170.68,
         "pct_change_1d": 7.0295
@@ -116,7 +116,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 613.7,
         "pct_change_1d": 0.0995
@@ -127,7 +127,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 68.6,
         "pct_change_1d": 0.9714
@@ -138,7 +138,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 25.31,
         "pct_change_1d": 1.8511
@@ -149,7 +149,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 408.85,
         "pct_change_1d": 15.7265
@@ -160,7 +160,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 1628.5699,
         "pct_change_1d": 0.9803
@@ -171,7 +171,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 105.65,
         "pct_change_1d": -6.8424
@@ -182,7 +182,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 178.98,
         "pct_change_1d": 2.1809
@@ -193,7 +193,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 85.1,
         "pct_change_1d": -2.1839
@@ -204,7 +204,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 204.09,
         "pct_change_1d": -1.52
@@ -215,7 +215,7 @@
         "score": null,
         "group": "semis",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 459.97,
         "pct_change_1d": 2.9545
@@ -226,7 +226,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 224.3,
         "pct_change_1d": -2.9634
@@ -237,7 +237,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 192.23,
         "pct_change_1d": -1.9235
@@ -248,7 +248,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 26.56,
         "pct_change_1d": 0.0754
@@ -259,7 +259,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 29.06,
         "pct_change_1d": 7.4307
@@ -270,7 +270,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 188.39,
         "pct_change_1d": -3.8238
@@ -281,7 +281,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 116.94,
         "pct_change_1d": -0.0256
@@ -292,7 +292,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 112.59,
         "pct_change_1d": -0.0976
@@ -303,7 +303,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 265.7,
         "pct_change_1d": -7.6629
@@ -314,7 +314,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 30.88,
         "pct_change_1d": -7.1836
@@ -325,7 +325,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 12.64,
         "pct_change_1d": -0.2368
@@ -336,7 +336,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 33.51,
         "pct_change_1d": 4.9812
@@ -347,7 +347,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 45.96,
         "pct_change_1d": 1.3004
@@ -358,7 +358,7 @@
         "score": null,
         "group": "consumer_staples",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 946.11,
         "pct_change_1d": -1.0676
@@ -369,7 +369,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 226.1,
         "pct_change_1d": -4.2071
@@ -380,7 +380,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 209.6,
         "pct_change_1d": 9.6808
@@ -391,7 +391,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 12.17,
         "pct_change_1d": 8.6607
@@ -402,7 +402,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 167.73,
         "pct_change_1d": -1.3063
@@ -413,7 +413,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 782.17,
         "pct_change_1d": 7.0
@@ -424,7 +424,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 124.82,
         "pct_change_1d": 13.9596
@@ -435,7 +435,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 57.16,
         "pct_change_1d": 2.5108
@@ -446,7 +446,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 90.62,
         "pct_change_1d": -0.3957
@@ -457,7 +457,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 40.35,
         "pct_change_1d": -0.8405
@@ -468,7 +468,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 128.58,
         "pct_change_1d": 2.6915
@@ -479,7 +479,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 146.98,
         "pct_change_1d": -0.0748
@@ -490,7 +490,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 179.87,
         "pct_change_1d": -1.5328
@@ -501,7 +501,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 47.96,
         "pct_change_1d": -1.6407
@@ -512,7 +512,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 46.31,
         "pct_change_1d": 4.0908
@@ -523,7 +523,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 54.93,
         "pct_change_1d": 0.3471
@@ -534,7 +534,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 63.74,
         "pct_change_1d": -6.7583
@@ -545,7 +545,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 199.03,
         "pct_change_1d": 3.943
@@ -556,7 +556,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 1284.75,
         "pct_change_1d": 2.7315
@@ -567,7 +567,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 23.55,
         "pct_change_1d": 0.0
@@ -578,7 +578,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 303.0,
         "pct_change_1d": -1.2354
@@ -589,7 +589,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 19.08,
         "pct_change_1d": 7.4022
@@ -600,7 +600,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 35.38,
         "pct_change_1d": -1.8313
@@ -611,7 +611,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 339.2,
         "pct_change_1d": -2.1971
@@ -622,7 +622,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 324.6,
         "pct_change_1d": 0.2595
@@ -633,7 +633,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 950.54,
         "pct_change_1d": -1.8362
@@ -644,7 +644,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 25.45,
         "pct_change_1d": -3.3422
@@ -655,7 +655,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 39.58,
         "pct_change_1d": -6.4524
@@ -666,7 +666,7 @@
         "score": null,
         "group": "ai",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 376.37,
         "pct_change_1d": -1.0438
@@ -677,7 +677,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 236.8,
         "pct_change_1d": 1.2312
@@ -688,7 +688,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 40.2,
         "pct_change_1d": -1.9512
@@ -699,7 +699,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 370.96,
         "pct_change_1d": -2.0024
@@ -710,7 +710,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 106.25,
         "pct_change_1d": 12.3863
@@ -721,7 +721,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 296.41,
         "pct_change_1d": -3.8161
@@ -732,7 +732,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 236.54,
         "pct_change_1d": -0.5549
@@ -743,7 +743,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 90.73,
         "pct_change_1d": -3.7858
@@ -754,7 +754,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 34.11,
         "pct_change_1d": -3.1241
@@ -765,7 +765,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 44.37,
         "pct_change_1d": -1.1584
@@ -776,7 +776,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 320.42,
         "pct_change_1d": 7.5957
@@ -787,7 +787,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 57.32,
         "pct_change_1d": -1.1554
@@ -798,7 +798,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 109.33,
         "pct_change_1d": -4.6652
@@ -809,7 +809,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 69.28,
         "pct_change_1d": -3.8712
@@ -820,7 +820,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 38.55,
         "pct_change_1d": 10.1743
@@ -831,7 +831,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 11.97,
         "pct_change_1d": 0.5882
@@ -842,7 +842,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 29.14,
         "pct_change_1d": -3.446
@@ -853,10 +853,21 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 1940.04,
         "pct_change_1d": 0.9538
+      },
+      {
+        "ticker": "KO",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
+        "is_new": true,
+        "last_close": 78.64,
+        "pct_change_1d": -0.4683
       },
       {
         "ticker": "KTOS",
@@ -864,7 +875,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 63.49,
         "pct_change_1d": -0.998
@@ -875,7 +886,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 33.1,
         "pct_change_1d": 3.4698
@@ -886,7 +897,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 127.72,
         "pct_change_1d": -0.0626
@@ -897,7 +908,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 189.0,
         "pct_change_1d": 3.5787
@@ -908,7 +919,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 309.59,
         "pct_change_1d": -1.7736
@@ -919,7 +930,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 1082.2,
         "pct_change_1d": -2.0633
@@ -930,7 +941,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 58.72,
         "pct_change_1d": 1.2414
@@ -941,7 +952,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 516.5,
         "pct_change_1d": -1.9924
@@ -952,7 +963,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 227.88,
         "pct_change_1d": 1.3431
@@ -963,7 +974,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 38.21,
         "pct_change_1d": -12.8223
@@ -974,7 +985,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 403.88,
         "pct_change_1d": 20.3636
@@ -985,7 +996,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 1730.98,
         "pct_change_1d": 2.0836
@@ -996,7 +1007,7 @@
         "score": null,
         "group": "ai",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 600.47,
         "pct_change_1d": -5.0655
@@ -1007,7 +1018,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 65.15,
         "pct_change_1d": 0.6022
@@ -1018,7 +1029,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 69.29,
         "pct_change_1d": 7.0943
@@ -1029,7 +1040,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 115.17,
         "pct_change_1d": -2.9902
@@ -1040,7 +1051,7 @@
         "score": null,
         "group": "semis",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 219.43,
         "pct_change_1d": 7.039
@@ -1051,7 +1062,7 @@
         "score": null,
         "group": "ai",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 460.52,
         "pct_change_1d": 2.2832
@@ -1062,7 +1073,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 1035.5,
         "pct_change_1d": 6.6426
@@ -1073,7 +1084,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 264.51,
         "pct_change_1d": 14.4619
@@ -1084,7 +1095,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 108.19,
         "pct_change_1d": -1.4753
@@ -1095,7 +1106,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 85.85,
         "pct_change_1d": -0.1976
@@ -1106,7 +1117,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 539.22,
         "pct_change_1d": -3.9183
@@ -1117,7 +1128,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 135.86,
         "pct_change_1d": 9.2386
@@ -1128,7 +1139,7 @@
         "score": null,
         "group": "semis",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 224.36,
         "pct_change_1d": 6.2612
@@ -1139,7 +1150,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 66.89,
         "pct_change_1d": 0.015
@@ -1150,7 +1161,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 120.92,
         "pct_change_1d": 0.2487
@@ -1161,7 +1172,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 255.71,
         "pct_change_1d": -0.9797
@@ -1172,7 +1183,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 136.61,
         "pct_change_1d": -0.4518
@@ -1183,7 +1194,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 248.15,
         "pct_change_1d": 9.9079
@@ -1194,7 +1205,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 58.92,
         "pct_change_1d": 4.0438
@@ -1205,7 +1216,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 55.5,
         "pct_change_1d": -2.6145
@@ -1216,7 +1227,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 300.48,
         "pct_change_1d": 6.6705
@@ -1227,7 +1238,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 32.575,
         "pct_change_1d": 2.052
@@ -1238,7 +1249,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 25.63,
         "pct_change_1d": -2.1008
@@ -1249,7 +1260,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 31.87,
         "pct_change_1d": -1.4838
@@ -1260,7 +1271,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 160.65,
         "pct_change_1d": 2.6255
@@ -1271,7 +1282,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 27.86,
         "pct_change_1d": 5.8109
@@ -1282,7 +1293,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 60.66,
         "pct_change_1d": 2.6396
@@ -1293,7 +1304,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 84.45,
         "pct_change_1d": 6.2131
@@ -1304,7 +1315,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 349.24,
         "pct_change_1d": 2.6482
@@ -1315,7 +1326,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 85.07,
         "pct_change_1d": 8.1903
@@ -1326,7 +1337,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 600.66,
         "pct_change_1d": -2.2968
@@ -1337,7 +1348,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 25.63,
         "pct_change_1d": 0.3524
@@ -1348,7 +1359,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 122.39,
         "pct_change_1d": -14.6989
@@ -1359,7 +1370,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 88.74,
         "pct_change_1d": 1.5913
@@ -1370,7 +1381,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 124.12,
         "pct_change_1d": 4.5573
@@ -1381,7 +1392,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 12.89,
         "pct_change_1d": 1.7364
@@ -1392,7 +1403,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 1761.4301,
         "pct_change_1d": 3.9204
@@ -1403,7 +1414,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 492.29,
         "pct_change_1d": 3.5049
@@ -1414,7 +1425,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 18.58,
         "pct_change_1d": 1.9759
@@ -1425,7 +1436,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 49.29,
         "pct_change_1d": -0.2025
@@ -1436,7 +1447,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 69.02,
         "pct_change_1d": -0.4184
@@ -1447,7 +1458,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 11.69,
         "pct_change_1d": 2.0961
@@ -1458,7 +1469,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 1238.41,
         "pct_change_1d": -1.5823
@@ -1469,7 +1480,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 7.91,
         "pct_change_1d": 3.9422
@@ -1480,7 +1491,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 52.8,
         "pct_change_1d": 4.6166
@@ -1491,7 +1502,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 67.53,
         "pct_change_1d": 0.4911
@@ -1502,7 +1513,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 494.04,
         "pct_change_1d": 0.3107
@@ -1513,7 +1524,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 186.74,
         "pct_change_1d": -0.4213
@@ -1524,7 +1535,7 @@
         "score": null,
         "group": "consumer_tech",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 415.88,
         "pct_change_1d": -4.5687
@@ -1535,7 +1546,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 227.54,
         "pct_change_1d": 19.3559
@@ -1546,7 +1557,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 263.5,
         "pct_change_1d": 0.3274
@@ -1557,7 +1568,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 17.62,
         "pct_change_1d": -3.2931
@@ -1568,7 +1579,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 323.39,
         "pct_change_1d": 2.4326
@@ -1579,7 +1590,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 154.76,
         "pct_change_1d": -3.4138
@@ -1590,7 +1601,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 212.51,
         "pct_change_1d": 0.4965
@@ -1601,7 +1612,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 257.04,
         "pct_change_1d": 2.9519
@@ -1612,7 +1623,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 16.6,
         "pct_change_1d": -0.4199
@@ -1623,7 +1634,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 25.22,
         "pct_change_1d": 10.1791
@@ -1634,7 +1645,7 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T04:25:25.230821+00:00",
+        "added_ts": "2026-06-02T04:36:46.472008+00:00",
         "is_new": true,
         "last_close": 155.71,
         "pct_change_1d": 11.4363
@@ -2567,67 +2578,7 @@
       "uncategorized": 15.3
     },
     "ticker_caps": {
-      "DVN": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "HROW": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MELI": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "OXY": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "JOBY": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ONTO": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "GCT": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "DHR": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "XP": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ATI": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ARLP": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "LMT": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "AVAV": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TEM": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MRK": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "DRS": {
+      "TDG": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
@@ -2635,207 +2586,7 @@
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
-      "HON": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ENPH": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PFE": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TMUS": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "APTV": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "LHX": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ORCL": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CVS": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "IBM": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "BKV": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "KTOS": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ENB": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "AMZN": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "CWEN": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "NOC": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "BA": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PLAB": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MGA": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "IIPR": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PAAS": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "META": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "ST": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "STM": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CELH": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "DAC": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "FSLY": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CRML": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "STNE": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "RBRK": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ZS": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CRWV": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "RKLB": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "LMND": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "IONQ": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PRCT": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "BWXT": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CLPT": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MRVL": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "watch"
-      },
-      "ATRO": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "IOT": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ANET": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "BX": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "UUUU": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CNQ": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "UNP": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TWLO": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TSLA": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "watch"
-      },
-      "NBIS": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "NVDA": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "AMD": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "REGN": {
+      "SHOP": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
@@ -2843,31 +2594,15 @@
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
-      "AVGO": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "MP": {
+      "VST": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
-      "FICO": {
+      "FSLR": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
-      "HOOD": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ORA": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "GRMN": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "SMR": {
+      "HROW": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
@@ -2875,67 +2610,11 @@
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
-      "CCJ": {
+      "BWXT": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
-      "BIIB": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CTSH": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TMDX": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "LLY": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CRWD": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "FOJCF": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "LEU": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PBOG": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "SCHW": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "HTHT": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "SOFI": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "INTC": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "AAPL": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "PANW": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "HCC": {
+      "JOBY": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
@@ -2943,59 +2622,27 @@
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
-      "CEG": {
+      "CNQ": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
-      "SNDK": {
+      "CCJ": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
-      "PSN": {
+      "CWEN": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
-      "TDG": {
+      "BX": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
-      "ASTS": {
+      "PRCT": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
-      "ACHR": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ZETA": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MSFT": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "ARM": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ABNB": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TDOC": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "GEV": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "LUNR": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ALAB": {
+      "IIPR": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
@@ -3003,47 +2650,11 @@
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
-      "OKLO": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
+      "AMZN": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
       },
-      "NEM": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MDB": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "GMAB": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "KLAC": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "WM": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "SNPS": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TMO": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ADBE": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "VST": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "NOW": {
+      "BTU": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
@@ -3051,83 +2662,7 @@
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
-      "NFLX": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "APP": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "WTW": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CRUS": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CRM": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CMP": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PLTR": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "LAUR": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "GD": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PSTG": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "VRT": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "GOOGL": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "FSLR": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "RGTI": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "HASI": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "SHOP": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "GOLD": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "HII": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "RACE": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "DHI": {
+      "DRS": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
@@ -3135,15 +2670,71 @@
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
-      "BTU": {
+      "NOW": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
-      "ASML": {
+      "RKLB": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
-      "CRDO": {
+      "INTC": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TWLO": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ENB": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "DAC": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ATI": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MDB": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HOOD": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ACHR": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "RACE": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MRVL": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "watch"
+      },
+      "APP": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "NBIS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CMP": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "SNPS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "FOJCF": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
@@ -3151,11 +2742,435 @@
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
+      "CRML": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GOLD": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "SMR": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CVS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "KO": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ADBE": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "STNE": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MGA": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LHX": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "XP": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TMDX": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "OXY": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LMT": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "UNP": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "META": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "MSFT": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "SOFI": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CTSH": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HON": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HASI": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
       "COST": {
         "single_name_cap_pct": 8.0,
         "thesis_verdict": "intact"
       },
+      "ZS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "KTOS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ZETA": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ONTO": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AVAV": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PFE": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRWV": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "APTV": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TEM": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AMD": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GMAB": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TMUS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "RGTI": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TDOC": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "UUUU": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HTHT": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ALAB": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PLTR": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PSTG": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LMND": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "WTW": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ENPH": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LLY": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CLPT": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HCC": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ANET": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CEG": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRM": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ST": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ATRO": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRDO": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "NEM": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ORA": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "DHR": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GOOGL": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "MRK": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PSN": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "NOC": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MELI": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "OKLO": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PLAB": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRWD": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ARLP": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "BA": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AAPL": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "VRT": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "BIIB": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PANW": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "BKV": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TSLA": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "watch"
+      },
+      "DVN": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HII": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PBOG": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PAAS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "IBM": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "RBRK": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ABNB": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GCT": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ORCL": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LUNR": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "SNDK": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ASTS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "FICO": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "IONQ": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "IOT": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "WM": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TMO": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "DHI": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MP": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ARM": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ASML": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GRMN": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LAUR": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LEU": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "STM": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "NVDA": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "FSLY": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRUS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CELH": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "NFLX": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "SCHW": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
       "GE": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GD": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "KLAC": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GEV": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AVGO": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "REGN": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       }
