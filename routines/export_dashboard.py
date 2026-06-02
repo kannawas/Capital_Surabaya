@@ -28,9 +28,37 @@ os.environ.setdefault("USE_SUPABASE", "false")
 OUT = Path(__file__).parent.parent / "dashboard.json"
 
 
+def _load_prices() -> dict:
+    """Load last_close + %chg per ticker from prices.json (if present)."""
+    p = Path(__file__).parent.parent / "prices.json"
+    if not p.exists():
+        return {}
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+        out = {}
+        for ticker, ind in data.get("prices", {}).items():
+            if isinstance(ind, dict) and "error" not in ind:
+                out[ticker] = {
+                    "last_close": ind.get("last_close"),
+                    "pct_change_1d": ind.get("pct_change_1d"),
+                }
+        return out
+    except Exception:
+        return {}
+
+
 def build_dashboard() -> dict:
     from ledger.storage import select, scalar_sum
-    from data.watchlist import get_groups
+    from data.watchlist import get_groups, get_watchlist_detail
+
+    prices = _load_prices()
+
+    # --- watchlist detail (UI) with prices attached ---
+    wl = get_watchlist_detail()
+    for row in wl["active"]:
+        px = prices.get(row["ticker"], {})
+        row["last_close"] = px.get("last_close")
+        row["pct_change_1d"] = px.get("pct_change_1d")
 
     # --- portfolio ---
     positions = select("positions", order_by="ticker ASC")
@@ -93,6 +121,7 @@ def build_dashboard() -> dict:
             "positions": pos_breakdown,
             "position_count": len(positions),
         },
+        "watchlist": wl,
         "agents": agents,
         "verdicts": [{"ticker": v["ticker"], "verdict": v["verdict"]} for v in verdicts],
         "orders": orders,
