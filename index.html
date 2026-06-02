@@ -3130,11 +3130,39 @@
   }
 
   function toggleUniversePin(i){ /* pin removed */ }
-  function removeUniverse(i){
+  async function removeUniverse(i){
     const u = UNIVERSE[i];
-    REMOVED.unshift({ticker:u.ticker, cooldown_until:null, note:'removed by user'});
-    UNIVERSE.splice(i,1);
+    const ticker = u.ticker;
+
+    // Optimistic UI: move to removed immediately
+    REMOVED.unshift({ticker, cooldown_until:null, note:'removing…'});
+    UNIVERSE.splice(i, 1);
     renderUniverse(); renderRemoved();
+
+    try {
+      const res = await fetch(HELPER_URL + '/remove-ticker', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ticker})
+      });
+      const data = await res.json();
+      if (data.ok) {
+        showToast(`${ticker} removed. Universe now ${data.remaining} tickers. Reloading…`, 'ok');
+        setTimeout(() => loadLiveData(), 1500);
+      } else {
+        // Rollback: restore to universe
+        UNIVERSE.splice(i, 0, u);
+        REMOVED.shift();
+        renderUniverse(); renderRemoved();
+        showToast('Remove failed: ' + (data.error || 'unknown') + '. Is the helper running?', 'err');
+      }
+    } catch(e) {
+      // Helper offline: rollback
+      UNIVERSE.splice(i, 0, u);
+      REMOVED.shift();
+      renderUniverse(); renderRemoved();
+      showToast('Cannot reach local helper. Open start_helper.bat first, then try again.', 'err');
+    }
   }
   function restoreUniverse(i){
     const r = REMOVED[i];
