@@ -10,7 +10,8 @@
     "AAPL",
     "GOOGL",
     "META",
-    "AMZN"
+    "AMZN",
+    "NFLX"
   ],
   "groups": {
     "NVDA": "semis",

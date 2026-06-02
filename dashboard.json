@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T03:17:10.385684+00:00",
+  "generated_at": "2026-06-02T03:58:22.568232+00:00",
   "latest_run_ts": "2026-06-01T11:02:47Z",
   "portfolio": {
     "nav": 30000.0,
@@ -17,7 +17,7 @@
         "score": null,
         "group": "consumer_tech",
         "pinned": false,
-        "added_ts": "2026-06-02T03:16:05.853244+00:00",
+        "added_ts": "2026-06-02T03:58:12.091842+00:00",
         "is_new": true,
         "last_close": 306.31,
         "pct_change_1d": -1.8426
@@ -28,7 +28,7 @@
         "score": null,
         "group": "ai",
         "pinned": false,
-        "added_ts": "2026-06-02T03:16:05.853244+00:00",
+        "added_ts": "2026-06-02T03:58:12.091842+00:00",
         "is_new": true,
         "last_close": 261.26,
         "pct_change_1d": -3.4659
@@ -39,7 +39,7 @@
         "score": null,
         "group": "semis",
         "pinned": false,
-        "added_ts": "2026-06-02T03:16:05.853244+00:00",
+        "added_ts": "2026-06-02T03:58:12.091842+00:00",
         "is_new": true,
         "last_close": 459.97,
         "pct_change_1d": 2.9545
@@ -50,7 +50,7 @@
         "score": null,
         "group": "consumer_staples",
         "pinned": false,
-        "added_ts": "2026-06-02T03:16:05.853244+00:00",
+        "added_ts": "2026-06-02T03:58:12.091842+00:00",
         "is_new": true,
         "last_close": 946.11,
         "pct_change_1d": -1.0676
@@ -61,7 +61,7 @@
         "score": null,
         "group": "ai",
         "pinned": false,
-        "added_ts": "2026-06-02T03:16:05.853244+00:00",
+        "added_ts": "2026-06-02T03:58:12.091842+00:00",
         "is_new": true,
         "last_close": 376.37,
         "pct_change_1d": -1.0438
@@ -72,7 +72,7 @@
         "score": null,
         "group": "ai",
         "pinned": false,
-        "added_ts": "2026-06-02T03:16:05.853244+00:00",
+        "added_ts": "2026-06-02T03:58:12.091842+00:00",
         "is_new": true,
         "last_close": 600.47,
         "pct_change_1d": -5.0655
@@ -83,7 +83,7 @@
         "score": null,
         "group": "semis",
         "pinned": false,
-        "added_ts": "2026-06-02T03:16:05.853244+00:00",
+        "added_ts": "2026-06-02T03:58:12.091842+00:00",
         "is_new": true,
         "last_close": 219.43,
         "pct_change_1d": 7.039
@@ -94,10 +94,21 @@
         "score": null,
         "group": "ai",
         "pinned": false,
-        "added_ts": "2026-06-02T03:16:05.853244+00:00",
+        "added_ts": "2026-06-02T03:58:12.091842+00:00",
         "is_new": true,
         "last_close": 460.52,
         "pct_change_1d": 2.2832
+      },
+      {
+        "ticker": "NFLX",
+        "source": "user",
+        "score": null,
+        "group": "—",
+        "pinned": false,
+        "added_ts": "2026-06-02T03:58:12.091842+00:00",
+        "is_new": true,
+        "last_close": 85.85,
+        "pct_change_1d": -0.1976
       },
       {
         "ticker": "NVDA",
@@ -105,7 +116,7 @@
         "score": null,
         "group": "semis",
         "pinned": false,
-        "added_ts": "2026-06-02T03:16:05.853244+00:00",
+        "added_ts": "2026-06-02T03:58:12.091842+00:00",
         "is_new": true,
         "last_close": 224.36,
         "pct_change_1d": 6.2612
@@ -116,7 +127,7 @@
         "score": null,
         "group": "consumer_tech",
         "pinned": false,
-        "added_ts": "2026-06-02T03:16:05.853244+00:00",
+        "added_ts": "2026-06-02T03:58:12.091842+00:00",
         "is_new": true,
         "last_close": 415.88,
         "pct_change_1d": -4.5687
@@ -1048,11 +1059,19 @@
       "consumer_staples": 18.0
     },
     "ticker_caps": {
+      "GOOGL": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "NVDA": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
       "MRVL": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "watch"
       },
-      "AVGO": {
+      "AAPL": {
         "single_name_cap_pct": 8.0,
         "thesis_verdict": "intact"
       },
@@ -1064,27 +1083,19 @@
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "watch"
       },
-      "META": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
       "COST": {
         "single_name_cap_pct": 8.0,
         "thesis_verdict": "intact"
       },
-      "GOOGL": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "AAPL": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "NVDA": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
       "MSFT": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "AVGO": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "META": {
         "single_name_cap_pct": 8.0,
         "thesis_verdict": "intact"
       }
