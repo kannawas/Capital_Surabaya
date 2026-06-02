@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-06-02T14:54:36.739189+00:00",
+  "universe_size": 10,
+  "mandatory_count": 2,
+  "opportunity_count": 8,
+  "total": 10,
+  "tickers": [
+    "AAOI",
+    "STM",
+    "DVN",
+    "CRDO",
+    "AAPL",
+    "RBRK",
+    "FOJCF",
+    "ENPH",
+    "TMO",
+    "GEV"
+  ],
+  "mandatory": [
+    "AAOI",
+    "STM"
+  ],
+  "opportunity": [
+    {
+      "ticker": "DVN",
+      "score": -0.15
+    },
+    {
+      "ticker": "CRDO",
+      "score": 0.13
+    },
+    {
+      "ticker": "AAPL",
+      "score": 0.11
+    },
+    {
+      "ticker": "RBRK",
+      "score": -0.06
+    },
+    {
+      "ticker": "FOJCF",
+      "score": -0.05
+    },
+    {
+      "ticker": "ENPH",
+      "score": -0.03
+    },
+    {
+      "ticker": "TMO",
+      "score": 0.03
+    },
+    {
+      "ticker": "GEV",
+      "score": 0.02
+    }
+  ],
+  "all_scores": {
+    "AAOI": 0.22,
+    "AAPL": 0.11,
+    "CRDO": 0.13,
+    "DVN": -0.15,
+    "ENPH": -0.03,
+    "FOJCF": -0.05,
+    "GEV": 0.02,
+    "RBRK": -0.06,
+    "STM": -0.01,
+    "TMO": 0.03
+  }
+}

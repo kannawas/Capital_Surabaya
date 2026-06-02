@@ -10,7 +10,10 @@
     "GEV",
     "RBRK",
     "STM",
-    "TMO"
+    "TMO",
+    "NVDA",
+    "MSFT",
+    "AMD"
   ],
   "groups": {
     "AAOI": "uncategorized",
@@ -22,6 +25,9 @@
     "GEV": "uncategorized",
     "RBRK": "uncategorized",
     "STM": "uncategorized",
-    "TMO": "uncategorized"
+    "TMO": "uncategorized",
+    "NVDA": "uncategorized",
+    "MSFT": "uncategorized",
+    "AMD": "uncategorized"
   }
 }
