@@ -37,15 +37,23 @@ def _run(cmd: list[str], timeout: int = 120) -> tuple[int, str]:
 def do_update() -> dict:
     steps = {}
 
-    # 1. Fetch prices -> prices.json
-    rc, out = _run([sys.executable, "data/prices_local.py"], timeout=180)
+    # 0. Sync from remote first (prevents local watchlist from drifting behind)
+    _run(["git", "pull", "--rebase", "--autostash", "origin", "main"], timeout=60)
+
+    # 1. Fetch prices -> prices.json  (uses watchlist.json = current universe)
+    rc, out = _run([sys.executable, "data/prices_local.py"], timeout=300)
     steps["fetch"] = {"ok": rc == 0, "out": out.strip()[-300:]}
     if rc != 0:
         return {"ok": False, "step": "fetch", "detail": steps}
 
-    # 2. git add + commit
-    _run(["git", "add", "prices.json"])
-    rc_c, out_c = _run(["git", "commit", "-m", "Update prices.json (manual)"])
+    # 2. Pre-filter: compute daily_candidates.json from prices.json + portfolio
+    rc_pf, out_pf = _run([sys.executable, "data/prefilter.py"], timeout=30)
+    steps["prefilter"] = {"ok": rc_pf == 0, "out": out_pf.strip()[-200:]}
+    print(f"[helper] prefilter: {out_pf.strip()[:120]}")
+
+    # 3. git add + commit
+    _run(["git", "add", "prices.json", "daily_candidates.json"])
+    rc_c, out_c = _run(["git", "commit", "-m", "Update prices + daily_candidates (manual)"])
     # commit returns nonzero if nothing changed — that's fine
 
     # 3. pull --rebase (CCR may have pushed since our last sync), then push

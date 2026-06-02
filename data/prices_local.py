@@ -25,11 +25,26 @@ OUT = Path(__file__).parent.parent / "prices.json"
 
 
 def fetch_and_write() -> dict:
-    from data.watchlist import get_active, sync_from_file
+    from data.watchlist import sync_from_file
     from data.prices import fetch_ohlcv, compute_technicals
+    from ledger.storage import select, get_conn
 
-    sync_from_file()
-    tickers = get_active()
+    # Sync watchlist.json → ledger (replace, not just upsert, so removed tickers disappear)
+    import json as _json
+    wl_path = Path(__file__).parent.parent / "watchlist.json"
+    wl_tickers = [t.upper() for t in _json.loads(wl_path.read_text(encoding="utf-8")).get("tickers", [])]
+
+    # Hard-sync: delete all watchlist rows then re-insert from file
+    with get_conn() as conn:
+        conn.execute("DELETE FROM watchlist")
+    sync_from_file()   # re-inserts only current tickers
+
+    # Add portfolio holdings (mandatory — must always have prices for monitoring)
+    positions = select("positions")
+    port_tickers = [p["ticker"] for p in positions if p["ticker"] not in wl_tickers]
+
+    tickers = wl_tickers + port_tickers
+    print(f"Universe: {len(wl_tickers)} tickers | Portfolio: {len(port_tickers)} extra | Total: {len(tickers)}")
 
     ohlcv = fetch_ohlcv(tickers, period="90d")  # 90d gives buffer for SMA50/200
 
