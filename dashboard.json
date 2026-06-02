@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T04:14:01.397032+00:00",
+  "generated_at": "2026-06-02T04:18:18.313498+00:00",
   "latest_run_ts": "2026-06-01T11:02:47Z",
   "portfolio": {
     "nav": 30000.0,
@@ -12,15 +12,81 @@
   "watchlist": {
     "active": [
       {
+        "ticker": "AAOI",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 185.67,
+        "pct_change_1d": 17.2085
+      },
+      {
         "ticker": "AAPL",
         "source": "user",
         "score": null,
         "group": "consumer_tech",
         "pinned": false,
-        "added_ts": "2026-06-02T04:13:49.574107+00:00",
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
         "is_new": true,
         "last_close": 306.31,
         "pct_change_1d": -1.8426
+      },
+      {
+        "ticker": "ABNB",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 137.87,
+        "pct_change_1d": 3.4206
+      },
+      {
+        "ticker": "ACHR",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 6.84,
+        "pct_change_1d": 0.4405
+      },
+      {
+        "ticker": "ADBE",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 274.03,
+        "pct_change_1d": 5.7174
+      },
+      {
+        "ticker": "ALAB",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 320.09,
+        "pct_change_1d": -6.6385
+      },
+      {
+        "ticker": "AMD",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 510.13,
+        "pct_change_1d": -1.1568
       },
       {
         "ticker": "AMZN",
@@ -28,10 +94,120 @@
         "score": null,
         "group": "ai",
         "pinned": false,
-        "added_ts": "2026-06-02T04:13:49.574107+00:00",
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
         "is_new": true,
         "last_close": 261.26,
         "pct_change_1d": -3.4659
+      },
+      {
+        "ticker": "ANET",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 170.68,
+        "pct_change_1d": 7.0295
+      },
+      {
+        "ticker": "APP",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 613.7,
+        "pct_change_1d": 0.0995
+      },
+      {
+        "ticker": "APTV",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 68.6,
+        "pct_change_1d": 0.9714
+      },
+      {
+        "ticker": "ARLP",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 25.31,
+        "pct_change_1d": 1.8511
+      },
+      {
+        "ticker": "ARM",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 408.85,
+        "pct_change_1d": 15.7265
+      },
+      {
+        "ticker": "ASML",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 1628.5699,
+        "pct_change_1d": 0.9803
+      },
+      {
+        "ticker": "ASTS",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 105.65,
+        "pct_change_1d": -6.8424
+      },
+      {
+        "ticker": "ATI",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 178.98,
+        "pct_change_1d": 2.1809
+      },
+      {
+        "ticker": "ATRO",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 85.1,
+        "pct_change_1d": -2.1839
+      },
+      {
+        "ticker": "AVAV",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 204.09,
+        "pct_change_1d": -1.52
       },
       {
         "ticker": "AVGO",
@@ -39,10 +215,142 @@
         "score": null,
         "group": "semis",
         "pinned": false,
-        "added_ts": "2026-06-02T04:13:49.574107+00:00",
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
         "is_new": true,
         "last_close": 459.97,
         "pct_change_1d": 2.9545
+      },
+      {
+        "ticker": "BA",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 224.3,
+        "pct_change_1d": -2.9634
+      },
+      {
+        "ticker": "BIIB",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 192.23,
+        "pct_change_1d": -1.9235
+      },
+      {
+        "ticker": "BKV",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 26.56,
+        "pct_change_1d": 0.0754
+      },
+      {
+        "ticker": "BTU",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 29.06,
+        "pct_change_1d": 7.4307
+      },
+      {
+        "ticker": "BWXT",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 188.39,
+        "pct_change_1d": -3.8238
+      },
+      {
+        "ticker": "BX",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 116.94,
+        "pct_change_1d": -0.0256
+      },
+      {
+        "ticker": "CCJ",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 112.59,
+        "pct_change_1d": -0.0976
+      },
+      {
+        "ticker": "CEG",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 265.7,
+        "pct_change_1d": -7.6629
+      },
+      {
+        "ticker": "CELH",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 30.88,
+        "pct_change_1d": -7.1836
+      },
+      {
+        "ticker": "CLPT",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 12.64,
+        "pct_change_1d": -0.2368
+      },
+      {
+        "ticker": "CMP",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 33.51,
+        "pct_change_1d": 4.9812
+      },
+      {
+        "ticker": "CNQ",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 45.96,
+        "pct_change_1d": 1.3004
       },
       {
         "ticker": "COST",
@@ -50,10 +358,318 @@
         "score": null,
         "group": "consumer_staples",
         "pinned": false,
-        "added_ts": "2026-06-02T04:13:49.574107+00:00",
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
         "is_new": true,
         "last_close": 946.11,
         "pct_change_1d": -1.0676
+      },
+      {
+        "ticker": "CRDO",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 226.1,
+        "pct_change_1d": -4.2071
+      },
+      {
+        "ticker": "CRM",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 209.6,
+        "pct_change_1d": 9.6808
+      },
+      {
+        "ticker": "CRML",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 12.17,
+        "pct_change_1d": 8.6607
+      },
+      {
+        "ticker": "CRUS",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 167.73,
+        "pct_change_1d": -1.3063
+      },
+      {
+        "ticker": "CRWD",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 782.17,
+        "pct_change_1d": 7.0
+      },
+      {
+        "ticker": "CRWV",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 124.82,
+        "pct_change_1d": 13.9596
+      },
+      {
+        "ticker": "CTSH",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 57.16,
+        "pct_change_1d": 2.5108
+      },
+      {
+        "ticker": "CVS",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 90.62,
+        "pct_change_1d": -0.3957
+      },
+      {
+        "ticker": "CWEN",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 40.35,
+        "pct_change_1d": -0.8405
+      },
+      {
+        "ticker": "DAC",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 128.58,
+        "pct_change_1d": 2.6915
+      },
+      {
+        "ticker": "DHI",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 146.98,
+        "pct_change_1d": -0.0748
+      },
+      {
+        "ticker": "DHR",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 179.87,
+        "pct_change_1d": -1.5328
+      },
+      {
+        "ticker": "DRS",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 47.96,
+        "pct_change_1d": -1.6407
+      },
+      {
+        "ticker": "DVN",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 46.31,
+        "pct_change_1d": 4.0908
+      },
+      {
+        "ticker": "ENB",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 54.93,
+        "pct_change_1d": 0.3471
+      },
+      {
+        "ticker": "ENPH",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 63.74,
+        "pct_change_1d": -6.7583
+      },
+      {
+        "ticker": "ENRD",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": null,
+        "pct_change_1d": null
+      },
+      {
+        "ticker": "FANG",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 199.03,
+        "pct_change_1d": 3.943
+      },
+      {
+        "ticker": "FICO",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 1284.75,
+        "pct_change_1d": 2.7315
+      },
+      {
+        "ticker": "FOJCF",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 23.55,
+        "pct_change_1d": 0.0
+      },
+      {
+        "ticker": "FSLR",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 303.0,
+        "pct_change_1d": -1.2354
+      },
+      {
+        "ticker": "FSLY",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 19.08,
+        "pct_change_1d": 7.4022
+      },
+      {
+        "ticker": "GCT",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 35.38,
+        "pct_change_1d": -1.8313
+      },
+      {
+        "ticker": "GD",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 339.2,
+        "pct_change_1d": -2.1971
+      },
+      {
+        "ticker": "GE",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 324.6,
+        "pct_change_1d": 0.2595
+      },
+      {
+        "ticker": "GEV",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 950.54,
+        "pct_change_1d": -1.8362
+      },
+      {
+        "ticker": "GMAB",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 25.45,
+        "pct_change_1d": -3.3422
+      },
+      {
+        "ticker": "GOLD",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 39.58,
+        "pct_change_1d": -6.4524
       },
       {
         "ticker": "GOOGL",
@@ -61,10 +677,329 @@
         "score": null,
         "group": "ai",
         "pinned": false,
-        "added_ts": "2026-06-02T04:13:49.574107+00:00",
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
         "is_new": true,
         "last_close": 376.37,
         "pct_change_1d": -1.0438
+      },
+      {
+        "ticker": "GRMN",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 236.8,
+        "pct_change_1d": 1.2312
+      },
+      {
+        "ticker": "HASI",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 40.2,
+        "pct_change_1d": -1.9512
+      },
+      {
+        "ticker": "HCA",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 370.96,
+        "pct_change_1d": -2.0024
+      },
+      {
+        "ticker": "HCC",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 106.25,
+        "pct_change_1d": 12.3863
+      },
+      {
+        "ticker": "HII",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 296.41,
+        "pct_change_1d": -3.8161
+      },
+      {
+        "ticker": "HON",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 236.54,
+        "pct_change_1d": -0.5549
+      },
+      {
+        "ticker": "HOOD",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 90.73,
+        "pct_change_1d": -3.7858
+      },
+      {
+        "ticker": "HROW",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 34.11,
+        "pct_change_1d": -3.1241
+      },
+      {
+        "ticker": "HTHT",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 44.37,
+        "pct_change_1d": -1.1584
+      },
+      {
+        "ticker": "IBM",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 320.42,
+        "pct_change_1d": 7.5957
+      },
+      {
+        "ticker": "IIPR",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 57.32,
+        "pct_change_1d": -1.1554
+      },
+      {
+        "ticker": "INTC",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 109.33,
+        "pct_change_1d": -4.6652
+      },
+      {
+        "ticker": "IONQ",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 69.28,
+        "pct_change_1d": -3.8712
+      },
+      {
+        "ticker": "IOT",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 38.55,
+        "pct_change_1d": 10.1743
+      },
+      {
+        "ticker": "JOBY",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 11.97,
+        "pct_change_1d": 0.5882
+      },
+      {
+        "ticker": "KGC",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 29.14,
+        "pct_change_1d": -3.446
+      },
+      {
+        "ticker": "KLAC",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 1940.04,
+        "pct_change_1d": 0.9538
+      },
+      {
+        "ticker": "KTOS",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 63.49,
+        "pct_change_1d": -0.998
+      },
+      {
+        "ticker": "LAUR",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 33.1,
+        "pct_change_1d": 3.4698
+      },
+      {
+        "ticker": "LDOS",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 127.72,
+        "pct_change_1d": -0.0626
+      },
+      {
+        "ticker": "LEU",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 189.0,
+        "pct_change_1d": 3.5787
+      },
+      {
+        "ticker": "LHX",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 309.59,
+        "pct_change_1d": -1.7736
+      },
+      {
+        "ticker": "LLY",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 1082.2,
+        "pct_change_1d": -2.0633
+      },
+      {
+        "ticker": "LMND",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 58.72,
+        "pct_change_1d": 1.2414
+      },
+      {
+        "ticker": "LMT",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 516.5,
+        "pct_change_1d": -1.9924
+      },
+      {
+        "ticker": "LNG",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 227.88,
+        "pct_change_1d": 1.3431
+      },
+      {
+        "ticker": "LUNR",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 38.21,
+        "pct_change_1d": -12.8223
+      },
+      {
+        "ticker": "MDB",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 403.88,
+        "pct_change_1d": 20.3636
+      },
+      {
+        "ticker": "MELI",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 1730.98,
+        "pct_change_1d": 2.0836
       },
       {
         "ticker": "META",
@@ -72,10 +1007,43 @@
         "score": null,
         "group": "ai",
         "pinned": false,
-        "added_ts": "2026-06-02T04:13:49.574107+00:00",
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
         "is_new": true,
         "last_close": 600.47,
         "pct_change_1d": -5.0655
+      },
+      {
+        "ticker": "MGA",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 65.15,
+        "pct_change_1d": 0.6022
+      },
+      {
+        "ticker": "MP",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 69.29,
+        "pct_change_1d": 7.0943
+      },
+      {
+        "ticker": "MRK",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 115.17,
+        "pct_change_1d": -2.9902
       },
       {
         "ticker": "MRVL",
@@ -83,7 +1051,7 @@
         "score": null,
         "group": "semis",
         "pinned": false,
-        "added_ts": "2026-06-02T04:13:49.574107+00:00",
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
         "is_new": true,
         "last_close": 219.43,
         "pct_change_1d": 7.039
@@ -94,10 +1062,76 @@
         "score": null,
         "group": "ai",
         "pinned": false,
-        "added_ts": "2026-06-02T04:13:49.574107+00:00",
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
         "is_new": true,
         "last_close": 460.52,
         "pct_change_1d": 2.2832
+      },
+      {
+        "ticker": "MU",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 1035.5,
+        "pct_change_1d": 6.6426
+      },
+      {
+        "ticker": "NBIS",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 264.51,
+        "pct_change_1d": 14.4619
+      },
+      {
+        "ticker": "NEM",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 108.19,
+        "pct_change_1d": -1.4753
+      },
+      {
+        "ticker": "NFLX",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 85.85,
+        "pct_change_1d": -0.1976
+      },
+      {
+        "ticker": "NOC",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 539.22,
+        "pct_change_1d": -3.9183
+      },
+      {
+        "ticker": "NOW",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 135.86,
+        "pct_change_1d": 9.2386
       },
       {
         "ticker": "NVDA",
@@ -105,10 +1139,406 @@
         "score": null,
         "group": "semis",
         "pinned": false,
-        "added_ts": "2026-06-02T04:13:49.574107+00:00",
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
         "is_new": true,
         "last_close": 224.36,
         "pct_change_1d": 6.2612
+      },
+      {
+        "ticker": "OKLO",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 66.89,
+        "pct_change_1d": 0.015
+      },
+      {
+        "ticker": "ON",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 120.92,
+        "pct_change_1d": 0.2487
+      },
+      {
+        "ticker": "ONTO",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 255.71,
+        "pct_change_1d": -0.9797
+      },
+      {
+        "ticker": "ORA",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 136.61,
+        "pct_change_1d": -0.4518
+      },
+      {
+        "ticker": "ORCL",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 248.15,
+        "pct_change_1d": 9.9079
+      },
+      {
+        "ticker": "OXY",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 58.92,
+        "pct_change_1d": 4.0438
+      },
+      {
+        "ticker": "PA",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": null,
+        "pct_change_1d": null
+      },
+      {
+        "ticker": "PAAS",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 55.5,
+        "pct_change_1d": -2.6145
+      },
+      {
+        "ticker": "PANW",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 300.48,
+        "pct_change_1d": 6.6705
+      },
+      {
+        "ticker": "PBOG",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 32.575,
+        "pct_change_1d": 2.052
+      },
+      {
+        "ticker": "PFE",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 25.63,
+        "pct_change_1d": -2.1008
+      },
+      {
+        "ticker": "PLAB",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 31.87,
+        "pct_change_1d": -1.4838
+      },
+      {
+        "ticker": "PLTR",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 160.65,
+        "pct_change_1d": 2.6255
+      },
+      {
+        "ticker": "PRCT",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 27.86,
+        "pct_change_1d": 5.8109
+      },
+      {
+        "ticker": "PSN",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 60.66,
+        "pct_change_1d": 2.6396
+      },
+      {
+        "ticker": "PSTG",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 84.45,
+        "pct_change_1d": 6.2131
+      },
+      {
+        "ticker": "RACE",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 349.24,
+        "pct_change_1d": 2.6482
+      },
+      {
+        "ticker": "RBRK",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 85.07,
+        "pct_change_1d": 8.1903
+      },
+      {
+        "ticker": "REGN",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 600.66,
+        "pct_change_1d": -2.2968
+      },
+      {
+        "ticker": "RGTI",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 25.63,
+        "pct_change_1d": 0.3524
+      },
+      {
+        "ticker": "RKLB",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 122.39,
+        "pct_change_1d": -14.6989
+      },
+      {
+        "ticker": "SCHW",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 88.74,
+        "pct_change_1d": 1.5913
+      },
+      {
+        "ticker": "SHOP",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 124.12,
+        "pct_change_1d": 4.5573
+      },
+      {
+        "ticker": "SMR",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 12.89,
+        "pct_change_1d": 1.7364
+      },
+      {
+        "ticker": "SNDK",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 1761.4301,
+        "pct_change_1d": 3.9204
+      },
+      {
+        "ticker": "SNPS",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 492.29,
+        "pct_change_1d": 3.5049
+      },
+      {
+        "ticker": "SOFI",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 18.58,
+        "pct_change_1d": 1.9759
+      },
+      {
+        "ticker": "ST",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 49.29,
+        "pct_change_1d": -0.2025
+      },
+      {
+        "ticker": "STM",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 69.02,
+        "pct_change_1d": -0.4184
+      },
+      {
+        "ticker": "STNE",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 11.69,
+        "pct_change_1d": 2.0961
+      },
+      {
+        "ticker": "TDG",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 1238.41,
+        "pct_change_1d": -1.5823
+      },
+      {
+        "ticker": "TDOC",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 7.91,
+        "pct_change_1d": 3.9422
+      },
+      {
+        "ticker": "TEM",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 52.8,
+        "pct_change_1d": 4.6166
+      },
+      {
+        "ticker": "TMDX",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 67.53,
+        "pct_change_1d": 0.4911
+      },
+      {
+        "ticker": "TMO",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 494.04,
+        "pct_change_1d": 0.3107
+      },
+      {
+        "ticker": "TMUS",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 186.74,
+        "pct_change_1d": -0.4213
       },
       {
         "ticker": "TSLA",
@@ -116,10 +1546,120 @@
         "score": null,
         "group": "consumer_tech",
         "pinned": false,
-        "added_ts": "2026-06-02T04:13:49.574107+00:00",
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
         "is_new": true,
         "last_close": 415.88,
         "pct_change_1d": -4.5687
+      },
+      {
+        "ticker": "TWLO",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 227.54,
+        "pct_change_1d": 19.3559
+      },
+      {
+        "ticker": "UNP",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 263.5,
+        "pct_change_1d": 0.3274
+      },
+      {
+        "ticker": "UUUU",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 17.62,
+        "pct_change_1d": -3.2931
+      },
+      {
+        "ticker": "VRT",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 323.39,
+        "pct_change_1d": 2.4326
+      },
+      {
+        "ticker": "VST",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 154.76,
+        "pct_change_1d": -3.4138
+      },
+      {
+        "ticker": "WM",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 212.51,
+        "pct_change_1d": 0.4965
+      },
+      {
+        "ticker": "WTW",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 257.04,
+        "pct_change_1d": 2.9519
+      },
+      {
+        "ticker": "XP",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 16.6,
+        "pct_change_1d": -0.4199
+      },
+      {
+        "ticker": "ZETA",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 25.22,
+        "pct_change_1d": 10.1791
+      },
+      {
+        "ticker": "ZS",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-02T04:17:31.037543+00:00",
+        "is_new": true,
+        "last_close": 155.71,
+        "pct_change_1d": 11.4363
       }
     ],
     "removed": []
@@ -1045,48 +2585,609 @@
       "semis": 17.1,
       "ai": 18.0,
       "consumer_tech": 16.65,
-      "consumer_staples": 18.0
+      "consumer_staples": 18.0,
+      "uncategorized": 15.3
     },
     "ticker_caps": {
+      "SNDK": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LEU": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "BA": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ATI": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PSTG": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ANET": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "FICO": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ZS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "APTV": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "FANG": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AVAV": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PRCT": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MRK": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GD": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CWEN": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "NEM": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "UNP": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRUS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ST": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "IIPR": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRML": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CLPT": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HASI": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "KLAC": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CMP": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "BX": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MU": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CNQ": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CEG": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "VST": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ORCL": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ACHR": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "REGN": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MDB": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
       "MSFT": {
         "single_name_cap_pct": 8.0,
         "thesis_verdict": "intact"
-      },
-      "META": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "MRVL": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "watch"
-      },
-      "GOOGL": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "AMZN": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "AAPL": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "TSLA": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "watch"
       },
       "AVGO": {
         "single_name_cap_pct": 8.0,
         "thesis_verdict": "intact"
       },
+      "SMR": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "FSLY": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MGA": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LMND": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GOOGL": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "GEV": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TEM": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PANW": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "DVN": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ONTO": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TMDX": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
       "NVDA": {
         "single_name_cap_pct": 8.0,
         "thesis_verdict": "intact"
       },
+      "WTW": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "OKLO": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "SNPS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AAPL": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "BWXT": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ASML": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ATRO": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRWV": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "FOJCF": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "RGTI": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "RKLB": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GRMN": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "BTU": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MRVL": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "watch"
+      },
+      "LUNR": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "INTC": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HROW": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "STNE": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PAAS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PA": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "SCHW": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CTSH": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GOLD": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ARLP": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CVS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MELI": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GE": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "RACE": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AAOI": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "SOFI": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "NBIS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LAUR": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRWD": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "META": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "PBOG": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
       "COST": {
         "single_name_cap_pct": 8.0,
         "thesis_verdict": "intact"
+      },
+      "CRDO": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GCT": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "SHOP": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ENB": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "KGC": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "JOBY": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HII": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LNG": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HON": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ORA": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ON": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LHX": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "IONQ": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ENPH": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "NOC": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MP": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CCJ": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TWLO": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "DHI": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HTHT": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "BIIB": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "IOT": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "IBM": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "VRT": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ARM": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GMAB": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AMZN": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "HCA": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "DRS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PLAB": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LMT": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HCC": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ALAB": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AMD": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LLY": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "DAC": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TMO": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PSN": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "BKV": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRM": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ENRD": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "OXY": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PFE": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ZETA": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "FSLR": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "NFLX": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "XP": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "WM": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ASTS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TDG": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "NOW": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TDOC": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LDOS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TMUS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CELH": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ABNB": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TSLA": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "watch"
+      },
+      "APP": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ADBE": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "KTOS": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "DHR": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "RBRK": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HOOD": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "STM": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "UUUU": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PLTR": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
       }
     }
   },
