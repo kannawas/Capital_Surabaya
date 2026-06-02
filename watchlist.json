@@ -148,7 +148,8 @@
     "LEU",
     "UUUU",
     "MP",
-    "CMP"
+    "CMP",
+    "QCOM"
   ],
   "groups": {
     "NVDA": "semis",
@@ -298,6 +299,7 @@
     "LEU": "uncategorized",
     "UUUU": "uncategorized",
     "MP": "uncategorized",
-    "CMP": "uncategorized"
+    "CMP": "uncategorized",
+    "QCOM": "uncategorized"
   }
 }
