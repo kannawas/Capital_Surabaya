@@ -3173,9 +3173,15 @@
       const data = await res.json();
       if (data.ok) {
         const added = data.added || [];
+        const rejected = data.rejected || [];
         if (added.length) {
-          showToast(`✓ Added & pushed ${added.length}: ${added.join(', ')}. Universe now ${data.total} tickers. Reloading…`, 'ok');
+          let msg = `✓ Added ${added.length}: ${added.join(', ')}. Universe now ${data.total}.`;
+          if (rejected.length) msg += ` ⚠ Skipped ${rejected.length} invalid: ${rejected.join(', ')}.`;
+          msg += ' Reloading…';
+          showToast(msg, 'ok');
           setTimeout(() => loadLiveData(), 2000);
+        } else if (rejected.length) {
+          showToast(`No valid tickers. Skipped ${rejected.length}: ${rejected.join(', ')} (not US-listed / not found on yfinance).`, 'err');
         } else {
           showToast(data.msg || 'No new tickers added.', 'ok');
         }

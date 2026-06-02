@@ -70,8 +70,25 @@ def do_update() -> dict:
     return {"ok": rc_p == 0, "summary": summary, "steps": steps}
 
 
+def _validate_tickers(candidates: list[str]) -> tuple[list[str], list[str]]:
+    """Use yfinance as ground truth: a ticker is valid if it returns price bars.
+    Returns (valid, invalid)."""
+    import yfinance as yf
+    valid, invalid = [], []
+    for t in candidates:
+        try:
+            hist = yf.Ticker(t).history(period="5d")
+            if not hist.empty and len(hist) > 0:
+                valid.append(t)
+            else:
+                invalid.append(t)
+        except Exception:
+            invalid.append(t)
+    return valid, invalid
+
+
 def do_add_tickers(tickers: list[str]) -> dict:
-    """Add tickers to watchlist.json, fetch their prices, and push to repo."""
+    """Validate tickers via yfinance, add valid ones to watchlist.json, push to repo."""
     wl_path = REPO / "watchlist.json"
     try:
         wl = json.loads(wl_path.read_text(encoding="utf-8"))
@@ -80,33 +97,42 @@ def do_add_tickers(tickers: list[str]) -> dict:
 
     existing = {t.upper() for t in wl.get("tickers", [])}
     clean = [t.strip().upper() for t in tickers if t.strip()]
-    added = [t for t in clean if t not in existing]
+    candidates = [t for t in clean if t not in existing]
+
+    if not candidates:
+        return {"ok": True, "added": [], "rejected": [], "msg": "All tickers already in watchlist."}
+
+    # Validate against yfinance (ground truth for tradable US-listed tickers)
+    print(f"[helper] validating {len(candidates)} ticker(s) against yfinance...")
+    added, rejected = _validate_tickers(candidates)
+    print(f"[helper] valid: {len(added)} | rejected: {len(rejected)} {rejected[:20]}")
 
     if not added:
-        return {"ok": True, "added": [], "msg": "All tickers already in watchlist."}
+        return {"ok": True, "added": [], "rejected": rejected,
+                "msg": f"No valid US-listed tickers found. Rejected: {', '.join(rejected)}"}
 
     wl["tickers"] = wl.get("tickers", []) + added
-    # Give new tickers a default group so the UI doesn't show "—" (user can refine later)
     groups = wl.setdefault("groups", {})
     for t in added:
         groups.setdefault(t, "uncategorized")
     wl_path.write_text(json.dumps(wl, indent=2, ensure_ascii=False), encoding="utf-8")
 
-    # Fetch prices for the new full list, then push watchlist.json + prices.json + dashboard
-    rc_f, out_f = _run([sys.executable, "data/prices_local.py"], timeout=180)
+    # Fetch prices for the full list, regenerate dashboard, then push
+    rc_f, out_f = _run([sys.executable, "data/prices_local.py"], timeout=300)
     rc_d, out_d = _run([sys.executable, "routines/export_dashboard.py"], timeout=60)
 
     _run(["git", "add", "watchlist.json", "prices.json", "dashboard.json"])
-    _run(["git", "commit", "-m", f"Add tickers: {', '.join(added)}"])
+    _run(["git", "commit", "-m", f"Add {len(added)} tickers (validated)"])
     _run(["git", "pull", "--rebase", "--autostash", "origin", "main"], timeout=60)
     rc_p, out_p = _run(["git", "push", "origin", "HEAD:main"], timeout=60)
 
     return {
         "ok": rc_p == 0,
         "added": added,
+        "rejected": rejected,
         "total": len(wl["tickers"]),
         "push_ok": rc_p == 0,
-        "out": (out_f[-150:] + "\n" + out_p[-200:]).strip(),
+        "out": (out_f[-120:] + "\n" + out_p[-160:]).strip(),
     }
 
 
