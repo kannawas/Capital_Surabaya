@@ -31,7 +31,20 @@
       "Bash(python check_state.py)",
       "Bash(rm -f data/ledger.db data/ledger.db-wal data/ledger.db-shm)",
       "Bash(python routines/seed_ledger.py 30000)",
-      "Bash(python routines/git_persist.py export)"
+      "Bash(python routines/git_persist.py export)",
+      "Bash(git reset *)",
+      "Bash(echo \"check_state.py\")",
+      "Bash(rtk wc *)",
+      "Bash(gh repo *)",
+      "Bash(rtk curl *)",
+      "Bash(python routines/export_dashboard.py)",
+      "Bash(cp \"C:\\\\Users\\\\kanna\\\\AppData\\\\Local\\\\Temp\\\\capital_surabaya_app.html\" \"C:\\\\Users\\\\kanna\\\\OneDrive - The Siam Cement Public Company Limited\\\\Desktop\\\\Capital Surabaya - Claude Code\\\\index.html\")",
+      "Bash(cp \"C:\\\\Users\\\\kanna\\\\AppData\\\\Local\\\\Temp\\\\CS2.png\" \"C:\\\\Users\\\\kanna\\\\OneDrive - The Siam Cement Public Company Limited\\\\Desktop\\\\Capital Surabaya - Claude Code\\\\CS2.png\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(python data/prices_av.py demo)",
+      "Bash(python data/prices_av.py RDF3LAHJJZ07GVFP)",
+      "Bash(python data/prices_local.py)",
+      "Bash(python helper_server.py)"
     ]
   }
 }

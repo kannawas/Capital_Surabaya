@@ -1605,6 +1605,7 @@
           <div class="pg-title">Watchlist Control</div>
         </div>
         <div class="pg-header-right">
+          <button class="btn btn-primary" id="updatePricesBtn" onclick="updatePrices()">↻ Update Prices</button>
           <button class="btn" onclick="exportTicker()">↓ Export Ticker</button>
           <button class="btn" id="importTickerBtn" onclick="document.getElementById('importFile').click()">↑ Import Ticker</button>
           <input type="file" id="importFile" style="display:none" accept=".txt,text/plain,image/*" onchange="importTicker(event)">
@@ -3435,6 +3436,60 @@
       banner.style.cssText += 'background:var(--warning-bg);color:var(--warning);border:1px solid var(--warning-border);';
       banner.textContent = '○ mock data · dashboard.json not found';
     }
+  }
+
+  // ---- Update Prices button -> local helper (localhost:8770) ----
+  const HELPER_URL = 'http://localhost:8770';
+
+  async function updatePrices() {
+    const btn = document.getElementById('updatePricesBtn');
+    if (!btn) return;
+    const orig = btn.innerHTML;
+    btn.disabled = true;
+    btn.innerHTML = '⏳ Fetching…';
+
+    try {
+      const res = await fetch(HELPER_URL + '/update', { method:'GET' });
+      const data = await res.json();
+      if (data.ok) {
+        const s = data.summary || {};
+        btn.innerHTML = `✓ ${s.ok_tickers}/${s.total} pushed`;
+        showToast(`Prices updated: ${s.ok_tickers}/${s.total} tickers pushed. ` +
+                  `The cloud routine will use them next run. Reloading dashboard…`, 'ok');
+        // Give git a moment, then reload live data
+        setTimeout(() => loadLiveData(), 1500);
+        setTimeout(() => { btn.innerHTML = orig; btn.disabled = false; }, 4000);
+      } else {
+        btn.innerHTML = '✕ Push failed';
+        const detail = (data.steps && data.steps.push && data.steps.push.out) || JSON.stringify(data).slice(0,200);
+        showToast('Update failed: ' + detail, 'err');
+        setTimeout(() => { btn.innerHTML = orig; btn.disabled = false; }, 4000);
+      }
+    } catch (e) {
+      btn.innerHTML = '✕ Helper offline';
+      showToast('Cannot reach local helper. Double-click start_helper.bat on your PC first, then try again.', 'err');
+      setTimeout(() => { btn.innerHTML = orig; btn.disabled = false; }, 5000);
+    }
+  }
+
+  function showToast(msg, kind) {
+    let t = document.getElementById('csToast');
+    if (!t) {
+      t = document.createElement('div');
+      t.id = 'csToast';
+      t.style.cssText = 'position:fixed;bottom:48px;right:14px;z-index:1000;max-width:380px;' +
+        'padding:11px 14px;border-radius:8px;font-size:11px;line-height:1.45;font-family:IBM Plex Sans,sans-serif;' +
+        'box-shadow:0 8px 24px rgba(0,0,0,.4);transition:opacity .3s;';
+      document.body.appendChild(t);
+    }
+    const ok = kind === 'ok';
+    t.style.background = ok ? 'var(--positive-bg)' : 'var(--negative-bg)';
+    t.style.color = ok ? 'var(--positive)' : 'var(--negative)';
+    t.style.border = '1px solid ' + (ok ? 'var(--positive-border)' : 'var(--negative-border)');
+    t.style.opacity = '1';
+    t.textContent = msg;
+    clearTimeout(t._timer);
+    t._timer = setTimeout(() => { t.style.opacity = '0'; }, 7000);
   }
 
   // INIT

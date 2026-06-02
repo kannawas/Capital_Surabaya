@@ -126,28 +126,73 @@ def inject_research_outputs(execution_packet: dict, research_outputs: dict) -> d
 
 OHLCV_RECENT_BARS = 10  # enough for all candlestick patterns + 5-bar trend context
 
+import json as _json
+from pathlib import Path as _Path
+_PRICES_JSON = _Path(__file__).parent.parent / "prices.json"
+
+
+def _load_prices_json() -> dict | None:
+    """
+    Load pre-computed indicators from prices.json (written locally by
+    data/prices_local.py). Used when live yfinance is unavailable — e.g. inside
+    a CCR container that blocks outbound network. Returns None if missing/stale.
+    """
+    if not _PRICES_JSON.exists():
+        return None
+    try:
+        data = _json.loads(_PRICES_JSON.read_text(encoding="utf-8"))
+        return data.get("prices")
+    except Exception:
+        return None
+
 
 def _build_technical(tickers: list[str], cutoff_str: str) -> dict:
-    ohlcv = fetch_ohlcv(tickers, period="60d")
-    tech = {}
-    all_bars = []
-    for ticker in tickers:
-        bars = ohlcv.get(ticker, [])
-        # filter to cutoff (look-ahead gate)
-        bars = [b for b in bars if b["ts"] <= cutoff_str]
-        indicators = compute_technicals(bars)
-        # attach last N bars for candlestick module — strip volume to save tokens
-        indicators["ohlcv_recent"] = [
-            {"ts": b["ts"], "o": b["open"], "h": b["high"], "l": b["low"], "c": b["close"]}
-            for b in bars[-OHLCV_RECENT_BARS:]
-        ]
-        tech[ticker] = indicators
-        all_bars.extend(bars)
+    # Try live yfinance first; if it yields no usable bars (blocked network),
+    # fall back to the committed prices.json snapshot.
+    ohlcv = {}
+    try:
+        ohlcv = fetch_ohlcv(tickers, period="60d")
+    except Exception:
+        ohlcv = {}
 
-    # look-ahead guard on all price bars
-    assert_no_lookahead(all_bars, cutoff_str)
+    live_ok = any(ohlcv.get(t) for t in tickers)
 
-    return {"prices": tech}
+    if live_ok:
+        tech = {}
+        all_bars = []
+        for ticker in tickers:
+            bars = [b for b in ohlcv.get(ticker, []) if b["ts"] <= cutoff_str]
+            indicators = compute_technicals(bars)
+            indicators["ohlcv_recent"] = [
+                {"ts": b["ts"], "o": b["open"], "h": b["high"], "l": b["low"], "c": b["close"]}
+                for b in bars[-OHLCV_RECENT_BARS:]
+            ]
+            indicators["price_source"] = "yfinance_live"
+            tech[ticker] = indicators
+            all_bars.extend(bars)
+        assert_no_lookahead(all_bars, cutoff_str)
+        return {"prices": tech}
+
+    # --- Fallback: prices.json (local-fetched, committed to repo) ---
+    snapshot = _load_prices_json()
+    if snapshot:
+        tech = {}
+        for ticker in tickers:
+            ind = snapshot.get(ticker)
+            if not ind or "error" in ind:
+                tech[ticker] = {"price_source": "missing", "data_quality": "impaired"}
+                continue
+            ind = dict(ind)  # copy
+            ind["price_source"] = "prices_json"
+            # trim recent bars to N for token economy
+            if "ohlcv_recent" in ind and len(ind["ohlcv_recent"]) > OHLCV_RECENT_BARS:
+                ind["ohlcv_recent"] = ind["ohlcv_recent"][-OHLCV_RECENT_BARS:]
+            tech[ticker] = ind
+        return {"prices": tech, "_price_source": "prices_json_fallback"}
+
+    # --- Nothing available ---
+    return {"prices": {t: {"price_source": "none", "data_quality": "impaired"} for t in tickers},
+            "_price_source": "unavailable"}
 
 
 def _build_macro(cutoff_str: str) -> dict:
