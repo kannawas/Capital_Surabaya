@@ -190,11 +190,14 @@
   .wl-universe-grid { display: grid; grid-template-columns: 1.7fr 1fr; gap: 12px; min-width: 0; }
   .au-count { font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:600; color:var(--info);
               background:var(--info-bg); border:1px solid var(--info-border); border-radius:5px; padding:1px 7px; margin-left:6px; }
-  .au-table-head { display:grid; grid-template-columns: 64px 70px minmax(0,1fr) 70px 56px 52px 64px; gap:8px;
+  .au-table-head { display:grid; grid-template-columns: 64px 64px 76px 64px 60px 32px; gap:8px;
                    padding:6px 10px; border-bottom:1px solid var(--border-strong); font-size:8.5px;
                    text-transform:uppercase; letter-spacing:1px; color:var(--text-tertiary); }
   .au-table-head .auh-price, .au-table-head .auh-chg, .au-table-head .auh-score { text-align:right; }
-  .au-row { display:grid; grid-template-columns: 64px 70px minmax(0,1fr) 70px 56px 52px 64px; gap:8px; align-items:center;
+  .auh-sortable { cursor:pointer; user-select:none; }
+  .auh-sortable:hover { color:var(--text-primary); }
+  .au-sort-ind { font-size:9px; margin-left:2px; opacity:.6; }
+  .au-row { display:grid; grid-template-columns: 64px 64px 76px 64px 60px 32px; gap:8px; align-items:center;
             padding:8px 10px; border-bottom:1px solid var(--border); transition:background 120ms; }
   .au-row:hover { background:var(--bg-card-hover); }
   .au-row .au-ticker { font-weight:700; font-size:13px; }
@@ -1741,11 +1744,10 @@
               </div>
             </div>
             <div class="au-table-head">
-              <span class="auh-ticker">Ticker</span>
+              <span class="auh-ticker auh-sortable" onclick="sortUniverse('ticker')">Ticker<span class="au-sort-ind" id="si-ticker"></span></span>
               <span class="auh-src">Source</span>
-              <span class="auh-group">Group</span>
               <span class="auh-price">Last</span>
-              <span class="auh-chg">1D</span>
+              <span class="auh-chg auh-sortable" onclick="sortUniverse('chg')" style="text-align:right;cursor:pointer">1D<span class="au-sort-ind" id="si-chg"></span></span>
               <span class="auh-score">Score</span>
               <span class="auh-act"></span>
             </div>
@@ -3017,8 +3019,9 @@
 
   // ===== ACTIVE UNIVERSE (unified watchlist) =====
   // UNIVERSE/REMOVED are populated from dashboard.json (live) or fall back to mock.
-  let UNIVERSE = [];   // [{ticker, source, group, last_close, pct_change_1d, score, pinned, is_new}]
-  let REMOVED  = [];   // [{ticker, group, cooldown_until, note}]
+  let UNIVERSE = [];   // [{ticker, source, last_close, pct_change_1d, score, is_new}]
+  let REMOVED  = [];   // [{ticker, cooldown_until, note}]
+  let _sortKey = null, _sortDir = 1;  // sort state
 
   function _fmtPrice(v){ return (v===null||v===undefined) ? '—' : Number(v).toFixed(2); }
   function _fmtChg(v){
@@ -3027,30 +3030,80 @@
     return { txt:(n>=0?'+':'')+n.toFixed(2)+'%', cls:(n>0?'up':(n<0?'down':'')) };
   }
 
+  // Build score map from Technical agent output (consensus_score per ticker)
+  function _buildScoreMap() {
+    if (!LIVE || !LIVE.agents || !LIVE.agents.technical_screener) return {};
+    const ts = LIVE.agents.technical_screener;
+    const map = {};
+    ['buy_candidates','sell_or_avoid','watch'].forEach(cat => {
+      (ts[cat] || []).forEach(item => {
+        if (item.ticker && item.consensus_score !== undefined)
+          map[item.ticker] = item.consensus_score;
+      });
+    });
+    return map;
+  }
+
+  function sortUniverse(key) {
+    if (_sortKey === key) { _sortDir *= -1; }
+    else { _sortKey = key; _sortDir = (key === 'chg') ? -1 : 1; }
+    // update sort indicators
+    ['ticker','chg'].forEach(k => {
+      const el = document.getElementById('si-' + k);
+      if (el) el.textContent = (_sortKey === k) ? (_sortDir > 0 ? ' ▲' : ' ▼') : '';
+    });
+    renderUniverse();
+  }
+
+  function _sortedUniverse() {
+    if (!_sortKey) return UNIVERSE;
+    return [...UNIVERSE].sort((a, b) => {
+      if (_sortKey === 'ticker') {
+        return _sortDir * a.ticker.localeCompare(b.ticker);
+      } else if (_sortKey === 'chg') {
+        const av = (a.pct_change_1d === null || a.pct_change_1d === undefined) ? -Infinity : Number(a.pct_change_1d);
+        const bv = (b.pct_change_1d === null || b.pct_change_1d === undefined) ? -Infinity : Number(b.pct_change_1d);
+        return _sortDir * (bv - av);
+      }
+      return 0;
+    });
+  }
+
+  // NEW badge: show only if added within last 24 hours
+  const _24H_MS = 24 * 60 * 60 * 1000;
+  function _isNew(added_ts) {
+    if (!added_ts) return false;
+    try { return (Date.now() - new Date(added_ts).getTime()) < _24H_MS; }
+    catch(e) { return false; }
+  }
+
   function renderUniverse() {
     const body = document.getElementById('universeBody');
     if (!body) return;
     document.getElementById('auCount').textContent = UNIVERSE.length;
+    const scoreMap = _buildScoreMap();
+    const sorted = _sortedUniverse();
 
-    if (!UNIVERSE.length) {
+    if (!sorted.length) {
       body.innerHTML = '<div class="au-empty">No tickers in universe. Add one above or Import.</div>';
     } else {
-      body.innerHTML = UNIVERSE.map((u, i) => {
+      body.innerHTML = sorted.map((u, i) => {
         const chg = _fmtChg(u.pct_change_1d);
-        const score = (u.score===null||u.score===undefined) ? '—' : Number(u.score).toFixed(2);
+        // Score: from Technical agent if available, else from stored score
+        const rawScore = scoreMap[u.ticker] !== undefined ? scoreMap[u.ticker] : u.score;
+        const scoreStr = (rawScore === null || rawScore === undefined) ? '—' : Number(rawScore).toFixed(2);
+        const scoreColor = rawScore >= 0.4 ? 'color:var(--positive)' : rawScore <= -0.4 ? 'color:var(--negative)' : '';
         const newBadge = u.is_new ? '<span class="au-new-badge">new</span>' : '';
-        const pinIcon = u.pinned ? '★' : '☆';
+        const realIdx = UNIVERSE.indexOf(u);  // index in original array for actions
         return `
         <div class="au-row">
           <div class="au-ticker">${u.ticker}${newBadge}</div>
           <div><span class="au-src ${u.source}">${u.source}</span></div>
-          <div class="au-group" title="${u.group||''}">${u.group||'—'}</div>
           <div class="au-price">${_fmtPrice(u.last_close)}</div>
           <div class="au-chg ${chg.cls}">${chg.txt}</div>
-          <div class="au-score">${score}</div>
+          <div class="au-score" style="${scoreColor}">${scoreStr}</div>
           <div class="au-actions">
-            <button class="${u.pinned?'au-pin':''}" title="${u.pinned?'Unpin':'Pin'}" onclick="toggleUniversePin(${i})">${pinIcon}</button>
-            <button title="Remove" onclick="removeUniverse(${i})">✕</button>
+            <button title="Remove" onclick="removeUniverse(${realIdx})">✕</button>
           </div>
         </div>`;
       }).join('');
@@ -3066,30 +3119,26 @@
       return;
     }
     body.innerHTML = REMOVED.map((r, i) => {
-      const cd = r.cooldown_until ? ('cooldown until ' + String(r.cooldown_until).slice(0,10)) : 'removed';
+      const cd = r.cooldown_until ? ('cooldown until ' + String(r.cooldown_until).slice(0,10)) : 'removed by user';
       return `
       <div class="rm-row">
         <div class="rm-ticker">${r.ticker}</div>
-        <div>
-          <div class="au-group">${r.group||'—'}</div>
-          <div class="rm-cooldown">${cd}</div>
-        </div>
+        <div class="rm-cooldown">${cd}</div>
         <button class="rm-restore" onclick="restoreUniverse(${i})">Restore</button>
       </div>`;
     }).join('');
   }
 
-  function toggleUniversePin(i){ UNIVERSE[i].pinned = !UNIVERSE[i].pinned; renderUniverse(); }
+  function toggleUniversePin(i){ /* pin removed */ }
   function removeUniverse(i){
     const u = UNIVERSE[i];
-    if (u.pinned && !confirm(u.ticker + ' is pinned. Remove anyway?')) return;
-    REMOVED.unshift({ticker:u.ticker, group:u.group, cooldown_until:null, note:'removed by user'});
+    REMOVED.unshift({ticker:u.ticker, cooldown_until:null, note:'removed by user'});
     UNIVERSE.splice(i,1);
     renderUniverse(); renderRemoved();
   }
   function restoreUniverse(i){
     const r = REMOVED[i];
-    UNIVERSE.push({ticker:r.ticker, source:'user', group:r.group, last_close:null, pct_change_1d:null, score:null, pinned:false, is_new:true});
+    UNIVERSE.push({ticker:r.ticker, source:'user', last_close:null, pct_change_1d:null, score:null, added_ts:new Date().toISOString(), is_new:true});
     REMOVED.splice(i,1);
     renderUniverse(); renderRemoved();
   }
@@ -3327,17 +3376,16 @@
     UNIVERSE = (wl.active || []).map(r => ({
       ticker: r.ticker,
       source: r.source || 'user',
-      group: r.group || '—',
       last_close: r.last_close,
       pct_change_1d: r.pct_change_1d,
       score: r.score,
-      pinned: !!r.pinned,
-      is_new: !!r.is_new,
+      added_ts: r.added_ts,
+      // NEW badge: true if added within last 24h (uses real timestamp, not just "today")
+      is_new: _isNew(r.added_ts),
     }));
 
     REMOVED = (wl.removed || []).map(r => ({
       ticker: r.ticker,
-      group: r.group || '—',
       cooldown_until: r.cooldown_until,
       note: r.note,
     }));
