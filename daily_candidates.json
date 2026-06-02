@@ -1,238 +1,92 @@
 {
-  "generated_at": "2026-06-02T15:23:58.128573+00:00",
-  "universe_size": 149,
+  "generated_at": "2026-06-02T16:12:25.059699+00:00",
+  "universe_size": 13,
   "mandatory_count": 0,
-  "opportunity_count": 15,
-  "total": 15,
+  "opportunity_count": 13,
+  "total": 13,
   "tickers": [
-    "HROW",
-    "CRML",
     "NVDA",
-    "OKLO",
-    "VRT",
-    "CLPT",
-    "FANG",
-    "LMT",
-    "CVS",
-    "DAC",
-    "TMDX",
-    "UUUU",
     "AAOI",
-    "CEG",
-    "GOLD"
+    "CRDO",
+    "DVN",
+    "MSFT",
+    "RBRK",
+    "FOJCF",
+    "AAPL",
+    "ENPH",
+    "TMO",
+    "AMD",
+    "GEV",
+    "STM"
   ],
   "mandatory": [],
   "opportunity": [
     {
-      "ticker": "HROW",
-      "score": -0.34
-    },
-    {
-      "ticker": "CRML",
-      "score": 0.3
-    },
-    {
       "ticker": "NVDA",
       "score": 0.3
-    },
-    {
-      "ticker": "OKLO",
-      "score": 0.3
-    },
-    {
-      "ticker": "VRT",
-      "score": 0.29
-    },
-    {
-      "ticker": "CLPT",
-      "score": 0.25
-    },
-    {
-      "ticker": "FANG",
-      "score": 0.25
-    },
-    {
-      "ticker": "LMT",
-      "score": -0.25
-    },
-    {
-      "ticker": "CVS",
-      "score": 0.24
-    },
-    {
-      "ticker": "DAC",
-      "score": 0.24
-    },
-    {
-      "ticker": "TMDX",
-      "score": -0.24
-    },
-    {
-      "ticker": "UUUU",
-      "score": 0.24
     },
     {
       "ticker": "AAOI",
       "score": 0.22
     },
     {
-      "ticker": "CEG",
-      "score": -0.21
+      "ticker": "CRDO",
+      "score": 0.16
     },
     {
-      "ticker": "GOLD",
-      "score": -0.21
+      "ticker": "DVN",
+      "score": -0.15
+    },
+    {
+      "ticker": "MSFT",
+      "score": 0.08
+    },
+    {
+      "ticker": "RBRK",
+      "score": -0.06
+    },
+    {
+      "ticker": "FOJCF",
+      "score": -0.05
+    },
+    {
+      "ticker": "AAPL",
+      "score": 0.03
+    },
+    {
+      "ticker": "ENPH",
+      "score": -0.03
+    },
+    {
+      "ticker": "TMO",
+      "score": 0.03
+    },
+    {
+      "ticker": "AMD",
+      "score": 0.03
+    },
+    {
+      "ticker": "GEV",
+      "score": 0.02
+    },
+    {
+      "ticker": "STM",
+      "score": -0.01
     }
   ],
   "all_scores": {
     "AAOI": 0.22,
     "AAPL": 0.03,
-    "ABNB": -0.1,
-    "ACHR": 0.13,
-    "ADBE": 0.03,
-    "ALAB": 0.07,
-    "AMD": 0.03,
-    "AMZN": -0.02,
-    "ANET": -0.01,
-    "APP": 0.08,
-    "APTV": -0.11,
-    "ARLP": 0.02,
-    "ARM": -0.01,
-    "ASML": 0.0,
-    "ASTS": -0.02,
-    "ATI": 0.05,
-    "ATRO": 0.13,
-    "AVAV": -0.02,
-    "AVGO": 0.05,
-    "BA": -0.06,
-    "BIIB": -0.03,
-    "BKV": -0.08,
-    "BTU": -0.05,
-    "BWXT": -0.05,
-    "BX": -0.16,
-    "CCJ": 0.08,
-    "CEG": -0.21,
-    "CELH": -0.15,
-    "CLPT": 0.25,
-    "CMP": 0.05,
-    "CNQ": -0.1,
-    "COST": 0.0,
-    "CRDO": 0.08,
-    "CRM": -0.02,
-    "CRML": 0.3,
-    "CRUS": -0.15,
-    "CRWD": 0.02,
-    "CRWV": 0.13,
-    "CTSH": 0.06,
-    "CVS": 0.24,
-    "CWEN": 0.0,
-    "DAC": 0.24,
-    "DHI": 0.06,
-    "DHR": 0.06,
-    "DRS": 0.08,
+    "CRDO": 0.16,
     "DVN": -0.15,
-    "ENB": 0.11,
     "ENPH": -0.03,
-    "FANG": 0.25,
-    "FICO": 0.06,
     "FOJCF": -0.05,
-    "FSLR": -0.01,
-    "FSLY": -0.15,
-    "GCT": -0.18,
-    "GD": -0.13,
-    "GE": 0.08,
     "GEV": 0.02,
-    "GMAB": -0.05,
-    "GOLD": -0.21,
-    "GOOGL": 0.05,
-    "GRMN": -0.2,
-    "HASI": 0.2,
-    "HCA": 0.01,
-    "HCC": 0.05,
-    "HII": 0.01,
-    "HON": 0.03,
-    "HOOD": 0.13,
-    "HROW": -0.34,
-    "HTHT": 0.02,
-    "IBM": -0.01,
-    "IIPR": 0.11,
-    "INTC": -0.08,
-    "IONQ": 0.13,
-    "IOT": -0.06,
-    "JOBY": 0.08,
-    "KGC": -0.16,
-    "KLAC": -0.05,
-    "KTOS": 0.03,
-    "LAUR": 0.1,
-    "LDOS": -0.13,
-    "LEU": 0.2,
-    "LHX": -0.2,
-    "LLY": 0.11,
-    "LMND": 0.03,
-    "LMT": -0.25,
-    "LNG": -0.16,
-    "LUNR": 0.18,
-    "MDB": 0.0,
-    "MELI": 0.11,
-    "META": -0.2,
-    "MGA": 0.05,
-    "MP": 0.18,
-    "MRK": 0.11,
-    "MRVL": 0.04,
-    "MSFT": 0.08,
-    "MU": 0.05,
-    "NBIS": -0.01,
-    "NEM": -0.16,
-    "NFLX": 0.0,
-    "NOC": -0.05,
-    "NOW": 0.0,
-    "NVDA": 0.3,
-    "OKLO": 0.3,
-    "ON": 0.0,
-    "ONTO": 0.2,
-    "ORA": 0.08,
-    "ORCL": -0.06,
-    "OXY": 0.21,
-    "PAAS": -0.11,
-    "PANW": 0.02,
-    "PBOG": -0.1,
-    "PFE": -0.08,
-    "PLAB": 0.0,
-    "PLTR": 0.03,
-    "PRCT": -0.11,
-    "PSN": -0.02,
-    "PSTG": 0.15,
-    "QCOM": 0.03,
-    "RACE": 0.1,
     "RBRK": -0.06,
-    "REGN": -0.07,
-    "RGTI": 0.08,
-    "RKLB": 0.15,
-    "SCHW": -0.13,
-    "SHOP": -0.02,
-    "SMR": -0.05,
-    "SNDK": 0.08,
-    "SNPS": -0.11,
-    "SOFI": -0.1,
-    "ST": -0.01,
     "STM": -0.01,
-    "STNE": 0.06,
-    "TDG": -0.02,
-    "TDOC": 0.08,
-    "TEM": 0.11,
-    "TMDX": -0.24,
     "TMO": 0.03,
-    "TMUS": -0.13,
-    "TSLA": 0.15,
-    "TWLO": 0.0,
-    "UNP": -0.1,
-    "UUUU": 0.24,
-    "VRT": 0.29,
-    "VST": 0.01,
-    "WM": -0.08,
-    "WTW": -0.2,
-    "XP": -0.08,
-    "ZETA": -0.06,
-    "ZS": -0.2
+    "NVDA": 0.3,
+    "MSFT": 0.08,
+    "AMD": 0.03
   }
 }

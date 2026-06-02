@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T15:20:45.807142+00:00",
+  "generated_at": "2026-06-02T16:12:27.285762+00:00",
   "latest_run_ts": "2026-06-01T11:02:47Z",
   "portfolio": {
     "nav": 30000.0,
@@ -17,10 +17,10 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T15:20:29.174504+00:00",
+        "added_ts": "2026-06-02T15:31:43.040570+00:00",
         "is_new": true,
-        "last_close": 198.03,
-        "pct_change_1d": 6.657
+        "last_close": 199.16,
+        "pct_change_1d": 7.2656
       },
       {
         "ticker": "AAPL",
@@ -28,54 +28,10 @@
         "score": null,
         "group": "consumer_tech",
         "pinned": false,
-        "added_ts": "2026-06-02T15:20:29.174504+00:00",
+        "added_ts": "2026-06-02T15:31:43.040570+00:00",
         "is_new": true,
-        "last_close": 312.2702,
-        "pct_change_1d": 1.9458
-      },
-      {
-        "ticker": "ABNB",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 134.55,
-        "pct_change_1d": -2.4081
-      },
-      {
-        "ticker": "ACHR",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 6.83,
-        "pct_change_1d": -0.1462
-      },
-      {
-        "ticker": "ADBE",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 260.48,
-        "pct_change_1d": -4.9447
-      },
-      {
-        "ticker": "ALAB",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 348.43,
-        "pct_change_1d": 8.8538
+        "last_close": 312.71,
+        "pct_change_1d": 2.0894
       },
       {
         "ticker": "AMD",
@@ -83,285 +39,10 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T15:20:29.174504+00:00",
+        "added_ts": "2026-06-02T15:31:43.040570+00:00",
         "is_new": true,
-        "last_close": 510.35,
-        "pct_change_1d": 0.0431
-      },
-      {
-        "ticker": "AMZN",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 260.8,
-        "pct_change_1d": -0.1761
-      },
-      {
-        "ticker": "ANET",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 176.46,
-        "pct_change_1d": 3.3865
-      },
-      {
-        "ticker": "APP",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 599.755,
-        "pct_change_1d": -2.2723
-      },
-      {
-        "ticker": "APTV",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 73.05,
-        "pct_change_1d": 6.4869
-      },
-      {
-        "ticker": "ARLP",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 25.4,
-        "pct_change_1d": 0.3556
-      },
-      {
-        "ticker": "ARM",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 415.0516,
-        "pct_change_1d": 1.5168
-      },
-      {
-        "ticker": "ASML",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 1699.7454,
-        "pct_change_1d": 4.3704
-      },
-      {
-        "ticker": "ASTS",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 115.9,
-        "pct_change_1d": 9.7018
-      },
-      {
-        "ticker": "ATI",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 181.85,
-        "pct_change_1d": 1.6035
-      },
-      {
-        "ticker": "ATRO",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 87.365,
-        "pct_change_1d": 2.6616
-      },
-      {
-        "ticker": "AVAV",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 200.04,
-        "pct_change_1d": -1.9844
-      },
-      {
-        "ticker": "AVGO",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 480.45,
-        "pct_change_1d": 4.4525
-      },
-      {
-        "ticker": "BA",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 220.36,
-        "pct_change_1d": -1.7566
-      },
-      {
-        "ticker": "BIIB",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 187.205,
-        "pct_change_1d": -2.6141
-      },
-      {
-        "ticker": "BKV",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 26.69,
-        "pct_change_1d": 0.4895
-      },
-      {
-        "ticker": "BTU",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 29.72,
-        "pct_change_1d": 2.2712
-      },
-      {
-        "ticker": "BWXT",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 185.83,
-        "pct_change_1d": -1.3589
-      },
-      {
-        "ticker": "BX",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 117.6611,
-        "pct_change_1d": 0.6166
-      },
-      {
-        "ticker": "CCJ",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 120.775,
-        "pct_change_1d": 7.2697
-      },
-      {
-        "ticker": "CEG",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 271.525,
-        "pct_change_1d": 2.1923
-      },
-      {
-        "ticker": "CELH",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 30.375,
-        "pct_change_1d": -1.6354
-      },
-      {
-        "ticker": "CLPT",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 12.2,
-        "pct_change_1d": -3.481
-      },
-      {
-        "ticker": "CMP",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 33.78,
-        "pct_change_1d": 0.8057
-      },
-      {
-        "ticker": "CNQ",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 46.285,
-        "pct_change_1d": 0.7071
-      },
-      {
-        "ticker": "COST",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 944.82,
-        "pct_change_1d": -0.1363
+        "last_close": 512.745,
+        "pct_change_1d": 0.5126
       },
       {
         "ticker": "CRDO",
@@ -369,142 +50,10 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T15:20:29.174504+00:00",
+        "added_ts": "2026-06-02T15:31:43.040570+00:00",
         "is_new": true,
-        "last_close": 221.45,
-        "pct_change_1d": -2.0566
-      },
-      {
-        "ticker": "CRM",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 196.34,
-        "pct_change_1d": -6.3263
-      },
-      {
-        "ticker": "CRML",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 12.375,
-        "pct_change_1d": 1.6845
-      },
-      {
-        "ticker": "CRUS",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 167.85,
-        "pct_change_1d": 0.0715
-      },
-      {
-        "ticker": "CRWD",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 749.95,
-        "pct_change_1d": -4.1193
-      },
-      {
-        "ticker": "CRWV",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 123.86,
-        "pct_change_1d": -0.7691
-      },
-      {
-        "ticker": "CTSH",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 53.6,
-        "pct_change_1d": -6.2281
-      },
-      {
-        "ticker": "CVS",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 90.68,
-        "pct_change_1d": 0.0662
-      },
-      {
-        "ticker": "CWEN",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 41.225,
-        "pct_change_1d": 2.1685
-      },
-      {
-        "ticker": "DAC",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 129.38,
-        "pct_change_1d": 0.6222
-      },
-      {
-        "ticker": "DHI",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 147.37,
-        "pct_change_1d": 0.2653
-      },
-      {
-        "ticker": "DHR",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 177.09,
-        "pct_change_1d": -1.5456
-      },
-      {
-        "ticker": "DRS",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 47.64,
-        "pct_change_1d": -0.6672
+        "last_close": 218.225,
+        "pct_change_1d": -3.483
       },
       {
         "ticker": "DVN",
@@ -512,21 +61,10 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T15:20:29.174504+00:00",
+        "added_ts": "2026-06-02T15:31:43.040570+00:00",
         "is_new": true,
-        "last_close": 46.215,
-        "pct_change_1d": -0.2051
-      },
-      {
-        "ticker": "ENB",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 55.75,
-        "pct_change_1d": 1.4928
+        "last_close": 46.255,
+        "pct_change_1d": -0.1188
       },
       {
         "ticker": "ENPH",
@@ -534,98 +72,21 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T15:20:29.174504+00:00",
+        "added_ts": "2026-06-02T15:31:43.040570+00:00",
         "is_new": true,
-        "last_close": 66.4,
-        "pct_change_1d": 4.1732
-      },
-      {
-        "ticker": "FANG",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 200.31,
-        "pct_change_1d": 0.6431
-      },
-      {
-        "ticker": "FICO",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 1229.99,
-        "pct_change_1d": -4.2623
+        "last_close": 66.585,
+        "pct_change_1d": 4.4634
       },
       {
         "ticker": "FOJCF",
         "source": "user",
         "score": null,
-        "group": "uncategorized",
+        "group": "—",
         "pinned": false,
-        "added_ts": "2026-06-02T15:20:29.174504+00:00",
+        "added_ts": "2026-06-02T15:31:43.040570+00:00",
         "is_new": true,
         "last_close": 23.55,
         "pct_change_1d": 0.0
-      },
-      {
-        "ticker": "FSLR",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 306.62,
-        "pct_change_1d": 1.1947
-      },
-      {
-        "ticker": "FSLY",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 18.76,
-        "pct_change_1d": -1.6771
-      },
-      {
-        "ticker": "GCT",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 34.665,
-        "pct_change_1d": -2.0209
-      },
-      {
-        "ticker": "GD",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 337.54,
-        "pct_change_1d": -0.4894
-      },
-      {
-        "ticker": "GE",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 321.47,
-        "pct_change_1d": -0.9643
       },
       {
         "ticker": "GEV",
@@ -633,417 +94,10 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T15:20:29.174504+00:00",
+        "added_ts": "2026-06-02T15:31:43.040570+00:00",
         "is_new": true,
-        "last_close": 972.425,
-        "pct_change_1d": 2.3024
-      },
-      {
-        "ticker": "GMAB",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 24.09,
-        "pct_change_1d": -5.3438
-      },
-      {
-        "ticker": "GOLD",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 40.15,
-        "pct_change_1d": 1.4401
-      },
-      {
-        "ticker": "GOOGL",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 370.16,
-        "pct_change_1d": -1.65
-      },
-      {
-        "ticker": "GRMN",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 238.045,
-        "pct_change_1d": 0.5258
-      },
-      {
-        "ticker": "HASI",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 40.9,
-        "pct_change_1d": 1.7413
-      },
-      {
-        "ticker": "HCA",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 367.78,
-        "pct_change_1d": -0.8572
-      },
-      {
-        "ticker": "HCC",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 109.57,
-        "pct_change_1d": 3.1247
-      },
-      {
-        "ticker": "HII",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 294.47,
-        "pct_change_1d": -0.6545
-      },
-      {
-        "ticker": "HON",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 232.47,
-        "pct_change_1d": -1.7206
-      },
-      {
-        "ticker": "HOOD",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 87.131,
-        "pct_change_1d": -3.9667
-      },
-      {
-        "ticker": "HROW",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 33.21,
-        "pct_change_1d": -2.6385
-      },
-      {
-        "ticker": "HTHT",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 44.505,
-        "pct_change_1d": 0.3043
-      },
-      {
-        "ticker": "IBM",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 324.235,
-        "pct_change_1d": 1.1906
-      },
-      {
-        "ticker": "IIPR",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 58.005,
-        "pct_change_1d": 1.195
-      },
-      {
-        "ticker": "INTC",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 108.36,
-        "pct_change_1d": -0.8872
-      },
-      {
-        "ticker": "IONQ",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 70.33,
-        "pct_change_1d": 1.5156
-      },
-      {
-        "ticker": "IOT",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 37.075,
-        "pct_change_1d": -3.8262
-      },
-      {
-        "ticker": "JOBY",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 11.9301,
-        "pct_change_1d": -0.3333
-      },
-      {
-        "ticker": "KGC",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 29.25,
-        "pct_change_1d": 0.3775
-      },
-      {
-        "ticker": "KLAC",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 2024.37,
-        "pct_change_1d": 4.3468
-      },
-      {
-        "ticker": "KTOS",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 62.46,
-        "pct_change_1d": -1.6223
-      },
-      {
-        "ticker": "LAUR",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 33.09,
-        "pct_change_1d": -0.0302
-      },
-      {
-        "ticker": "LDOS",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 124.26,
-        "pct_change_1d": -2.7091
-      },
-      {
-        "ticker": "LEU",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 201.4,
-        "pct_change_1d": 6.5608
-      },
-      {
-        "ticker": "LHX",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 309.495,
-        "pct_change_1d": -0.0307
-      },
-      {
-        "ticker": "LLY",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 1072.405,
-        "pct_change_1d": -0.9051
-      },
-      {
-        "ticker": "LMND",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 58.565,
-        "pct_change_1d": -0.264
-      },
-      {
-        "ticker": "LMT",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 514.065,
-        "pct_change_1d": -0.4714
-      },
-      {
-        "ticker": "LNG",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 235.985,
-        "pct_change_1d": 3.5567
-      },
-      {
-        "ticker": "LUNR",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 40.8,
-        "pct_change_1d": 6.7783
-      },
-      {
-        "ticker": "MDB",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 395.32,
-        "pct_change_1d": -2.1194
-      },
-      {
-        "ticker": "MELI",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 1690.85,
-        "pct_change_1d": -2.3183
-      },
-      {
-        "ticker": "META",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 607.93,
-        "pct_change_1d": 1.2424
-      },
-      {
-        "ticker": "MGA",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 68.53,
-        "pct_change_1d": 5.188
-      },
-      {
-        "ticker": "MP",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 72.13,
-        "pct_change_1d": 4.0987
-      },
-      {
-        "ticker": "MRK",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 115.96,
-        "pct_change_1d": 0.6859
-      },
-      {
-        "ticker": "MRVL",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 279.47,
-        "pct_change_1d": 27.3618
+        "last_close": 963.69,
+        "pct_change_1d": 1.3834
       },
       {
         "ticker": "MSFT",
@@ -1051,76 +105,10 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T15:20:29.174504+00:00",
+        "added_ts": "2026-06-02T15:31:43.040570+00:00",
         "is_new": true,
-        "last_close": 443.39,
-        "pct_change_1d": -3.7197
-      },
-      {
-        "ticker": "MU",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 1041.59,
-        "pct_change_1d": 0.5881
-      },
-      {
-        "ticker": "NBIS",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 265.81,
-        "pct_change_1d": 0.4915
-      },
-      {
-        "ticker": "NEM",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 108.96,
-        "pct_change_1d": 0.7117
-      },
-      {
-        "ticker": "NFLX",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 83.9464,
-        "pct_change_1d": -2.2174
-      },
-      {
-        "ticker": "NOC",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 535.86,
-        "pct_change_1d": -0.6231
-      },
-      {
-        "ticker": "NOW",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 125.92,
-        "pct_change_1d": -7.3164
+        "last_close": 443.56,
+        "pct_change_1d": -3.6828
       },
       {
         "ticker": "NVDA",
@@ -1128,197 +116,10 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T15:20:29.174504+00:00",
+        "added_ts": "2026-06-02T15:31:43.040570+00:00",
         "is_new": true,
-        "last_close": 226.73,
-        "pct_change_1d": 1.0563
-      },
-      {
-        "ticker": "OKLO",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 72.6595,
-        "pct_change_1d": 8.6254
-      },
-      {
-        "ticker": "ON",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 129.92,
-        "pct_change_1d": 7.4429
-      },
-      {
-        "ticker": "ONTO",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 275.96,
-        "pct_change_1d": 7.9191
-      },
-      {
-        "ticker": "ORA",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 143.2,
-        "pct_change_1d": 4.824
-      },
-      {
-        "ticker": "ORCL",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 240.84,
-        "pct_change_1d": -2.9458
-      },
-      {
-        "ticker": "OXY",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 58.8699,
-        "pct_change_1d": -0.085
-      },
-      {
-        "ticker": "PAAS",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 55.22,
-        "pct_change_1d": -0.5045
-      },
-      {
-        "ticker": "PANW",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 292.26,
-        "pct_change_1d": -2.7356
-      },
-      {
-        "ticker": "PBOG",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 32.8121,
-        "pct_change_1d": 0.7279
-      },
-      {
-        "ticker": "PFE",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 25.46,
-        "pct_change_1d": -0.6633
-      },
-      {
-        "ticker": "PLAB",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 33.45,
-        "pct_change_1d": 4.9576
-      },
-      {
-        "ticker": "PLTR",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 150.7955,
-        "pct_change_1d": -6.1341
-      },
-      {
-        "ticker": "PRCT",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 26.67,
-        "pct_change_1d": -4.2714
-      },
-      {
-        "ticker": "PSN",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 59.125,
-        "pct_change_1d": -2.5305
-      },
-      {
-        "ticker": "PSTG",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 84.45,
-        "pct_change_1d": 6.2131
-      },
-      {
-        "ticker": "QCOM",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 240.56,
-        "pct_change_1d": 5.0526
-      },
-      {
-        "ticker": "RACE",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 354.615,
-        "pct_change_1d": 1.5391
+        "last_close": 226.115,
+        "pct_change_1d": 0.7822
       },
       {
         "ticker": "RBRK",
@@ -1326,120 +127,10 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T15:20:29.174504+00:00",
+        "added_ts": "2026-06-02T15:31:43.040570+00:00",
         "is_new": true,
-        "last_close": 82.21,
-        "pct_change_1d": -3.3619
-      },
-      {
-        "ticker": "REGN",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 597.515,
-        "pct_change_1d": -0.5236
-      },
-      {
-        "ticker": "RGTI",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 25.955,
-        "pct_change_1d": 1.268
-      },
-      {
-        "ticker": "RKLB",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 125.4,
-        "pct_change_1d": 2.4594
-      },
-      {
-        "ticker": "SCHW",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 86.53,
-        "pct_change_1d": -2.4904
-      },
-      {
-        "ticker": "SHOP",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 117.33,
-        "pct_change_1d": -5.4705
-      },
-      {
-        "ticker": "SMR",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 14.04,
-        "pct_change_1d": 8.9216
-      },
-      {
-        "ticker": "SNDK",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 1730.9399,
-        "pct_change_1d": -1.731
-      },
-      {
-        "ticker": "SNPS",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 495.53,
-        "pct_change_1d": 0.6581
-      },
-      {
-        "ticker": "SOFI",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 18.045,
-        "pct_change_1d": -2.8794
-      },
-      {
-        "ticker": "ST",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 53.15,
-        "pct_change_1d": 7.8312
+        "last_close": 81.97,
+        "pct_change_1d": -3.6441
       },
       {
         "ticker": "STM",
@@ -1447,65 +138,10 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T15:20:29.174504+00:00",
+        "added_ts": "2026-06-02T15:31:43.040570+00:00",
         "is_new": true,
         "last_close": 79.55,
         "pct_change_1d": 15.2564
-      },
-      {
-        "ticker": "STNE",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 11.305,
-        "pct_change_1d": -3.2934
-      },
-      {
-        "ticker": "TDG",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 1247.52,
-        "pct_change_1d": 0.7356
-      },
-      {
-        "ticker": "TDOC",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 7.62,
-        "pct_change_1d": -3.6662
-      },
-      {
-        "ticker": "TEM",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 50.3959,
-        "pct_change_1d": -4.5532
-      },
-      {
-        "ticker": "TMDX",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 69.315,
-        "pct_change_1d": 2.6433
       },
       {
         "ticker": "TMO",
@@ -1513,142 +149,10 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T15:20:29.174504+00:00",
+        "added_ts": "2026-06-02T15:31:43.040570+00:00",
         "is_new": true,
-        "last_close": 485.034,
-        "pct_change_1d": -1.8229
-      },
-      {
-        "ticker": "TMUS",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 185.81,
-        "pct_change_1d": -0.498
-      },
-      {
-        "ticker": "TSLA",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 421.815,
-        "pct_change_1d": 1.4271
-      },
-      {
-        "ticker": "TWLO",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 224.13,
-        "pct_change_1d": -1.4986
-      },
-      {
-        "ticker": "UNP",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 264.455,
-        "pct_change_1d": 0.3624
-      },
-      {
-        "ticker": "UUUU",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 19.58,
-        "pct_change_1d": 11.1237
-      },
-      {
-        "ticker": "VRT",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 339.19,
-        "pct_change_1d": 4.8857
-      },
-      {
-        "ticker": "VST",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 159.53,
-        "pct_change_1d": 3.0822
-      },
-      {
-        "ticker": "WM",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 210.7,
-        "pct_change_1d": -0.8517
-      },
-      {
-        "ticker": "WTW",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 253.6,
-        "pct_change_1d": -1.3383
-      },
-      {
-        "ticker": "XP",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 16.39,
-        "pct_change_1d": -1.2651
-      },
-      {
-        "ticker": "ZETA",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 24.67,
-        "pct_change_1d": -2.1808
-      },
-      {
-        "ticker": "ZS",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T07:49:44.645098+00:00",
-        "is_new": true,
-        "last_close": 140.79,
-        "pct_change_1d": -9.5819
+        "last_close": 483.1,
+        "pct_change_1d": -2.2144
       }
     ],
     "removed": []
@@ -2571,15 +1075,35 @@
     "event_lock": false,
     "news_addon_pct": 8.0,
     "group_caps": {
-      "uncategorized": 15.75,
+      "uncategorized": 15.79,
       "consumer_tech": 18.0
     },
     "ticker_caps": {
-      "META": {
+      "COST": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "AMD": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AVGO": {
         "single_name_cap_pct": 8.0,
         "thesis_verdict": "intact"
       },
       "NVDA": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "AMZN": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "DVN": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MSFT": {
         "single_name_cap_pct": 8.0,
         "thesis_verdict": "intact"
       },
@@ -2591,39 +1115,19 @@
         "single_name_cap_pct": 8.0,
         "thesis_verdict": "intact"
       },
-      "MRVL": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "watch"
-      },
-      "MSFT": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "CRDO": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
       "RBRK": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
-      "STM": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "AMZN": {
+      "META": {
         "single_name_cap_pct": 8.0,
         "thesis_verdict": "intact"
       },
-      "FOJCF": {
+      "MRVL": {
         "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
+        "thesis_verdict": "watch"
       },
-      "DVN": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "AMD": {
+      "AAOI": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
@@ -2631,29 +1135,25 @@
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
       },
+      "AAPL": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "STM": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRDO": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
       "TSLA": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "watch"
       },
-      "AVGO": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "AAOI": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
       "GEV": {
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "not_reviewed"
-      },
-      "COST": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "AAPL": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
       }
     }
   },
