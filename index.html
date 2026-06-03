@@ -3172,11 +3172,39 @@
       showToast('Cannot reach local helper. Open start_helper.bat first, then try again.', 'err');
     }
   }
-  function restoreUniverse(i){
+  async function restoreUniverse(i){
     const r = REMOVED[i];
-    UNIVERSE.push({ticker:r.ticker, source:'user', last_close:null, pct_change_1d:null, score:null, added_ts:new Date().toISOString(), is_new:true});
-    REMOVED.splice(i,1);
+    const ticker = r.ticker;
+
+    // Optimistic UI
+    UNIVERSE.push({ticker, source:'user', last_close:null, pct_change_1d:null, score:null, added_ts:new Date().toISOString(), is_new:true});
+    REMOVED.splice(i, 1);
     renderUniverse(); renderRemoved();
+
+    try {
+      const res = await fetch(HELPER_URL + '/restore-ticker', {
+        method:'POST', headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({ticker})
+      });
+      const data = await res.json();
+      if (data.ok) {
+        showToast(`${ticker} restored. Universe now ${data.total} tickers. Reloading…`, 'ok');
+        setTimeout(() => loadLiveData(), 1500);
+      } else {
+        // Rollback
+        const idx = UNIVERSE.findIndex(u => u.ticker === ticker);
+        if (idx > -1) UNIVERSE.splice(idx, 1);
+        REMOVED.splice(i, 0, r);
+        renderUniverse(); renderRemoved();
+        showToast('Restore failed: ' + (data.error || 'unknown') + '. Is the helper running?', 'err');
+      }
+    } catch(e) {
+      const idx = UNIVERSE.findIndex(u => u.ticker === ticker);
+      if (idx > -1) UNIVERSE.splice(idx, 1);
+      REMOVED.splice(i, 0, r);
+      renderUniverse(); renderRemoved();
+      showToast('Cannot reach local helper. Open start_helper.bat first, then try again.', 'err');
+    }
   }
 
   // Legacy no-op shims (old INIT calls these) — superseded by renderUniverse

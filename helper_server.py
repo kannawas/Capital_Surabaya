@@ -144,6 +144,33 @@ def do_add_tickers(tickers: list[str]) -> dict:
     }
 
 
+def do_restore_ticker(ticker: str) -> dict:
+    """Add a previously-removed ticker back to watchlist.json and push. Fast (~2-3s)."""
+    ticker = ticker.strip().upper()
+    wl_path = REPO / "watchlist.json"
+    try:
+        wl = json.loads(wl_path.read_text(encoding="utf-8"))
+    except Exception as e:
+        return {"ok": False, "error": f"cannot read watchlist.json: {e}"}
+
+    if ticker in wl.get("tickers", []):
+        return {"ok": True, "restored": ticker, "msg": f"{ticker} already in watchlist."}
+
+    wl["tickers"] = wl.get("tickers", []) + [ticker]
+    wl.setdefault("groups", {})[ticker] = "uncategorized"
+    wl_path.write_text(json.dumps(wl, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    _run([sys.executable, "data/prefilter.py"], timeout=15)
+    _run([sys.executable, "routines/export_dashboard.py"], timeout=30)
+
+    _run(["git", "add", "watchlist.json", "daily_candidates.json", "dashboard.json"])
+    _run(["git", "commit", "-m", f"Restore ticker: {ticker}"])
+    _run(["git", "pull", "--rebase", "--autostash", "origin", "main"], timeout=60)
+    rc_p, out_p = _run(["git", "push", "origin", "HEAD:main"], timeout=60)
+
+    return {"ok": rc_p == 0, "restored": ticker, "total": len(wl["tickers"])}
+
+
 def do_remove_ticker(ticker: str) -> dict:
     """Remove a ticker from watchlist.json and push. Fast (~2-3s): no price fetch needed."""
     ticker = ticker.strip().upper()
@@ -188,7 +215,18 @@ class Handler(BaseHTTPRequestHandler):
         self._send(204, {})
 
     def do_POST(self):
-        if self.path.startswith("/remove-ticker"):
+        if self.path.startswith("/restore-ticker"):
+            try:
+                length = int(self.headers.get("Content-Length", 0))
+                payload = json.loads(self.rfile.read(length).decode("utf-8")) if length else {}
+                ticker = payload.get("ticker", "")
+            except Exception as e:
+                self._send(400, {"ok": False, "error": f"bad request: {e}"}); return
+            print(f"[helper] /restore-ticker: {ticker}")
+            result = do_restore_ticker(ticker)
+            print(f"[helper] restore done: {result}")
+            self._send(200 if result.get("ok") else 500, result)
+        elif self.path.startswith("/remove-ticker"):
             try:
                 length = int(self.headers.get("Content-Length", 0))
                 payload = json.loads(self.rfile.read(length).decode("utf-8")) if length else {}
