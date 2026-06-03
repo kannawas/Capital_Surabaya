@@ -3429,6 +3429,111 @@
     });
   }
 
+  // ---- Bind Dashboard (page 01) ----
+  function bindDashboard() {
+    if (!LIVE) return;
+    const pf = LIVE.portfolio || {};
+    const D = document;
+
+    // helper: safe querySelector within #page-cio
+    const q = sel => D.querySelector('#page-cio ' + sel);
+    const fUSD = (n, dp=0) => n != null ? '$' + Number(n).toLocaleString('en-US',{minimumFractionDigits:dp,maximumFractionDigits:dp}) : '—';
+    const fPct = n => n != null ? Number(n).toFixed(2)+'%' : '—';
+
+    // 1. NAV + cash/equity
+    const navEl = q('.cap-main');
+    if (navEl) navEl.textContent = fUSD(pf.nav);
+
+    // Hide dummy return delta (no TWR yet)
+    const deltaEl = q('.cap-delta');
+    if (deltaEl) { deltaEl.textContent = ''; deltaEl.className = 'cap-delta'; }
+
+    // Replace start-meta with real cash/equity/run date
+    const startEl = q('.start-meta');
+    if (startEl && LIVE.first_run_ts) {
+      const d = LIVE.first_run_ts.slice(0,10);
+      const startCash = LIVE.start_cash ? fUSD(LIVE.start_cash) : fUSD(pf.nav);
+      startEl.textContent = `start ${startCash} · ${d} · equity ${fUSD(pf.equity)} · cash ${fUSD(pf.cash)}`;
+    }
+
+    // Hide auditor verdict (no data yet)
+    const avEl = q('.auditor-verdict');
+    if (avEl) avEl.style.display = 'none';
+
+    // 2. Positions — bindPositions() handles this already
+
+    // 3. Market Mood from macro agent
+    const macro = (LIVE.agents || {}).macro_intelligence || {};
+    const regime = macro.regime || null;
+    const regimeLabel = {risk_on:'Risk-On', neutral:'Neutral', risk_off:'Risk-Off'}[regime] || (regime||'—');
+    const regimeCls = {risk_on:'positive', neutral:'', risk_off:'warning'}[regime] || '';
+
+    const moodPhaseEl = q('.mood-phase');
+    const moodSubEl = q('.mood-sub');
+    if (moodPhaseEl) { moodPhaseEl.textContent = regimeLabel; moodPhaseEl.className = 'mood-phase ' + regimeCls; }
+    if (moodSubEl) moodSubEl.textContent = macro.event_lock ? 'event lock active' : (regime === 'risk_on' ? 'risk appetite intact' : regime === 'risk_off' ? 'tilting defensive' : 'balanced');
+
+    const moodMetaEl = q('.mood-meta');
+    if (moodMetaEl && regime) {
+      const vix = macro.vix ? Number(macro.vix.value).toFixed(1) : '—';
+      const yld = macro.yield_10y ? Number(macro.yield_10y.value).toFixed(2)+'%' : '—';
+      const dxy = macro.dxy ? Number(macro.dxy.value).toFixed(1) : '—';
+      const lock = macro.event_lock ? '<span class="warn">YES</span>' : 'No';
+      moodMetaEl.innerHTML = `
+        <div><div class="mm-l">Regime</div><div class="mm-v ${regimeCls}">${regimeLabel}</div></div>
+        <div><div class="mm-l">VIX</div><div class="mm-v">${vix}</div></div>
+        <div><div class="mm-l">10Y Yield</div><div class="mm-v">${yld}</div></div>
+        <div><div class="mm-l">DXY</div><div class="mm-v">${dxy}</div></div>
+        <div><div class="mm-l">Event Lock</div><div class="mm-v">${lock}</div></div>`;
+    }
+
+    // 4. Header stats
+    const hsVals = D.querySelectorAll('#page-cio .pg-header-right .hdr-stat');
+    if (hsVals.length >= 3) {
+      // Thailand Date (ICT = UTC+7)
+      const now = new Date();
+      const thDate = now.toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'Asia/Bangkok'});
+      const thHsv = hsVals[0].querySelector('.hs-value');
+      if (thHsv) thHsv.textContent = thDate + ' ICT';
+
+      // US Session close date
+      if (LIVE.latest_run_ts) {
+        const runD = new Date(LIVE.latest_run_ts);
+        const usClose = runD.toLocaleDateString('en-GB',{day:'numeric',month:'short'});
+        const usHsv = hsVals[1].querySelector('.hs-value');
+        if (usHsv) usHsv.textContent = usClose + ' close';
+      }
+
+      // Running Day
+      const dayHsv = hsVals[2].querySelector('.hs-value');
+      if (dayHsv && LIVE.first_run_ts) {
+        const days = Math.max(1, Math.floor((Date.now() - new Date(LIVE.first_run_ts)) / 86400000));
+        dayHsv.textContent = days;
+      }
+    }
+
+    // 5. Execution Monitor
+    const orders = LIVE.orders || [];
+    const filled = orders.filter(o => o.status === 'filled').length;
+    const missed = orders.filter(o => o.status === 'missed').length;
+    const sharesFilled = orders.filter(o => o.status === 'filled').reduce((s,o) => s + (o.shares||0), 0);
+    const execMiniEl = q('.exec-mini');
+    if (execMiniEl) {
+      execMiniEl.innerHTML = `
+        <div class="exec-stat"><div class="es-val ${filled>0?'ok':''}">${filled}</div><div class="es-lbl">filled</div></div>
+        <div class="exec-stat"><div class="es-val ${missed>0?'warn':''}">${missed}</div><div class="es-lbl">missed</div></div>
+        <div class="exec-stat"><div class="es-val">${sharesFilled}</div><div class="es-lbl">shares filled</div></div>
+        <div class="exec-stat"><div class="es-val">0</div><div class="es-lbl">reject</div></div>`;
+    }
+
+    // Live badge on Dashboard title
+    const pgTitle = q('.pg-title');
+    if (pgTitle && !pgTitle.dataset.tagged) {
+      pgTitle.insertAdjacentHTML('beforeend', liveBadge());
+      pgTitle.dataset.tagged = '1';
+    }
+  }
+
   // ---- Bind Active Universe (page 00) from live watchlist detail ----
   function bindWatchlist() {
     if (!LIVE || !LIVE.watchlist) return;
@@ -3534,6 +3639,7 @@
 
       bindWatchlist();
       bindPositions();
+      bindDashboard();
       bindScreener();
       bindMacro();
       bindNews();

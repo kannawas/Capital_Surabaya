@@ -66,10 +66,14 @@ def build_dashboard() -> dict:
     equity = sum(p["shares"] * p["last_price"] for p in positions)
     nav = round(cash + equity, 2)
 
-    # --- latest run ---
+    # --- runs ---
     runs = select("runs", order_by="run_id DESC")
     latest_run = runs[0] if runs else None
     latest_run_ts = latest_run["run_ts"] if latest_run else None
+    first_runs = select("runs", order_by="run_id ASC", limit=1)
+    first_run_ts = first_runs[0]["run_ts"] if first_runs else None
+    start_cash = round(scalar_sum("cash_ledger", "delta",
+                                  where={"reason": "injection"}), 2)
 
     # --- agent outputs (latest run only) ---
     all_outputs = select("agent_outputs", order_by="id DESC")
@@ -121,6 +125,8 @@ def build_dashboard() -> dict:
             "positions": pos_breakdown,
             "position_count": len(positions),
         },
+        "first_run_ts": first_run_ts,
+        "start_cash": start_cash,
         "watchlist": wl,
         "agents": agents,
         "verdicts": [{"ticker": v["ticker"], "verdict": v["verdict"]} for v in verdicts],
