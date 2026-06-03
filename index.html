@@ -190,14 +190,16 @@
   .wl-universe-grid { display: grid; grid-template-columns: 1.7fr 1fr; gap: 12px; min-width: 0; }
   .au-count { font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:600; color:var(--info);
               background:var(--info-bg); border:1px solid var(--info-border); border-radius:5px; padding:1px 7px; margin-left:6px; }
-  .au-table-head { display:grid; grid-template-columns: 64px 64px 76px 64px 60px 32px; gap:8px;
+  .au-table-head { display:grid; grid-template-columns: 64px 64px 68px 76px 72px 60px 32px; gap:8px;
                    padding:6px 10px; border-bottom:1px solid var(--border-strong); font-size:8.5px;
                    text-transform:uppercase; letter-spacing:1px; color:var(--text-tertiary); }
   .au-table-head .auh-price, .au-table-head .auh-chg, .au-table-head .auh-score { text-align:right; }
+  .auh-added { font-size:8.5px; }
+  .au-date { font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--text-tertiary); }
   .auh-sortable { cursor:pointer; user-select:none; }
   .auh-sortable:hover { color:var(--text-primary); }
   .au-sort-ind { font-size:9px; margin-left:2px; opacity:.6; }
-  .au-row { display:grid; grid-template-columns: 64px 64px 76px 64px 60px 32px; gap:8px; align-items:center;
+  .au-row { display:grid; grid-template-columns: 64px 64px 68px 76px 72px 60px 32px; gap:8px; align-items:center;
             padding:8px 10px; border-bottom:1px solid var(--border); transition:background 120ms; }
   .au-row:hover { background:var(--bg-card-hover); }
   .au-row .au-ticker { font-weight:700; font-size:13px; }
@@ -1737,17 +1739,16 @@
                 <div class="panel-sub">The exact ticker set sent to the agents · user + agent-nominated, unified</div>
               </div>
               <div class="add-row add-inline">
-                <input id="newTicker" placeholder="TICKER" maxlength="10" style="text-transform:uppercase">
-                <input id="newCompany" placeholder="Company / group">
-                <input id="newNotes" placeholder="Notes">
+                <input id="newTicker" placeholder="TICKER" maxlength="10" style="text-transform:uppercase;width:100px">
                 <button class="btn btn-primary btn-sm" onclick="addTicker()">+ Add</button>
               </div>
             </div>
             <div class="au-table-head">
               <span class="auh-ticker auh-sortable" onclick="sortUniverse('ticker')">Ticker<span class="au-sort-ind" id="si-ticker"></span></span>
               <span class="auh-src">Source</span>
+              <span class="auh-added">Date Added</span>
               <span class="auh-price">Last</span>
-              <span class="auh-chg auh-sortable" onclick="sortUniverse('chg')" style="text-align:right;cursor:pointer">1D<span class="au-sort-ind" id="si-chg"></span></span>
+              <span class="auh-chg auh-sortable" onclick="sortUniverse('chg')" style="text-align:right;cursor:pointer">%chg (1D)<span class="au-sort-ind" id="si-chg"></span></span>
               <span class="auh-score">Score</span>
               <span class="auh-act"></span>
             </div>
@@ -3095,10 +3096,17 @@
         const scoreColor = rawScore >= 0.4 ? 'color:var(--positive)' : rawScore <= -0.4 ? 'color:var(--negative)' : '';
         const newBadge = u.is_new ? '<span class="au-new-badge">new</span>' : '';
         const realIdx = UNIVERSE.indexOf(u);  // index in original array for actions
+        const dateAdded = u.added_ts ? (()=>{
+          try {
+            const d = new Date(u.added_ts);
+            return d.toLocaleDateString('en-GB',{day:'2-digit',month:'short'});
+          } catch(e){ return '—'; }
+        })() : '—';
         return `
         <div class="au-row">
           <div class="au-ticker">${u.ticker}${newBadge}</div>
           <div><span class="au-src ${u.source}">${u.source}</span></div>
+          <div class="au-date">${dateAdded}</div>
           <div class="au-price">${_fmtPrice(u.last_close)}</div>
           <div class="au-chg ${chg.cls}">${chg.txt}</div>
           <div class="au-score" style="${scoreColor}">${scoreStr}</div>
