@@ -1,37 +1,36 @@
 {
-  "generated_at": "2026-06-02T16:12:25.059699+00:00",
+  "generated_at": "2026-06-03T01:32:59.465402+00:00",
   "universe_size": 13,
-  "mandatory_count": 0,
-  "opportunity_count": 13,
+  "mandatory_count": 2,
+  "opportunity_count": 11,
   "total": 13,
   "tickers": [
-    "NVDA",
     "AAOI",
+    "STM",
+    "NVDA",
     "CRDO",
     "DVN",
     "MSFT",
-    "RBRK",
-    "FOJCF",
-    "AAPL",
-    "ENPH",
-    "TMO",
     "AMD",
-    "GEV",
+    "CCJ",
+    "ENPH",
+    "RBRK",
+    "TMO",
+    "AAPL",
+    "GEV"
+  ],
+  "mandatory": [
+    "AAOI",
     "STM"
   ],
-  "mandatory": [],
   "opportunity": [
     {
       "ticker": "NVDA",
-      "score": 0.3
-    },
-    {
-      "ticker": "AAOI",
-      "score": 0.22
+      "score": 0.25
     },
     {
       "ticker": "CRDO",
-      "score": 0.16
+      "score": 0.23
     },
     {
       "ticker": "DVN",
@@ -42,51 +41,47 @@
       "score": 0.08
     },
     {
-      "ticker": "RBRK",
-      "score": -0.06
+      "ticker": "AMD",
+      "score": 0.08
     },
     {
-      "ticker": "FOJCF",
-      "score": -0.05
-    },
-    {
-      "ticker": "AAPL",
-      "score": 0.03
+      "ticker": "CCJ",
+      "score": 0.08
     },
     {
       "ticker": "ENPH",
-      "score": -0.03
+      "score": 0.07
+    },
+    {
+      "ticker": "RBRK",
+      "score": -0.06
     },
     {
       "ticker": "TMO",
       "score": 0.03
     },
     {
-      "ticker": "AMD",
-      "score": 0.03
+      "ticker": "AAPL",
+      "score": 0.02
     },
     {
       "ticker": "GEV",
       "score": 0.02
-    },
-    {
-      "ticker": "STM",
-      "score": -0.01
     }
   ],
   "all_scores": {
     "AAOI": 0.22,
-    "AAPL": 0.03,
-    "CRDO": 0.16,
+    "AAPL": 0.02,
+    "CRDO": 0.23,
     "DVN": -0.15,
-    "ENPH": -0.03,
-    "FOJCF": -0.05,
+    "ENPH": 0.07,
     "GEV": 0.02,
     "RBRK": -0.06,
-    "STM": -0.01,
+    "STM": 0.04,
     "TMO": 0.03,
-    "NVDA": 0.3,
+    "NVDA": 0.25,
     "MSFT": 0.08,
-    "AMD": 0.03
+    "AMD": 0.08,
+    "CCJ": 0.08
   }
 }

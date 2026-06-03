@@ -30,21 +30,33 @@ echo "Storage: SQLite (data/ledger.db) — will git-push results at end"
 
 **Network note:** This container blocks outbound to Supabase and yfinance, but allows WebSearch/WebFetch and git. Use SQLite mode; gather live prices/news via WebSearch in the agent steps.
 
-## Step 1 — Fetch market data
+## Step 1 — Load daily candidates and build packets
+
+Daily candidates are pre-filtered locally (mandatory holdings + top opportunity by score).
+This keeps CCR token usage bounded regardless of universe size.
 
 ```bash
 python3 -c "
-from data.watchlist import sync_from_file, get_active, get_groups
-from data.prices import fetch_ohlcv, compute_technicals
-from data.macro import fetch_macro
-from data.news import fetch_news
 from data.packets import build_packet
 import json, os
 
 cutoff = os.environ['CUTOFF_TS']
-sync_from_file()
-tickers = get_active()
-print('Tickers:', tickers)
+
+# Read pre-filtered candidates (committed by local helper before CCR runs)
+# Falls back to full watchlist if file not found
+try:
+    cands = json.load(open('daily_candidates.json'))
+    tickers = cands['tickers']
+    print('Using daily_candidates.json:', len(tickers), 'tickers')
+    print('  Mandatory (holdings):', cands.get('mandatory', []))
+    print('  Opportunity:', [x['ticker'] for x in cands.get('opportunity', [])])
+except Exception:
+    from data.watchlist import sync_from_file, get_active
+    sync_from_file()
+    tickers = get_active()
+    print('Fallback to watchlist:', tickers)
+
+print('Tickers for this run:', tickers)
 
 packets = {
     'technical_screener': build_packet('technical_screener', cutoff, tickers),

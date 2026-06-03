@@ -40,11 +40,20 @@ def sync_from_file(path: Path | None = None) -> list[str]:
 
     init_schema()
     _ensure_columns()
+
+    # Get existing tickers so we don't overwrite their original added_ts
+    existing = {r["ticker"] for r in select("watchlist")}
+
     for ticker in tickers:
-        # Only set source=user on first insert; don't clobber an agent row's source
-        upsert("watchlist",
-               {"ticker": ticker, "active": 1, "added_ts": ts, "source": "user"},
-               conflict_col="ticker")
+        if ticker in existing:
+            # Existing ticker: only refresh active status (preserve original added_ts)
+            from ledger.storage import update
+            update("watchlist", {"active": 1}, where={"ticker": ticker})
+        else:
+            # New ticker: record when it was first added
+            upsert("watchlist",
+                   {"ticker": ticker, "active": 1, "added_ts": ts, "source": "user"},
+                   conflict_col="ticker")
     return tickers
 
 

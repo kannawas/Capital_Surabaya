@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T21:14:48.363676+00:00",
+  "generated_at": "2026-06-03T01:40:50.234299+00:00",
   "latest_run_ts": "2026-06-02T21:02:21Z",
   "portfolio": {
     "nav": 30018.35,
@@ -36,10 +36,10 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T13:42:28.491571+00:00",
+        "added_ts": "2026-06-03T01:40:45.227177+00:00",
         "is_new": true,
-        "last_close": 199.16,
-        "pct_change_1d": 7.2656
+        "last_close": 202.37,
+        "pct_change_1d": 8.9945
       },
       {
         "ticker": "AAPL",
@@ -47,10 +47,32 @@
         "score": null,
         "group": "consumer_tech",
         "pinned": false,
-        "added_ts": "2026-06-02T13:42:28.491571+00:00",
+        "added_ts": "2026-06-03T01:40:45.227177+00:00",
         "is_new": true,
-        "last_close": 312.71,
-        "pct_change_1d": 2.0894
+        "last_close": 315.2,
+        "pct_change_1d": 2.9023
+      },
+      {
+        "ticker": "AMD",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-03T01:40:45.227177+00:00",
+        "is_new": true,
+        "last_close": 521.54,
+        "pct_change_1d": 2.2367
+      },
+      {
+        "ticker": "CCJ",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-03T01:40:45.227177+00:00",
+        "is_new": true,
+        "last_close": 120.51,
+        "pct_change_1d": 7.0344
       },
       {
         "ticker": "CRDO",
@@ -58,10 +80,10 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T13:42:28.491571+00:00",
+        "added_ts": "2026-06-03T01:40:45.227177+00:00",
         "is_new": true,
-        "last_close": 218.225,
-        "pct_change_1d": -3.483
+        "last_close": 229.0,
+        "pct_change_1d": 1.2826
       },
       {
         "ticker": "DVN",
@@ -69,10 +91,10 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T13:42:28.491571+00:00",
+        "added_ts": "2026-06-03T01:40:45.227177+00:00",
         "is_new": true,
-        "last_close": 46.255,
-        "pct_change_1d": -0.1188
+        "last_close": 46.22,
+        "pct_change_1d": -0.1943
       },
       {
         "ticker": "ENPH",
@@ -80,21 +102,10 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T13:42:28.491571+00:00",
+        "added_ts": "2026-06-03T01:40:45.227177+00:00",
         "is_new": true,
-        "last_close": 66.585,
-        "pct_change_1d": 4.4634
-      },
-      {
-        "ticker": "FOJCF",
-        "source": "user",
-        "score": null,
-        "group": "—",
-        "pinned": false,
-        "added_ts": "2026-06-02T13:42:28.491571+00:00",
-        "is_new": true,
-        "last_close": 23.55,
-        "pct_change_1d": 0.0
+        "last_close": 72.33,
+        "pct_change_1d": 13.4766
       },
       {
         "ticker": "GEV",
@@ -102,10 +113,32 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T13:42:28.491571+00:00",
+        "added_ts": "2026-06-03T01:40:45.227177+00:00",
         "is_new": true,
-        "last_close": 963.69,
-        "pct_change_1d": 1.3834
+        "last_close": 969.67,
+        "pct_change_1d": 2.0125
+      },
+      {
+        "ticker": "MSFT",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-03T01:40:45.227177+00:00",
+        "is_new": true,
+        "last_close": 441.31,
+        "pct_change_1d": -4.1714
+      },
+      {
+        "ticker": "NVDA",
+        "source": "user",
+        "score": null,
+        "group": "uncategorized",
+        "pinned": false,
+        "added_ts": "2026-06-03T01:40:45.227177+00:00",
+        "is_new": true,
+        "last_close": 222.82,
+        "pct_change_1d": -0.6864
       },
       {
         "ticker": "RBRK",
@@ -113,10 +146,10 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T13:42:28.491571+00:00",
+        "added_ts": "2026-06-03T01:40:45.227177+00:00",
         "is_new": true,
-        "last_close": 81.97,
-        "pct_change_1d": -3.6441
+        "last_close": 82.33,
+        "pct_change_1d": -3.2209
       },
       {
         "ticker": "STM",
@@ -124,10 +157,10 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T13:42:28.491571+00:00",
+        "added_ts": "2026-06-03T01:40:45.227177+00:00",
         "is_new": true,
-        "last_close": 79.55,
-        "pct_change_1d": 15.2564
+        "last_close": 79.51,
+        "pct_change_1d": 15.1985
       },
       {
         "ticker": "TMO",
@@ -135,10 +168,10 @@
         "score": null,
         "group": "uncategorized",
         "pinned": false,
-        "added_ts": "2026-06-02T13:42:28.491571+00:00",
+        "added_ts": "2026-06-03T01:40:45.227177+00:00",
         "is_new": true,
-        "last_close": 483.1,
-        "pct_change_1d": -2.2144
+        "last_close": 482.08,
+        "pct_change_1d": -2.4209
       }
     ],
     "removed": []
@@ -1353,39 +1386,11 @@
     "event_lock": false,
     "news_addon_pct": 10.0,
     "group_caps": {
-      "uncategorized": 16.85,
+      "uncategorized": 16.73,
       "consumer_tech": 18.0
     },
     "ticker_caps": {
-      "TMO": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "watch"
-      },
-      "RBRK": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "watch"
-      },
-      "AMZN": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "NVDA": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
       "AMD": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "GEV": {
-        "single_name_cap_pct": 6.48,
-        "thesis_verdict": "weakening"
-      },
-      "AAPL": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "CRDO": {
         "single_name_cap_pct": 8.0,
         "thesis_verdict": "intact"
       },
@@ -1393,31 +1398,7 @@
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "watch"
       },
-      "FOJCF": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "watch"
-      },
-      "AAOI": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "watch"
-      },
-      "META": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "ENPH": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "GOOGL": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "TSLA": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "watch"
-      },
-      "MSFT": {
+      "AMZN": {
         "single_name_cap_pct": 8.0,
         "thesis_verdict": "intact"
       },
@@ -1425,7 +1406,39 @@
         "single_name_cap_pct": 5.78,
         "thesis_verdict": "watch"
       },
+      "RBRK": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "watch"
+      },
+      "MSFT": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "CCJ": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TMO": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "watch"
+      },
       "COST": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "AAPL": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "GEV": {
+        "single_name_cap_pct": 6.48,
+        "thesis_verdict": "weakening"
+      },
+      "STM": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "META": {
         "single_name_cap_pct": 8.0,
         "thesis_verdict": "intact"
       },
@@ -1433,7 +1446,31 @@
         "single_name_cap_pct": 8.0,
         "thesis_verdict": "intact"
       },
-      "STM": {
+      "ENPH": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "AAOI": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "watch"
+      },
+      "CRDO": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "TSLA": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "watch"
+      },
+      "NVDA": {
+        "single_name_cap_pct": 8.0,
+        "thesis_verdict": "intact"
+      },
+      "FOJCF": {
+        "single_name_cap_pct": 5.78,
+        "thesis_verdict": "watch"
+      },
+      "GOOGL": {
         "single_name_cap_pct": 8.0,
         "thesis_verdict": "intact"
       }

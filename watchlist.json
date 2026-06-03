@@ -12,7 +12,8 @@
     "TMO",
     "NVDA",
     "MSFT",
-    "AMD"
+    "AMD",
+    "CCJ"
   ],
   "groups": {
     "AAOI": "uncategorized",
@@ -26,6 +27,7 @@
     "TMO": "uncategorized",
     "NVDA": "uncategorized",
     "MSFT": "uncategorized",
-    "AMD": "uncategorized"
+    "AMD": "uncategorized",
+    "CCJ": "uncategorized"
   }
 }
