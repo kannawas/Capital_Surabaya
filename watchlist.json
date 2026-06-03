@@ -149,7 +149,9 @@
     "LEU",
     "UUUU",
     "MP",
-    "CMP"
+    "CMP",
+    "MA",
+    "P"
   ],
   "groups": {
     "AAOI": "uncategorized",
@@ -300,6 +302,8 @@
     "LEU": "uncategorized",
     "UUUU": "uncategorized",
     "MP": "uncategorized",
-    "CMP": "uncategorized"
+    "CMP": "uncategorized",
+    "MA": "uncategorized",
+    "P": "uncategorized"
   }
 }
