@@ -3218,9 +3218,7 @@
     if (!t) { document.getElementById('newTicker').focus(); return; }
     if (UNIVERSE.some(u => u.ticker === t)) { showToast(t + ' already in universe', 'err'); return; }
     document.getElementById('newTicker').value = '';
-    document.getElementById('newCompany').value = '';
-    document.getElementById('newNotes').value = '';
-    persistTickers([t], 'manual add');  // helper writes watchlist.json + pushes
+    persistTickers([t], 'manual add');
   }
 
   // Legacy handlers (superseded by Active Universe handlers above) — kept as shims
