@@ -3327,8 +3327,7 @@
     }
   }
 
-  // Enter key adds ticker
-  document.getElementById('newNotes').addEventListener('keydown', e => { if (e.key === 'Enter') addTicker(); });
+  // Enter key adds ticker (newNotes removed from form)
   document.getElementById('newTicker').addEventListener('keydown', e => { if (e.key === 'Enter') addTicker(); });
 
   // ===== POSITIONS (DASHBOARD) =====
