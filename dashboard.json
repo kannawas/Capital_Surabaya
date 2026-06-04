@@ -1,13 +1,23 @@
 {
-  "generated_at": "2026-06-03T21:12:19.005626+00:00",
-  "latest_run_ts": "2026-06-03T21:02:16Z",
+  "generated_at": "2026-06-04T21:20:25.142522+00:00",
+  "latest_run_ts": "2026-06-04T21:06:47Z",
   "portfolio": {
     "nav": 30000.0,
-    "cash": 30000.0,
-    "equity": 0,
-    "cash_pct": 100.0,
-    "positions": [],
-    "position_count": 0
+    "cash": 29595.06,
+    "equity": 404.94,
+    "cash_pct": 98.65,
+    "positions": [
+      {
+        "ticker": "AAOI",
+        "shares": 2,
+        "avg_cost": 202.4712,
+        "last_price": 202.4712,
+        "value": 404.94,
+        "weight_pct": 1.35,
+        "unrealized_pnl": -0.0
+      }
+    ],
+    "position_count": 1
   },
   "first_run_ts": "2026-06-01T11:02:47Z",
   "start_cash": 30000.0,
@@ -42,7 +52,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 134.35,
         "pct_change_1d": -2.5531
       },
@@ -53,7 +63,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 6.74,
         "pct_change_1d": -1.462
       },
@@ -64,7 +74,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 262.11,
         "pct_change_1d": -4.3499
       },
@@ -75,7 +85,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 355.76,
         "pct_change_1d": 11.1437
       },
@@ -97,7 +107,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 256.52,
         "pct_change_1d": -1.8143
       },
@@ -108,7 +118,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 175.33,
         "pct_change_1d": 2.7244
       },
@@ -119,7 +129,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 605.63,
         "pct_change_1d": -1.315
       },
@@ -130,7 +140,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 73.85,
         "pct_change_1d": 7.6531
       },
@@ -141,7 +151,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 25.5,
         "pct_change_1d": 0.7507
       },
@@ -152,7 +162,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 402.71,
         "pct_change_1d": -1.5018
       },
@@ -163,7 +173,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 1705.37,
         "pct_change_1d": 4.7158
       },
@@ -174,7 +184,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 118.17,
         "pct_change_1d": 11.8504
       },
@@ -185,7 +195,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 178.48,
         "pct_change_1d": -0.2794
       },
@@ -196,7 +206,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 85.61,
         "pct_change_1d": 0.5993
       },
@@ -207,7 +217,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 204.35,
         "pct_change_1d": 0.1274
       },
@@ -218,7 +228,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 481.57,
         "pct_change_1d": 4.696
       },
@@ -229,7 +239,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 217.7,
         "pct_change_1d": -2.9425
       },
@@ -240,7 +250,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 188.83,
         "pct_change_1d": -1.7687
       },
@@ -251,7 +261,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 26.75,
         "pct_change_1d": 0.7154
       },
@@ -262,7 +272,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 29.62,
         "pct_change_1d": 1.927
       },
@@ -273,7 +283,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 187.26,
         "pct_change_1d": -0.5998
       },
@@ -284,7 +294,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 114.91,
         "pct_change_1d": -1.7359
       },
@@ -295,7 +305,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 120.51,
         "pct_change_1d": 7.0344
       },
@@ -306,7 +316,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 272.65,
         "pct_change_1d": 2.6157
       },
@@ -317,7 +327,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 30.54,
         "pct_change_1d": -1.101
       },
@@ -328,7 +338,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 12.37,
         "pct_change_1d": -2.1361
       },
@@ -339,7 +349,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 33.32,
         "pct_change_1d": -0.567
       },
@@ -350,7 +360,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 47.21,
         "pct_change_1d": 2.7198
       },
@@ -361,7 +371,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 954.27,
         "pct_change_1d": 0.8625
       },
@@ -383,7 +393,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 200.84,
         "pct_change_1d": -4.1794
       },
@@ -394,7 +404,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 12.01,
         "pct_change_1d": -1.3147
       },
@@ -405,7 +415,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 170.62,
         "pct_change_1d": 1.723
       },
@@ -416,7 +426,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 768.95,
         "pct_change_1d": -1.6902
       },
@@ -427,7 +437,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 119.27,
         "pct_change_1d": -4.4464
       },
@@ -438,7 +448,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 55.14,
         "pct_change_1d": -3.5339
       },
@@ -449,7 +459,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 89.5,
         "pct_change_1d": -1.2359
       },
@@ -460,7 +470,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 41.26,
         "pct_change_1d": 2.2553
       },
@@ -471,7 +481,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 128.8,
         "pct_change_1d": 0.1711
       },
@@ -482,7 +492,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 147.91,
         "pct_change_1d": 0.6327
       },
@@ -493,7 +503,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 176.11,
         "pct_change_1d": -2.0904
       },
@@ -504,7 +514,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 47.39,
         "pct_change_1d": -1.1885
       },
@@ -526,7 +536,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 56.32,
         "pct_change_1d": 2.5305
       },
@@ -548,7 +558,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 202.4,
         "pct_change_1d": 1.6932
       },
@@ -559,7 +569,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 1251.63,
         "pct_change_1d": -2.5779
       },
@@ -581,7 +591,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 311.01,
         "pct_change_1d": 2.6436
       },
@@ -592,7 +602,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 20.77,
         "pct_change_1d": 8.8574
       },
@@ -603,7 +613,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 34.49,
         "pct_change_1d": -2.5155
       },
@@ -614,7 +624,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 337.61,
         "pct_change_1d": -0.4687
       },
@@ -625,7 +635,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 317.72,
         "pct_change_1d": -2.1195
       },
@@ -647,7 +657,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 23.85,
         "pct_change_1d": -6.2868
       },
@@ -658,7 +668,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 40.02,
         "pct_change_1d": 1.1117
       },
@@ -669,7 +679,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 361.85,
         "pct_change_1d": -3.8579
       },
@@ -680,7 +690,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 241.03,
         "pct_change_1d": 1.7863
       },
@@ -691,7 +701,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 40.65,
         "pct_change_1d": 1.1194
       },
@@ -702,7 +712,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 367.35,
         "pct_change_1d": -0.9732
       },
@@ -713,7 +723,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 110.28,
         "pct_change_1d": 3.7929
       },
@@ -724,7 +734,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 293.66,
         "pct_change_1d": -0.9278
       },
@@ -735,7 +745,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 235.23,
         "pct_change_1d": -0.5538
       },
@@ -746,7 +756,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 88.16,
         "pct_change_1d": -2.8326
       },
@@ -757,7 +767,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 32.86,
         "pct_change_1d": -3.6646
       },
@@ -768,7 +778,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 44.33,
         "pct_change_1d": -0.0902
       },
@@ -779,7 +789,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 329.23,
         "pct_change_1d": 2.7495
       },
@@ -790,7 +800,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 57.95,
         "pct_change_1d": 1.0991
       },
@@ -801,7 +811,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 107.93,
         "pct_change_1d": -1.2805
       },
@@ -812,7 +822,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 71.4,
         "pct_change_1d": 3.06
       },
@@ -823,7 +833,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 37.36,
         "pct_change_1d": -3.0869
       },
@@ -834,7 +844,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 11.87,
         "pct_change_1d": -0.8354
       },
@@ -845,7 +855,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 28.99,
         "pct_change_1d": -0.5148
       },
@@ -856,7 +866,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 2045.2,
         "pct_change_1d": 5.4205
       },
@@ -867,7 +877,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 63.27,
         "pct_change_1d": -0.3465
       },
@@ -878,7 +888,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 33.04,
         "pct_change_1d": -0.1813
       },
@@ -889,7 +899,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 126.82,
         "pct_change_1d": -0.7047
       },
@@ -900,7 +910,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 199.13,
         "pct_change_1d": 5.3598
       },
@@ -911,7 +921,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 308.12,
         "pct_change_1d": -0.4748
       },
@@ -922,7 +932,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 1064.15,
         "pct_change_1d": -1.6679
       },
@@ -933,7 +943,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 58.06,
         "pct_change_1d": -1.124
       },
@@ -944,7 +954,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 513.43,
         "pct_change_1d": -0.5944
       },
@@ -955,7 +965,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 236.01,
         "pct_change_1d": 3.5677
       },
@@ -966,7 +976,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 39.57,
         "pct_change_1d": 3.5593
       },
@@ -977,7 +987,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 477.68,
         "pct_change_1d": -3.5477
       },
@@ -988,7 +998,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 398.46,
         "pct_change_1d": -1.342
       },
@@ -999,7 +1009,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 1672.83,
         "pct_change_1d": -3.3594
       },
@@ -1010,7 +1020,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 597.63,
         "pct_change_1d": -0.473
       },
@@ -1021,7 +1031,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 68.11,
         "pct_change_1d": 4.5434
       },
@@ -1032,7 +1042,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 72.24,
         "pct_change_1d": 4.2575
       },
@@ -1043,7 +1053,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 115.65,
         "pct_change_1d": 0.4168
       },
@@ -1054,7 +1064,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 290.79,
         "pct_change_1d": 32.5206
       },
@@ -1076,7 +1086,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 1064.1,
         "pct_change_1d": 2.762
       },
@@ -1087,7 +1097,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 260.58,
         "pct_change_1d": -1.4858
       },
@@ -1098,7 +1108,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 109.5,
         "pct_change_1d": 1.2108
       },
@@ -1109,7 +1119,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 83.33,
         "pct_change_1d": -2.9354
       },
@@ -1120,7 +1130,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 536.59,
         "pct_change_1d": -0.4877
       },
@@ -1131,7 +1141,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 127.65,
         "pct_change_1d": -6.043
       },
@@ -1153,7 +1163,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 73.47,
         "pct_change_1d": 9.837
       },
@@ -1164,7 +1174,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 128.64,
         "pct_change_1d": 6.3844
       },
@@ -1175,7 +1185,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 278.02,
         "pct_change_1d": 8.7247
       },
@@ -1186,7 +1196,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 144.48,
         "pct_change_1d": 5.7609
       },
@@ -1197,7 +1207,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 244.58,
         "pct_change_1d": -1.4386
       },
@@ -1208,7 +1218,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 59.09,
         "pct_change_1d": 0.2885
       },
@@ -1219,7 +1229,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 82.98,
         "pct_change_1d": -1.7407
       },
@@ -1230,7 +1240,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 55.2,
         "pct_change_1d": -0.5405
       },
@@ -1241,7 +1251,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 297.18,
         "pct_change_1d": -1.0982
       },
@@ -1252,7 +1262,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 32.985,
         "pct_change_1d": 1.2586
       },
@@ -1263,7 +1273,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 25.55,
         "pct_change_1d": -0.3121
       },
@@ -1274,7 +1284,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 33.14,
         "pct_change_1d": 3.9849
       },
@@ -1285,7 +1295,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 152.17,
         "pct_change_1d": -5.2786
       },
@@ -1296,7 +1306,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 26.76,
         "pct_change_1d": -3.9483
       },
@@ -1307,7 +1317,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 60.84,
         "pct_change_1d": 0.2967
       },
@@ -1318,7 +1328,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 82.98,
         "pct_change_1d": -1.7407
       },
@@ -1329,7 +1339,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 240.84,
         "pct_change_1d": 5.1749
       },
@@ -1340,7 +1350,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 353.81,
         "pct_change_1d": 1.3086
       },
@@ -1362,7 +1372,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 602.92,
         "pct_change_1d": 0.3763
       },
@@ -1373,7 +1383,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 26.88,
         "pct_change_1d": 4.8771
       },
@@ -1384,7 +1394,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 123.32,
         "pct_change_1d": 0.7599
       },
@@ -1395,7 +1405,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 87.61,
         "pct_change_1d": -1.2734
       },
@@ -1406,7 +1416,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 117.01,
         "pct_change_1d": -5.7283
       },
@@ -1417,7 +1427,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 13.95,
         "pct_change_1d": 8.2234
       },
@@ -1428,7 +1438,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 1716.36,
         "pct_change_1d": -2.5587
       },
@@ -1439,7 +1449,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 508.35,
         "pct_change_1d": 3.2623
       },
@@ -1450,7 +1460,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 17.74,
         "pct_change_1d": -4.521
       },
@@ -1461,7 +1471,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 53.13,
         "pct_change_1d": 7.7906
       },
@@ -1483,7 +1493,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 11.24,
         "pct_change_1d": -3.8494
       },
@@ -1494,7 +1504,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 1246.98,
         "pct_change_1d": 0.692
       },
@@ -1505,7 +1515,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 7.54,
         "pct_change_1d": -4.6776
       },
@@ -1516,7 +1526,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 49.62,
         "pct_change_1d": -6.0227
       },
@@ -1527,7 +1537,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 68.45,
         "pct_change_1d": 1.3624
       },
@@ -1549,7 +1559,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 188.83,
         "pct_change_1d": 1.1192
       },
@@ -1560,7 +1570,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 423.74,
         "pct_change_1d": 1.89
       },
@@ -1571,7 +1581,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 229.3,
         "pct_change_1d": 0.7735
       },
@@ -1582,7 +1592,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 264.68,
         "pct_change_1d": 0.4478
       },
@@ -1593,7 +1603,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 19.54,
         "pct_change_1d": 10.8967
       },
@@ -1604,7 +1614,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 334.49,
         "pct_change_1d": 3.4324
       },
@@ -1615,7 +1625,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 157.97,
         "pct_change_1d": 2.0742
       },
@@ -1626,7 +1636,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 211.93,
         "pct_change_1d": -0.2729
       },
@@ -1637,7 +1647,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 256.41,
         "pct_change_1d": -0.2451
       },
@@ -1648,7 +1658,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 16.2,
         "pct_change_1d": -2.4096
       },
@@ -1659,7 +1669,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 25.25,
         "pct_change_1d": 0.119
       },
@@ -1670,7 +1680,7 @@
         "group": "uncategorized",
         "pinned": false,
         "added_ts": "2026-06-03T08:05:21.212443+00:00",
-        "is_new": true,
+        "is_new": false,
         "last_close": 144.15,
         "pct_change_1d": -7.4241
       }
@@ -1681,11 +1691,31 @@
     "execution": {
       "agent": "Execution Agent",
       "visibility": "blind_no_portfolio_no_cross_agent",
-      "cutoff_ts": "2026-06-03T21:02:16Z",
-      "run_ts": "2026-06-03T21:02:16Z",
-      "regime_used": "risk_on",
+      "cutoff_ts": "2026-06-04T21:06:47Z",
+      "run_ts": "2026-06-04T21:14:00Z",
+      "regime_used": "neutral",
       "event_lock": false,
       "intents": [
+        {
+          "ticker": "AAOI",
+          "side": "buy",
+          "conviction": 0.35,
+          "limit_price": 202.37,
+          "stop_loss": 168.14,
+          "gate_fired": "none",
+          "gate_reason": "",
+          "conviction_base": 0.558,
+          "conviction_modifiers": {
+            "thesis": 0.7,
+            "regime": 0.9,
+            "news": 1.0,
+            "group": 1.0
+          },
+          "tech_class": "buy_candidate",
+          "thesis_verdict": "watch",
+          "news_flag": "pass",
+          "data_quality": "complete"
+        },
         {
           "ticker": "NVDA",
           "side": "defer",
@@ -1693,18 +1723,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "",
+          "gate_reason": "Tech classification watch (score 0.20); no buy signal generated.",
           "conviction_base": 0.0,
           "conviction_modifiers": {
             "thesis": 1.0,
-            "regime": 1.0,
-            "news": 0.85,
-            "group": 1.1
+            "regime": 0.9,
+            "news": 1.0,
+            "group": 1.0
           },
           "tech_class": "watch",
           "thesis_verdict": "intact",
-          "news_flag": "watch",
-          "data_quality": "partial"
+          "news_flag": "pass",
+          "data_quality": "complete"
         },
         {
           "ticker": "CRDO",
@@ -1713,38 +1743,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "",
+          "gate_reason": "Tech classification watch (score 0.31); below 0.40 buy threshold.",
           "conviction_base": 0.0,
           "conviction_modifiers": {
             "thesis": 1.0,
-            "regime": 1.0,
-            "news": 0.85,
-            "group": 1.1
+            "regime": 0.9,
+            "news": 1.0,
+            "group": 1.0
           },
           "tech_class": "watch",
           "thesis_verdict": "intact",
-          "news_flag": "watch",
-          "data_quality": "partial"
-        },
-        {
-          "ticker": "AAOI",
-          "side": "defer",
-          "conviction": 0.0,
-          "limit_price": null,
-          "stop_loss": null,
-          "gate_fired": "none",
-          "gate_reason": "",
-          "conviction_base": 0.0,
-          "conviction_modifiers": {
-            "thesis": 0.7,
-            "regime": 1.0,
-            "news": 1.0,
-            "group": 1.1
-          },
-          "tech_class": "watch",
-          "thesis_verdict": "watch",
           "news_flag": "pass",
-          "data_quality": "partial"
+          "data_quality": "complete"
         },
         {
           "ticker": "DVN",
@@ -1753,18 +1763,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "",
+          "gate_reason": "Tech watch (score -0.20); thesis weakening. Would be sell_or_avoid but tech is not aligned (not sell_or_avoid classification); defer pending sustained confirmation.",
           "conviction_base": 0.0,
           "conviction_modifiers": {
             "thesis": 0.85,
-            "regime": 1.0,
-            "news": 0.85,
+            "regime": 0.9,
+            "news": 1.0,
             "group": 0.7
           },
           "tech_class": "watch",
           "thesis_verdict": "weakening",
-          "news_flag": "watch",
-          "data_quality": "partial"
+          "news_flag": "pass",
+          "data_quality": "complete"
         },
         {
           "ticker": "MSFT",
@@ -1773,18 +1783,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "",
+          "gate_reason": "Tech watch (score 0.03); overbought RSI 66, -4.17% 1d pullback underway.",
           "conviction_base": 0.0,
           "conviction_modifiers": {
             "thesis": 1.0,
-            "regime": 1.0,
-            "news": 0.85,
-            "group": 1.1
+            "regime": 0.9,
+            "news": 1.0,
+            "group": 1.0
           },
           "tech_class": "watch",
           "thesis_verdict": "intact",
-          "news_flag": "watch",
-          "data_quality": "partial"
+          "news_flag": "pass",
+          "data_quality": "complete"
         },
         {
           "ticker": "AMD",
@@ -1793,18 +1803,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "",
+          "gate_reason": "Tech watch (score 0.08); news_flag watch (Broadcom sector headwind, NVDA PC competition). Deferring despite intact thesis.",
           "conviction_base": 0.0,
           "conviction_modifiers": {
             "thesis": 1.0,
-            "regime": 1.0,
+            "regime": 0.9,
             "news": 0.85,
-            "group": 1.1
+            "group": 1.0
           },
           "tech_class": "watch",
           "thesis_verdict": "intact",
           "news_flag": "watch",
-          "data_quality": "partial"
+          "data_quality": "complete"
         },
         {
           "ticker": "CCJ",
@@ -1813,18 +1823,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "",
+          "gate_reason": "Tech watch (score 0.083); strong fundamental/news but EMA20 still below EMA50 — momentum not fully confirmed.",
           "conviction_base": 0.0,
           "conviction_modifiers": {
             "thesis": 1.0,
-            "regime": 1.0,
-            "news": 0.85,
-            "group": 1.1
+            "regime": 0.9,
+            "news": 1.0,
+            "group": 1.0
           },
           "tech_class": "watch",
           "thesis_verdict": "intact",
-          "news_flag": "watch",
-          "data_quality": "partial"
+          "news_flag": "pass",
+          "data_quality": "complete"
         },
         {
           "ticker": "ENPH",
@@ -1833,18 +1843,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "",
+          "gate_reason": "Tech watch (score 0.32); thesis watch; news_flag watch (insider selling, Hold rating, declining revenue YoY). RSI 79 = extreme overbought.",
           "conviction_base": 0.0,
           "conviction_modifiers": {
-            "thesis": 0.85,
-            "regime": 1.0,
+            "thesis": 0.7,
+            "regime": 0.9,
             "news": 0.85,
-            "group": 0.7
+            "group": 1.0
           },
           "tech_class": "watch",
-          "thesis_verdict": "weakening",
+          "thesis_verdict": "watch",
           "news_flag": "watch",
-          "data_quality": "partial"
+          "data_quality": "complete"
         },
         {
           "ticker": "RBRK",
@@ -1853,18 +1863,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "",
+          "gate_reason": "Tech watch (score -0.11); RSI 77 extreme overbought, BB pct_b 1.04 (outside upper band). Thesis intact with excellent Q1 earnings, but technicals do not support a new buy entry today — stock extended. Monitor for re-entry.",
           "conviction_base": 0.0,
           "conviction_modifiers": {
             "thesis": 1.0,
-            "regime": 1.0,
-            "news": 0.85,
-            "group": 1.1
+            "regime": 0.9,
+            "news": 1.0,
+            "group": 1.0
           },
           "tech_class": "watch",
           "thesis_verdict": "intact",
-          "news_flag": "watch",
-          "data_quality": "partial"
+          "news_flag": "pass",
+          "data_quality": "complete"
         },
         {
           "ticker": "STM",
@@ -1873,18 +1883,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "",
+          "gate_reason": "Tech watch (score 0.39; 0.01 below buy threshold); RSI 80.7 extreme overbought, stock +15% today. Strong thesis with DC revenue upgrade but overbought on this session.",
           "conviction_base": 0.0,
           "conviction_modifiers": {
             "thesis": 1.0,
-            "regime": 1.0,
+            "regime": 0.9,
             "news": 1.0,
-            "group": 1.1
+            "group": 1.0
           },
           "tech_class": "watch",
           "thesis_verdict": "intact",
           "news_flag": "pass",
-          "data_quality": "partial"
+          "data_quality": "complete"
         },
         {
           "ticker": "TMO",
@@ -1893,18 +1903,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "",
+          "gate_reason": "Tech watch (score -0.018); EMA20 still below EMA50 (recovering pattern, not confirmed uptrend).",
           "conviction_base": 0.0,
           "conviction_modifiers": {
             "thesis": 1.0,
-            "regime": 1.0,
+            "regime": 0.9,
             "news": 1.0,
             "group": 1.0
           },
           "tech_class": "watch",
           "thesis_verdict": "intact",
           "news_flag": "pass",
-          "data_quality": "partial"
+          "data_quality": "complete"
         },
         {
           "ticker": "AAPL",
@@ -1913,18 +1923,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "",
+          "gate_reason": "Tech watch (score 0.02); thesis watch (NVDA competitive exclusion risk); news_flag watch. RSI 75.6 extreme overbought.",
           "conviction_base": 0.0,
           "conviction_modifiers": {
-            "thesis": 1.0,
-            "regime": 1.0,
+            "thesis": 0.7,
+            "regime": 0.9,
             "news": 0.85,
-            "group": 1.1
+            "group": 1.0
           },
           "tech_class": "watch",
-          "thesis_verdict": "intact",
+          "thesis_verdict": "watch",
           "news_flag": "watch",
-          "data_quality": "partial"
+          "data_quality": "complete"
         },
         {
           "ticker": "GEV",
@@ -1933,25 +1943,25 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "",
+          "gate_reason": "Tech watch (score 0.145); price below both EMAs in downtrend. RSI oversold (34.2) but 5d -9.4% — wait for stabilization.",
           "conviction_base": 0.0,
           "conviction_modifiers": {
-            "thesis": 1.0,
-            "regime": 1.0,
-            "news": 0.85,
+            "thesis": 0.7,
+            "regime": 0.9,
+            "news": 1.0,
             "group": 1.0
           },
           "tech_class": "watch",
-          "thesis_verdict": "intact",
-          "news_flag": "watch",
-          "data_quality": "partial"
+          "thesis_verdict": "watch",
+          "news_flag": "pass",
+          "data_quality": "complete"
         }
       ],
       "watchlist_removals": [],
       "summary": {
-        "buy_count": 0,
+        "buy_count": 1,
         "sell_or_avoid_count": 0,
-        "defer_count": 13,
+        "defer_count": 12,
         "avoid_count": 0,
         "removal_count": 0
       }
@@ -1959,8 +1969,8 @@
     "fundamental_thesis": {
       "agent": "Fundamental Thesis Agent",
       "visibility": "blind_no_portfolio_no_cross_agent",
-      "cutoff_ts": "2026-06-03T21:02:16Z",
-      "run_ts": "2026-06-03T21:02:16Z",
+      "cutoff_ts": "2026-06-04T21:06:47Z",
+      "run_ts": "2026-06-04T21:13:00Z",
       "triggered_count": 13,
       "total_count": 13,
       "verdicts": [
@@ -1971,15 +1981,15 @@
           "verdict_changed": true,
           "confidence": "high",
           "data_coverage": "strong",
-          "key_evidence": "Q1 FY2027 revenue $81.6B (+85% YoY), Data Center $75.2B (+92% YoY), Blackwell 300 ramp strong, Computex AI PC expansion adds new TAM.",
-          "source": "SEC Form 8-K (NVIDIA Q1 FY27 press release)",
-          "source_date": "2026-05-20",
+          "key_evidence": "RTX Spark PC chip launch at Computex 2026 expands TAM beyond data center; AI GPU dominance continues; $0.25 dividend signals financial strength.",
+          "source": "Yahoo Finance / CNBC / Computex 2026 announcements",
+          "source_date": "2026-06-02",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Export controls on H100/B100 to China remain a regulatory overhang",
-            "Valuation elevated; any data center capex slowdown would reprice quickly"
+            "Stock at $222 vs SMA50 $201 — extended; overbought conditions possible",
+            "AMD and Intel competing in AI chips; Broadcom sector concern noted"
           ]
         },
         {
@@ -1987,17 +1997,18 @@
           "verdict": "intact",
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
-          "confidence": "high",
-          "data_coverage": "strong",
-          "key_evidence": "Q4 FY2026 revenue $437M (+157% YoY, beat $432M consensus), full FY2026 $1.3B (+206%), gross margin 68.1%, non-GAAP net income 5x.",
-          "source": "Grafa / Yahoo Finance earnings call highlights",
-          "source_date": "2026-06-01",
+          "confidence": "medium",
+          "data_coverage": "partial",
+          "key_evidence": "Credo Technology is a key beneficiary of AI data center optical connectivity buildout; stock recovered strongly from March optics sell-off (was -15%, now fully recovered).",
+          "source": "247wallst.com / market context",
+          "source_date": "2026-03-03",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Revenue concentration risk in AI connectivity customers",
-            "High valuation given recent 157% growth rate normalization ahead"
+            "Stock at $229, well above SMA50 $164 — highly extended",
+            "Optical sector subject to demand cyclicality; March sell-off reminder of volatility risk",
+            "Limited direct fundamental data fetched; confidence medium"
           ]
         },
         {
@@ -2007,16 +2018,16 @@
           "verdict_changed": true,
           "confidence": "low",
           "data_coverage": "weak",
-          "key_evidence": "Speculation about long-term NVDA/AMD connectivity deal cited in market commentary; no SEC filing or confirmed announcement found as of cutoff.",
-          "source": "Market commentary / Bitget News (Tier 3)",
+          "key_evidence": "Applied Optoelectronics beneficiary of AI optical transceiver demand, but stock is highly volatile (+13.9% 5d) and fundamental data coverage limited; March optics sell-off showed fragility.",
+          "source": "Market price data / sector context",
           "source_date": "2026-06-02",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Revenue highly concentrated; any deal speculation unconfirmed",
-            "Company-specific risk without verified fundamental support",
-            "No recent 10-Q or earnings transcript found within cutoff window"
+            "Very high beta; subject to sector rotation out of optical plays",
+            "Fundamental data not verified from primary source — watch verdict conservative",
+            "Stock appears extended at $202 vs SMA50 $152"
           ]
         },
         {
@@ -2026,16 +2037,16 @@
           "verdict_changed": true,
           "confidence": "medium",
           "data_coverage": "partial",
-          "key_evidence": "Q1 2026 oil production 387 MBBL/d at top of guidance, FCF $816M, but merging with Coterra creates integration execution risk; combined guidance not yet available (expected mid-June).",
-          "source": "Motley Fool Q1 2026 earnings transcript / StockTitan 8-K",
-          "source_date": "2026-05-06",
+          "key_evidence": "Devon Energy facing headwinds: stock below both EMAs (EMA20 46.75, EMA50 46.85, price 46.22), RSI neutral at 47.5. Oil prices elevated due to Middle East tensions but longer-term energy transition and Fed hike expectations weigh on capex-heavy E&P.",
+          "source": "Market price data / macro context",
+          "source_date": "2026-06-02",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Coterra merger integration risk; combined guidance not yet disclosed",
-            "Oil price sensitivity at $46/share given sub-$50 stock price",
-            "Technically below all EMAs — bearish near-term price action"
+            "Higher-for-longer rates squeeze E&P capex economics",
+            "Energy sector preferred in macro model due to inflation but DVN in technical downtrend",
+            "No recent positive catalyst identified"
           ]
         },
         {
@@ -2045,15 +2056,16 @@
           "verdict_changed": true,
           "confidence": "high",
           "data_coverage": "strong",
-          "key_evidence": "Q3 FY2026 revenue $82.9B (+18% YoY, beat $81.5B consensus), Azure +39% YoY, AI business run-rate $37B (+123% YoY), Q4 guidance $86.7-87.8B.",
-          "source": "Microsoft IR Q3 FY2026 press release / CNBC",
-          "source_date": "2026-04-29",
+          "key_evidence": "Microsoft co-developed N1X AI processor with NVDA for Windows laptops (ships fall 2026); Azure AI cloud revenue growing; strategic positioning in AI infrastructure intact.",
+          "source": "Yahoo Finance / CNBC",
+          "source_date": "2026-06-02",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Capex $190B planned for CY2026 — execution risk if AI monetization lags",
-            "Azure guidance middle slightly below consensus for Q4 FY2026"
+            "Stock dropped -4.17% on Jun 2 from recent high of $460 — short-term technical pressure",
+            "RSI 66.4 (mildly overbought after 6% 5-day run)",
+            "Fed rate hike expectations weigh on high-multiple tech"
           ]
         },
         {
@@ -2062,17 +2074,17 @@
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
           "confidence": "medium",
-          "data_coverage": "strong",
-          "key_evidence": "Q1 2026 revenue $10.3B (+38% YoY), Data Center $5.8B (+57% YoY), Q2 guidance $11.2B (+46% YoY); PC competitive pressure from NVDA SoC announcement is new risk.",
-          "source": "Motley Fool Q1 2026 earnings call transcript / TradingKey",
-          "source_date": "2026-05-06",
+          "data_coverage": "partial",
+          "key_evidence": "AMD AI chip portfolio (MI series) competing effectively in data center; stock up 52% from SMA50 reflecting strong business momentum. Broadcom AI chip forecast miss is sector headwind, not AMD-specific.",
+          "source": "Yahoo Finance / market context",
+          "source_date": "2026-06-04",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "NVIDIA entering Windows PC SoC market creates new competitive dynamic in Client segment",
-            "ARK institutional selling of $57M signals reduced conviction in some growth investors",
-            "RSI 70 — overbought relative to recent price action"
+            "NVDA entering PC chip market threatens AMD's >20% PC market share",
+            "RSI 70 = overbought; stock extended well above SMA50",
+            "Broadcom miss signals potential AI chip demand uncertainty"
           ]
         },
         {
@@ -2082,34 +2094,35 @@
           "verdict_changed": true,
           "confidence": "high",
           "data_coverage": "strong",
-          "key_evidence": "Cigar Lake stake increased to 57.4% via $115M TEPCO acquisition; 2026 production outlook 19.5-21.5M lbs U3O8 unchanged; Urenco USA expansion adds long-term uranium demand.",
-          "source": "GuruFocus / SEC Form 6-K (Cameco)",
-          "source_date": "2026-06-01",
+          "key_evidence": "Cameco acquired 5% more of Cigar Lake from TEPCO for $115M (total 57.4% ownership); McArthur River at full production; Urenco +50% enrichment expansion creates sector tailwind; AI data center nuclear power demand accelerating.",
+          "source": "StockTitan / GuruFocus / Cameco 6-K",
+          "source_date": "2026-06-03",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Uranium spot price volatility remains a risk",
-            "Urenco expansion timeline is 2032 — long lead time"
+            "P/E ~112x — expensive; uranium price sensitivity",
+            "Technical: EMA20 < EMA50 (recovering, not yet fully aligned)",
+            "Geopolitical risk in uranium supply chain"
           ]
         },
         {
           "ticker": "ENPH",
-          "verdict": "weakening",
+          "verdict": "watch",
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
           "confidence": "medium",
           "data_coverage": "partial",
-          "key_evidence": "Q1 2026 revenue $282.9M, well below prior peak; market contraction post-ITC credit expiry, above-normal US inventory, tariff headwinds; Q2 guide $280-310M shows stabilization not recovery.",
-          "source": "GuruFocus / Motley Fool Q1 2026 transcript",
-          "source_date": "2026-04-28",
+          "key_evidence": "Enphase Q1 2026 beat EPS expectations but revenue declined YoY; insider selling of $6M; Mizuho reaffirmed Hold (not upgraded despite 13.5% jump); GF Value flags 14.4% overvaluation; RSI 79 = extreme overbought.",
+          "source": "GuruFocus / MarketBeat",
+          "source_date": "2026-06-02",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Solar ITC credit normalization continues to compress addressable market",
-            "Tariff impact on component costs not fully offset by pricing adjustments",
-            "Revenue well below 2023-24 peaks; path to recovery unclear"
+            "Revenue declining YoY despite EPS beat — quality of earnings concern",
+            "Insider selling $6M post-rally is cautionary signal",
+            "RSI 79 suggests short-term pullback risk after 13.5% single-day gain"
           ]
         },
         {
@@ -2117,18 +2130,18 @@
           "verdict": "intact",
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
-          "confidence": "medium",
-          "data_coverage": "partial",
-          "key_evidence": "FY2026 ARR $1.46B (+34% YoY), FCF $237.8M (10x prior year), EPS $0.04 vs -$0.11 expected; Q1 FY2027 earnings due June 4 — verdict may update post-release.",
-          "source": "Rubrik FY2026 ARS / Yahoo Finance press release",
-          "source_date": "2026-03-12",
+          "confidence": "high",
+          "data_coverage": "strong",
+          "key_evidence": "Q1 FY2027: Revenue $387.1M (+39% YoY), Subscription ARR $1.57B (+32% YoY), FCF margin 19%, raised FY2027 guidance to $1.597-1.607B revenue. Beat all guided metrics.",
+          "source": "Rubrik 8-K / BusinessWire",
+          "source_date": "2026-06-04",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Q1 FY2027 earnings June 4 — pre-earnings period creates binary event risk",
-            "ARR growth rate 34% is decelerating from higher historical levels",
-            "Cybersecurity space increasingly competitive"
+            "RSI 77.5 = extreme overbought; stock at $82.33 above BB upper band",
+            "Pre-earnings price at $85 peak; post-earnings price action TBD (earnings released today)",
+            "High growth stock subject to multiple compression in rising rate environment"
           ]
         },
         {
@@ -2138,15 +2151,16 @@
           "verdict_changed": true,
           "confidence": "high",
           "data_coverage": "strong",
-          "key_evidence": "Q1 2026 revenue $3.10B (+23% YoY, beat ~$3.05B consensus), Q2 guidance $3.45B (+11.6% sequential); data center >$500M FY2026 driven by AI and low-earth-orbit satellites.",
-          "source": "SEC Form 6-K / Tickeron / Sci-Tech-Today",
-          "source_date": "2026-04-30",
+          "key_evidence": "STMicroelectronics raised 2026 data center revenue target from >$500M to ~$1B; guided 2027 at 2x 2026 level; Mizuho PT $84, Morgan Stanley PT €74 (upgrades); launched AI vibration sensor.",
+          "source": "STM 6-K / StockTitan / Globe and Mail / Investing.com",
+          "source_date": "2026-06-02",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "EPS below analyst expectations despite revenue beat — margin compression watch",
-            "Automotive demand softness in Europe remains a headwind"
+            "RSI 80.7 = extreme overbought; stock 16% above BB upper band",
+            "STM is European-listed; EUR/USD currency risk",
+            "DC revenue diversification away from auto/industrial — execution risk"
           ]
         },
         {
@@ -2154,55 +2168,56 @@
           "verdict": "intact",
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
-          "confidence": "high",
-          "data_coverage": "strong",
-          "key_evidence": "Q1 2026 revenue $11.01B (+6%), adjusted EPS $5.44 (+6%), raised FY guidance to $47.3-48.1B; Clario acquisition adds $0.32 EPS accretion.",
-          "source": "GuruFocus / Motley Fool Q1 2026 earnings transcript",
-          "source_date": "2026-04-23",
+          "confidence": "medium",
+          "data_coverage": "partial",
+          "key_evidence": "Thermo Fisher's life sciences tools business stable; stock recovering after dip (EMA20 468 < EMA50 481 — recovering from downtrend). No adverse news in 24h window.",
+          "source": "Market price data",
+          "source_date": "2026-06-02",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Organic growth 3-4% is modest vs sector; dependent on Clario integration success",
-            "Biopharma customer capex cycles create lumpy demand"
+            "EMA20 < EMA50 = recovery pattern, not yet confirmed uptrend",
+            "Higher rates weigh on M&A-driven growth model",
+            "Limited direct fundamental data — confidence medium"
           ]
         },
         {
           "ticker": "AAPL",
-          "verdict": "intact",
+          "verdict": "watch",
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
-          "confidence": "high",
-          "data_coverage": "strong",
-          "key_evidence": "Q2 FY2026 revenue $111.2B (+17% YoY, beat $109.5B), services $31B (+16%), EPS $2.01 beat $1.95 consensus; WWDC June 8 is key AI/Siri catalyst with rebuilt Siri on Gemini.",
-          "source": "CNBC / Motley Fool Q2 FY2026 earnings call transcript",
-          "source_date": "2026-04-30",
+          "confidence": "medium",
+          "data_coverage": "partial",
+          "key_evidence": "Apple excluded from NVDA's RTX Spark PC chip partnership ecosystem (Dell, HP, Lenovo, MSFT included; AAPL absent). This represents a competitive risk to Mac's AI PC positioning. RSI 75.6 after stock ran from $282 to $315 (approx).",
+          "source": "Yahoo Finance",
+          "source_date": "2026-06-02",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "RSI 75.6 — technically overbought ahead of WWDC",
-            "AI differentiation vs Android still unproven at scale",
-            "Supply constraints noted in Q2; services growth rate normalization risk"
+            "Excluded from NVDA AI PC ecosystem — medium-term competitive risk to Mac market share",
+            "RSI 75.6 = extreme overbought after big run",
+            "Potential upside from WWDC/Apple Intelligence but not yet in evidence"
           ]
         },
         {
           "ticker": "GEV",
-          "verdict": "intact",
+          "verdict": "watch",
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
           "confidence": "medium",
-          "data_coverage": "strong",
-          "key_evidence": "Q1 2026 orders $18.3B (+71% YoY), backlog $163B, revenue +7%, adjusted EBITDA +96%; 2026 guidance raised to $44.5-45.5B with FCF $6.5-7.5B.",
-          "source": "Alpha Spread / Intellectia.ai Q1 2026 analysis",
-          "source_date": "2026-04-28",
+          "data_coverage": "partial",
+          "key_evidence": "GE Vernova (energy infrastructure) declined -9.4% over 5 days from ~$1070 peak to $969; RSI 34.2 = oversold; strong structural story (power grid for AI data centers) but currently in a technical downtrend (price below both EMAs).",
+          "source": "Market price data",
+          "source_date": "2026-06-02",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Stock -9.4% over 5 days; BNP Paribas commentary created near-term selling pressure",
-            "EPS consensus estimates cut by Zacks for both 2025 and 2026",
-            "Stock below all EMAs despite strong fundamentals — divergence warrants monitoring"
+            "Technical downtrend: price below EMA20 (1020) and EMA50 (991)",
+            "No catalyst identified for recent decline — unclear if macro or company-specific",
+            "RSI oversold may signal bounce opportunity but thesis needs catalyst"
           ]
         }
       ]
@@ -2210,209 +2225,187 @@
     "news_reporter": {
       "agent": "News Reporter Agent",
       "visibility": "blind_no_portfolio_no_cross_agent",
-      "cutoff_ts": "2026-06-03T21:02:16Z",
-      "run_ts": "2026-06-03T21:02:16Z",
+      "cutoff_ts": "2026-06-04T21:06:47Z",
+      "run_ts": "2026-06-04T21:12:00Z",
       "output_language": "th",
       "ticker_count": 13,
       "news_flagged": [
-        "NVDA",
-        "CRDO",
-        "AMD",
-        "MSFT",
-        "DVN",
-        "RBRK",
-        "CCJ",
-        "ENPH",
         "AAPL",
-        "GEV"
+        "AMD",
+        "ENPH"
       ],
       "events": [
         {
-          "ticker_or_scope": "NVDA",
+          "ticker_or_scope": "RBRK",
           "related_tickers": [
-            "AMD",
-            "AAOI"
+            "RBRK"
           ],
-          "headline_th": "NVIDIA เปิดตัวชิป AI สำหรับ PC ในงาน Computex 2026 ท้าชน Intel, AMD",
-          "summary_th": "NVIDIA เปิดตัว SoC สำหรับ Windows laptop ในงาน Computex เมื่อวันที่ 1 มิ.ย. โดย CEO Jensen Huang ประกาศร่วมกับ Microsoft ปฏิวัติ PC ด้วย AI บนเครื่อง นอกจากนี้ยังขยายพันธมิตรกับ TSMC นำ AI ไปใช้ในโรงงานผลิตชิป ข่าวนี้ส่งผลกดดัน AMD และ Intel ในตลาด PC",
-          "source": "Bloomberg / CNBC",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-01/nvidia-enters-windows-laptop-market-taking-on-intel-and-amd",
-          "published_at": "2026-06-01",
-          "source_tier": "2",
-          "scope": "ticker",
-          "direction": "positive",
-          "severity": "medium",
-          "action_flag": "watch",
-          "reason": "New product category expansion into PC market is growth positive for NVDA but creates competitive pressure for AMD.",
-          "cutoff_safe": true,
-          "duplicate_group": "nvda_computex_2026",
-          "confidence": "high"
-        },
-        {
-          "ticker_or_scope": "CRDO",
-          "related_tickers": [],
-          "headline_th": "Credo Technology รายงานรายได้ Q4 FY2026 สูงสุดเป็นประวัติการณ์ $437M เติบโต 157% YoY",
-          "summary_th": "CRDO รายงานรายได้ Q4 FY2026 ที่ $437M เกินคาดการณ์ $432M และเติบโต 157% เมื่อเทียบปีก่อน รายได้ทั้งปีงบการเงิน 2026 อยู่ที่ $1.3B เติบโต 206% gross margin 68.1% บริษัทแสดงกำไร non-GAAP สุทธิเพิ่มกว่า 5 เท่า ผลประกอบการแข็งแกร่งมากในกลุ่ม AI connectivity",
-          "source": "Yahoo Finance / Grafa",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-group-holding-ltd-050039141.html",
-          "published_at": "2026-06-01",
-          "source_tier": "2",
+          "headline_th": "Rubrik รายงานผลประกอบการ Q1 FY27 แข็งแกร่ง — รายได้เพิ่ม 39% YoY ที่ $387M ปรับเพิ่มคาดการณ์ทั้งปี",
+          "summary_th": "Rubrik (RBRK) รายงานรายได้ Q1 FY2027 ที่ $387.1M โต 39% เมื่อเทียบปีก่อน เกินทุก metric ที่คาด Subscription ARR ขยายตัว 32% YoY สู่ $1.57B FCF margin 19% บริษัทปรับเพิ่ม guidance ทั้งปี FY2027 — รายได้รวม $1.597-1.607B CEO กล่าวว่า Rubrik เป็น strategic platform สำหรับ agentic cyber resilience",
+          "source": "Rubrik SEC 8-K / BusinessWire",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001943896/000194389626000041/rubrikinc-991pressrelease4.htm",
+          "published_at": "2026-06-04",
+          "source_tier": "1",
           "scope": "ticker",
           "direction": "positive",
           "severity": "high",
-          "action_flag": "watch",
-          "reason": "Record Q4 and full-year results with 157% YoY growth; strong fundamental beat supports thesis review.",
+          "action_flag": "pass",
+          "reason": "Earnings beat all metrics; raised guidance; strong FCF; no adverse developments.",
           "cutoff_safe": true,
-          "duplicate_group": "crdo_q4_fy2026",
+          "duplicate_group": "RBRK-earnings-q1fy27",
           "confidence": "high"
         },
         {
-          "ticker_or_scope": "AMD",
+          "ticker_or_scope": "STM",
           "related_tickers": [
-            "NVDA"
+            "STM"
           ],
-          "headline_th": "AMD เผชิญแรงกดดันจาก NVDA บุก PC market; ARK ขาย AMD มูลค่า $57M",
-          "summary_th": "ราคาหุ้น AMD ปรับลดลงหลัง NVIDIA ประกาศเข้าตลาด PC ด้วย SoC ของตัวเอง ซึ่งจะแข่งโดยตรงกับ AMD ในแพลตฟอร์ม Windows Cathie Wood's ARK ขายหุ้น AMD รวม 110,207 หุ้น มูลค่า ~$56.9M ในช่วงเดียวกัน แม้ผลประกอบการ Q1 2026 ของ AMD ยังแข็งแกร่งด้วยรายได้ $10.3B (+38% YoY)",
-          "source": "Bloomberg / Investing.com",
-          "url": "https://www.investing.com/news/company-news/cathie-woods-ark-sells-amd-stock-buys-nvidia-and-cerebras-93CH-4720700",
+          "headline_th": "STMicro ปรับเป้า Data Center Revenue ปี 2026 จาก >$500M เป็น ~$1B — หุ้นพุ่ง 15%",
+          "summary_th": "STMicroelectronics ประกาศ intra-quarter guidance upgrade โดยยกเป้ารายได้ data center จาก 'มากกว่า $500M' เป็นประมาณ $1B สำหรับปี 2026 และคาดว่าปี 2027 อาจเพิ่มเป็น 2 เท่า Mizuho ปรับ PT เป็น $84 (Outperform) Morgan Stanley ปรับ PT เป็น €74 (Overweight) ข่าวดีจากความต้องการ AI data center ที่เร่งตัว",
+          "source": "STMicroelectronics Form 6-K / StockTitan / Globe and Mail",
+          "url": "https://www.stocktitan.net/sec-filings/STM/6-k-st-microelectronics-n-v-current-report-foreign-issuer-ef42a5c02a18.html",
+          "published_at": "2026-06-02",
+          "source_tier": "1",
+          "scope": "ticker",
+          "direction": "positive",
+          "severity": "high",
+          "action_flag": "pass",
+          "reason": "Major guidance upgrade with analyst PT increases; clear positive catalyst.",
+          "cutoff_safe": true,
+          "duplicate_group": "STM-dc-guidance-upgrade",
+          "confidence": "high"
+        },
+        {
+          "ticker_or_scope": "NVDA",
+          "related_tickers": [
+            "NVDA",
+            "MSFT"
+          ],
+          "headline_th": "NVDA เปิดตัว RTX Spark Superchip สำหรับ PC — เป็นหุ้นเพิ่มขึ้น ส่วน AAPL ไม่ถูกรวม",
+          "summary_th": "Nvidia ประกาศ RTX Spark Superchip สำหรับ PC ที่ Computex 2026 โดยมีพาร์ตเนอร์ Dell, HP, Lenovo, Microsoft และ MSI แต่ไม่มี Apple ส่งผลให้ NVDA และ MSFT ราคาพุ่ง ขณะที่ AAPL ร่วงลงเนื่องจากถูกทิ้งนอกระบบ AI PC ใหม่ NVDA ยังจ่าย dividend $0.25 (ex-date 4 มิ.ย.)",
+          "source": "Yahoo Finance / CNBC",
+          "url": "https://finance.yahoo.com/markets/stocks/article/microsoft-dell-and-hp-stocks-rise-as-nvidia-announces-new-ai-chip-for-personal-computers-130915506.html",
+          "published_at": "2026-06-02",
+          "source_tier": "2",
+          "scope": "sector",
+          "direction": "positive",
+          "severity": "medium",
+          "action_flag": "pass",
+          "reason": "Positive for NVDA/MSFT ecosystem; negative for AAPL competitive position.",
+          "cutoff_safe": true,
+          "duplicate_group": "NVDA-computex-rtx-spark",
+          "confidence": "high"
+        },
+        {
+          "ticker_or_scope": "AAPL",
+          "related_tickers": [
+            "AAPL"
+          ],
+          "headline_th": "Apple ถูกกีดกันจากพาร์ตเนอร์ชิปของ Nvidia — ความเสี่ยงด้านการแข่งขันใน PC market",
+          "summary_th": "Apple เป็นผู้แพ้รายใหญ่จากการเปิดตัว NVDA RTX Spark เนื่องจากไม่ถูกรวมในพาร์ตเนอร์ชิป ขณะที่ NVDA ขยายไปยัง PC market โดยตรงซึ่งอาจกระทบ Mac ecosystem ความเสี่ยงด้านการแข่งขันระยะกลางเพิ่มขึ้น หุ้น AAPL ร่วงหลังจากประกาศ แม้จะฟื้นตัวในวันถัดมา",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-loses-big-because-nvidia-132709960.html",
           "published_at": "2026-06-02",
           "source_tier": "2",
           "scope": "ticker",
           "direction": "negative",
           "severity": "medium",
           "action_flag": "watch",
-          "reason": "Competitive threat from NVDA entering AMD's core PC market combined with institutional selling creates near-term headwind.",
+          "reason": "Competitive exclusion from NVDA PC ecosystem is a medium-term risk; not immediately thesis-breaking but warrants monitoring.",
           "cutoff_safe": true,
-          "duplicate_group": "amd_nvda_competition",
-          "confidence": "high"
+          "duplicate_group": "AAPL-nvda-exclusion",
+          "confidence": "medium"
         },
         {
-          "ticker_or_scope": "MSFT",
+          "ticker_or_scope": "AMD",
           "related_tickers": [
-            "NVDA"
+            "AMD"
           ],
-          "headline_th": "Microsoft Build 2026: AI Agent ครบวงจร + Q3 FY2026 รายได้ $82.9B เกินคาด",
-          "summary_th": "Microsoft จัด Build 2026 วันที่ 2-3 มิ.ย. ประกาศขยาย AI agents ทั่วทั้ง product stack รวมถึง Office 365, GitHub Copilot, Azure AI Foundry Q3 FY2026 รายได้ $82.9B (+18% YoY) Azure +39% YoY AI business run-rate แตะ $37B (+123% YoY) Morgan Stanley ตั้ง price target $650",
-          "source": "CNBC / Microsoft IR",
-          "url": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html",
+          "headline_th": "AMD ร่วงหลัง Broadcom ไม่ปรับเพิ่มคาดการณ์ AI chip และ NVDA บุกตลาด PC",
+          "summary_th": "หุ้น AMD และ Intel ปรับตัวลดลงหลัง Broadcom ไม่ยกเป้ายอดขาย AI semiconductor สำหรับปี 2026 ซึ่งเป็นสัญญาณลบต่อ sector นอกจากนี้ NVDA เข้าบุกตลาด PC chip ซึ่ง AMD มีส่วนแบ่ง >20% ความเสี่ยงด้านการแข่งขันระยะกลางเพิ่มขึ้นทั้งในตลาด AI และ PC",
+          "source": "Yahoo Finance / Schwab",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+          "published_at": "2026-06-04",
+          "source_tier": "2",
+          "scope": "ticker",
+          "direction": "negative",
+          "severity": "medium",
+          "action_flag": "watch",
+          "reason": "Sector headwind from Broadcom miss + NVDA competitive entry into PC chips (AMD's >20% market share at risk).",
+          "cutoff_safe": true,
+          "duplicate_group": "AMD-broadcom-sector-headwind",
+          "confidence": "medium"
+        },
+        {
+          "ticker_or_scope": "ENPH",
+          "related_tickers": [
+            "ENPH"
+          ],
+          "headline_th": "ENPH พุ่ง 13.5% หลัง Q1 beat แต่รายได้ลดลง YoY — Mizuho ยืนยัน Hold",
+          "summary_th": "Enphase Energy ราคาขึ้น 13.5% เมื่อ 2 มิ.ย. หลังรายงาน Q1 เกินคาด แต่รายได้ลดลง YoY บริษัทเปิดตัว PowerMatch battery tech Mizuho ยืนยัน Hold rating ไม่ปรับ PT พร้อมรายงาน insider selling $6M ซึ่งสร้างความกังวล GF Value ระบุหุ้นอยู่เหนือมูลค่า 14.4%",
+          "source": "GuruFocus / MarketBeat",
+          "url": "https://www.gurufocus.com/news/8897496/a-look-at-enphase-energy-inc-enph-after-135-gain-gf-value-6321-vs-price-7233",
           "published_at": "2026-06-02",
+          "source_tier": "3",
+          "scope": "ticker",
+          "direction": "mixed",
+          "severity": "medium",
+          "action_flag": "watch",
+          "reason": "Q1 beat but revenue declining YoY, insider selling $6M, Mizuho Hold, stock appears overvalued; overbought RSI 79.",
+          "cutoff_safe": true,
+          "duplicate_group": "ENPH-q1-results",
+          "confidence": "medium"
+        },
+        {
+          "ticker_or_scope": "CCJ",
+          "related_tickers": [
+            "CCJ"
+          ],
+          "headline_th": "Cameco เพิ่มสัดส่วน Cigar Lake เป็น 57.4% — Urenco ขยายโรงงาน Uranium Enrichment +50%",
+          "summary_th": "Cameco ซื้อ 5% ใน Cigar Lake จาก TEPCO Resources มูลค่า ~$115M เพิ่มสัดส่วนเป็น 57.4% นอกจากนี้ Urenco USA ประกาศขยายกำลังผลิต uranium enrichment เพิ่ม 50% เป็นมูลค่า billion dollar ส่งผลให้ CCJ พุ่ง 7% เนื่องจาก demand นิวเคลียร์จาก AI data center เพิ่มขึ้น",
+          "source": "GuruFocus / StockTitan",
+          "url": "https://www.gurufocus.com/news/8897241/cameco-ccj-and-energy-fuels-uuuu-rally-on-urencos-expansion-plans",
+          "published_at": "2026-06-03",
           "source_tier": "2",
           "scope": "ticker",
           "direction": "positive",
           "severity": "high",
-          "action_flag": "watch",
-          "reason": "Strong earnings beat and major product expansion event; positive near-term catalyst.",
+          "action_flag": "pass",
+          "reason": "Dual catalyst: strategic Cigar Lake expansion + sector tailwind from Urenco enrichment expansion.",
           "cutoff_safe": true,
-          "duplicate_group": "msft_build_2026",
+          "duplicate_group": "CCJ-cigar-lake-urenco",
           "confidence": "high"
         },
         {
-          "ticker_or_scope": "DVN",
-          "related_tickers": [],
-          "headline_th": "Devon Energy ควบรวม Coterra Energy ผ่านมติผู้ถือหุ้น; ปันผลเพิ่ม >30%",
-          "summary_th": "การควบรวมกิจการของ Devon Energy กับ Coterra Energy ได้รับการอนุมัติจากผู้ถือหุ้นด้วยคะแนนเสียงท่วมท้น ปิดดีลในวันถัดมาจาก Q1 earnings call บริษัทวางแผนเพิ่มปันผลมากกว่า 30% ต่อหุ้นหลังควบรวม Guidance รวมสำหรับนิติบุคคลใหม่คาดเผยในกลาง มิ.ย.",
-          "source": "StockTitan / Motley Fool",
-          "url": "https://www.stocktitan.net/sec-filings/DVN/8-k-devon-energy-corp-de-reports-material-event-83d73ca7e6e6.html",
-          "published_at": "2026-05-06",
-          "source_tier": "2",
-          "scope": "ticker",
-          "direction": "positive",
-          "severity": "medium",
-          "action_flag": "watch",
-          "reason": "Major M&A event changes the company's scale and capital return profile; combined guidance not yet available.",
-          "cutoff_safe": true,
-          "duplicate_group": "dvn_coterra_merger",
-          "confidence": "medium"
-        },
-        {
-          "ticker_or_scope": "RBRK",
-          "related_tickers": [],
-          "headline_th": "Rubrik จะรายงานผลประกอบการ Q1 FY2027 วันที่ 4 มิ.ย. 2026 หลังตลาดปิด",
-          "summary_th": "Rubrik กำหนดรายงานผลประกอบการ Q1 FY2027 (สิ้นสุด 30 เม.ย. 2026) ในวันที่ 4 มิ.ย. หลังตลาดปิด พร้อม earnings call เวลา 17.00 ET ปีงบประมาณก่อน ARR เติบโต 34% YoY แตะ $1.46B และสร้าง FCF บวกครั้งแรก Trefis วิเคราะห์ว่าผลลัพธ์ที่ดีจะยืนยัน momentum การเติบโต",
-          "source": "StockTitan / MarketBeat",
-          "url": "https://www.stocktitan.net/news/RBRK/rubrik-to-report-first-quarter-fiscal-2027-financial-results-on-june-r29d8ssei0w5.html",
+          "ticker_or_scope": "market_wide",
+          "related_tickers": [
+            "NVDA",
+            "MSFT",
+            "AMD",
+            "CRDO",
+            "AAOI",
+            "RBRK",
+            "STM",
+            "ENPH",
+            "AAPL",
+            "CCJ",
+            "TMO",
+            "GEV"
+          ],
+          "headline_th": "ADP +122K beats คาด — ตลาด Price ใน Fed Rate Hike 85% สิ้นปี 2026",
+          "summary_th": "ADP รายงานการจ้างงานภาคเอกชน +122K ในเดือนพ.ค. เกินคาด 110K ทำให้โอกาส Fed ขึ้นดอกเบี้ยสิ้นปีนี้พุ่งเป็น 85% อัตราผลตอบแทนพันธบัตร 10 ปี ขยับสู่ 4.49% ใกล้ threshold 4.5% เป็นสัญญาณระมัดระวังสำหรับ high-beta assets CPI อยู่ในระดับสูงสุดในรอบ 3 ปี",
+          "source": "CNBC / Fox Business / FXStreet",
+          "url": "https://www.cnbc.com/2026/06/03/adp-jobs-report-may-2026-payrolls-increase-by-122000.html",
           "published_at": "2026-06-03",
           "source_tier": "2",
-          "scope": "ticker",
-          "direction": "neutral",
-          "severity": "medium",
-          "action_flag": "watch",
-          "reason": "Earnings event scheduled tomorrow is a known catalyst; outcome uncertain — defer until results published.",
-          "cutoff_safe": true,
-          "duplicate_group": "rbrk_earnings_june4",
-          "confidence": "high"
-        },
-        {
-          "ticker_or_scope": "CCJ",
-          "related_tickers": [],
-          "headline_th": "Cameco พุ่งขึ้นจาก Urenco ขยายกำลังผลิต + เพิ่มสัดส่วน Cigar Lake",
-          "summary_th": "หุ้น CCJ ปรับตัวขึ้นแรงในวันที่ 3 มิ.ย. หลัง Urenco USA ประกาศแผนขยายกำลังผลิต 2.1 ล้าน SWU ในนิวเม็กซิโก (เริ่มดำเนินการปี 2032) นอกจากนี้ Cameco และ Orano ตกลงซื้อสัดส่วน 5% ใน Cigar Lake จาก TEPCO Resources มูลค่า ~$115M เพิ่มสัดส่วนของ Cameco เป็น 57.4%",
-          "source": "GuruFocus / SEC Form 6-K",
-          "url": "https://www.gurufocus.com/news/8898314/cameco-ccj-stock-soars-on-urencos-expansion-announcement",
-          "published_at": "2026-06-03",
-          "source_tier": "2",
-          "scope": "ticker",
-          "direction": "positive",
-          "severity": "medium",
-          "action_flag": "watch",
-          "reason": "Supply expansion across uranium sector is positive for CCJ; Cigar Lake stake increase strengthens production profile.",
-          "cutoff_safe": true,
-          "duplicate_group": "ccj_urenco_cigar_lake",
-          "confidence": "high"
-        },
-        {
-          "ticker_or_scope": "AAPL",
-          "related_tickers": [],
-          "headline_th": "Apple WWDC 2026 เริ่ม 8 มิ.ย.: iOS 27, AI Siri ใหม่, กิจกรรมสำคัญที่นักลงทุนจับตา",
-          "summary_th": "Apple จะเปิดงาน WWDC 2026 ด้วย keynote วันที่ 8 มิ.ย. เวลา 10.00 PT ประกาศ iOS 27, iPadOS 27, macOS 27 และ AI features ใหม่ใน Siri ขับเคลื่อนด้วย Google Gemini Wall Street มองเป็น catalyst AI ที่สำคัญที่สุดของ AAPL ในปีนี้ Q2 FY2026 รายได้ $111.2B (+17% YoY) เกินคาด services $31B (+16%)",
-          "source": "MacRumors / CNBC",
-          "url": "https://www.macrumors.com/2026/06/01/apple-shares-wwdc-2026-wallpaper/",
-          "published_at": "2026-06-01",
-          "source_tier": "2",
-          "scope": "ticker",
-          "direction": "positive",
-          "severity": "medium",
-          "action_flag": "watch",
-          "reason": "Upcoming WWDC is a known catalyst for AI positioning; stock already elevated ahead of event.",
-          "cutoff_safe": true,
-          "duplicate_group": "aapl_wwdc_2026",
-          "confidence": "high"
-        },
-        {
-          "ticker_or_scope": "ENPH",
-          "related_tickers": [],
-          "headline_th": "Enphase Energy เปิดตัว PowerMatch และผลประกอบการ Q1 ชนะคาดการณ์ แต่ตลาด Solar ยังยากลำบาก",
-          "summary_th": "ENPH เปิดตัว PowerMatch สำหรับ home battery ระบบใหม่ที่เพิ่มประสิทธิภาพพลังงาน Q1 2026 รายได้ $282.9M เกินคาด แต่ต่ำกว่าระดับปีก่อน ผลกระทบจาก tariff, สต็อกสินค้าส่วนเกินในสหรัฐ, และการหดตัวของตลาดหลังหมดสิทธิ credit ภาษี Q2 guidance $280-310M สะท้อนการฟื้นตัวช้า",
-          "source": "GuruFocus / SimplyWallSt",
-          "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-enph/enphase-energy/news/enphase-energy-enph-is-up-68-after-powermatch-home-battery-e",
-          "published_at": "2026-05-30",
-          "source_tier": "3",
-          "scope": "ticker",
+          "scope": "market_wide",
           "direction": "mixed",
           "severity": "medium",
           "action_flag": "watch",
-          "reason": "Product innovation positive but market headwinds (tariffs, inventory, credit expiry) create execution uncertainty.",
+          "reason": "Strong labor data pushes Fed hike probability to 85%; risk to high-beta stocks if Fed actually hikes.",
           "cutoff_safe": true,
-          "duplicate_group": "enph_powermatch_q1",
-          "confidence": "medium"
-        },
-        {
-          "ticker_or_scope": "GEV",
-          "related_tickers": [],
-          "headline_th": "GE Vernova ผลประกอบการ Q1 2026 แข็งแกร่ง แต่ราคาหุ้นร่วง 6% หลัง BNP Paribas แสดงความกังวล",
-          "summary_th": "GEV รายงาน Q1 2026 orders $18.3B (+71% YoY) รายได้ +7% แต่ราคาหุ้นร่วง ~6% หลัง BNP Paribas แสดงความคิดเห็นเชิงลบ EPS ประมาณการถูกปรับลดโดย Zacks ทั้ง 2025 และ 2026 อย่างไรก็ตาม บริษัทปรับ guidance ปี 2026 ขึ้นเป็น $44.5-45.5B backlog สูงถึง $163B",
-          "source": "Foreign Policy Journal / Nasdaq",
-          "url": "https://www.foreignpolicyjournal.com/2026/05/20/ge-vernova-nyse-gev-delivers-790-eps-beat-and-raises-guidance-then-falls-6-after-bnp-paribas-commentary/",
-          "published_at": "2026-05-20",
-          "source_tier": "3",
-          "scope": "ticker",
-          "direction": "mixed",
-          "severity": "medium",
-          "action_flag": "watch",
-          "reason": "Strong fundamentals but analyst concerns and EPS cuts drive stock below EMAs; thesis needs monitoring.",
-          "cutoff_safe": true,
-          "duplicate_group": "gev_q1_bnp_concern",
-          "confidence": "medium"
+          "duplicate_group": "adp-may-2026-fed-hike",
+          "confidence": "high"
         }
       ],
       "ticker_summary": [
@@ -2420,40 +2413,40 @@
           "ticker": "NVDA",
           "direction": "positive",
           "severity": "medium",
-          "action_flag": "watch",
-          "reason": "Computex AI PC chip launch; cross-sector catalyst",
+          "action_flag": "pass",
+          "reason": "RTX Spark PC chip launch at Computex; dividend $0.25 ex-date Jun 4",
           "confidence": "high"
         },
         {
           "ticker": "CRDO",
-          "direction": "positive",
-          "severity": "high",
-          "action_flag": "watch",
-          "reason": "Q4 FY2026 record revenue $437M (+157% YoY), beat estimates",
-          "confidence": "high"
+          "direction": "neutral",
+          "severity": "none",
+          "action_flag": "pass",
+          "reason": "No material news in 24h window; March optics selloff not within window",
+          "confidence": "medium"
         },
         {
           "ticker": "AAOI",
           "direction": "neutral",
-          "severity": "low",
+          "severity": "none",
           "action_flag": "pass",
-          "reason": "Speculation about NVDA/AMD deal; unconfirmed",
-          "confidence": "low"
+          "reason": "No material news in 24h window; strong momentum is price-driven, not news-driven",
+          "confidence": "medium"
         },
         {
           "ticker": "DVN",
-          "direction": "positive",
-          "severity": "medium",
-          "action_flag": "watch",
-          "reason": "Coterra merger approved; combined guidance pending mid-June",
+          "direction": "neutral",
+          "severity": "none",
+          "action_flag": "pass",
+          "reason": "No specific news; oil price environment elevated due to Middle East tensions",
           "confidence": "medium"
         },
         {
           "ticker": "MSFT",
           "direction": "positive",
-          "severity": "high",
-          "action_flag": "watch",
-          "reason": "Build 2026 AI expansion + Q3 FY2026 $82.9B beat",
+          "severity": "medium",
+          "action_flag": "pass",
+          "reason": "Co-developing N1X processor with NVDA for Windows laptops; partnership announcement positive",
           "confidence": "high"
         },
         {
@@ -2461,15 +2454,15 @@
           "direction": "negative",
           "severity": "medium",
           "action_flag": "watch",
-          "reason": "NVDA competitive threat in PC market; ARK institutional selling",
-          "confidence": "high"
+          "reason": "Sector headwind from Broadcom AI chip forecast miss; NVDA competing in PC chips (AMD has >20% PC market share)",
+          "confidence": "medium"
         },
         {
           "ticker": "CCJ",
           "direction": "positive",
-          "severity": "medium",
-          "action_flag": "watch",
-          "reason": "Urenco expansion + Cigar Lake stake increase boosts uranium thesis",
+          "severity": "high",
+          "action_flag": "pass",
+          "reason": "Cigar Lake stake increase to 57.4%; Urenco expansion adds sector tailwind",
           "confidence": "high"
         },
         {
@@ -2477,181 +2470,223 @@
           "direction": "mixed",
           "severity": "medium",
           "action_flag": "watch",
-          "reason": "PowerMatch positive but market headwinds (tariff, inventory)",
+          "reason": "Q1 beat but revenue declining YoY; insider selling $6M; Mizuho Hold; overvalued per GF Value",
           "confidence": "medium"
         },
         {
           "ticker": "RBRK",
-          "direction": "neutral",
-          "severity": "medium",
-          "action_flag": "watch",
-          "reason": "Q1 FY2027 earnings due June 4 — known catalyst, outcome pending",
+          "direction": "positive",
+          "severity": "high",
+          "action_flag": "pass",
+          "reason": "Q1 FY27 earnings beat: revenue +39% YoY, ARR $1.57B, raised FY27 guidance",
           "confidence": "high"
         },
         {
           "ticker": "STM",
-          "direction": "neutral",
-          "severity": "low",
+          "direction": "positive",
+          "severity": "high",
           "action_flag": "pass",
-          "reason": "No material news in 24h window; Q1 results already published",
-          "confidence": "medium"
+          "reason": "Data center revenue target lifted to ~$1B (from >$500M); analyst PT upgrades from Mizuho and Morgan Stanley",
+          "confidence": "high"
         },
         {
           "ticker": "TMO",
           "direction": "neutral",
-          "severity": "low",
+          "severity": "none",
           "action_flag": "pass",
-          "reason": "No material news in 24h window; steady guidance raise already priced",
+          "reason": "No material news in 24h window",
           "confidence": "medium"
         },
         {
           "ticker": "AAPL",
-          "direction": "positive",
+          "direction": "negative",
           "severity": "medium",
           "action_flag": "watch",
-          "reason": "WWDC 2026 keynote June 8 — major AI/Siri catalyst upcoming",
-          "confidence": "high"
+          "reason": "Excluded from NVDA RTX Spark PC ecosystem partnerships; competitive risk to Mac market",
+          "confidence": "medium"
         },
         {
           "ticker": "GEV",
-          "direction": "mixed",
-          "severity": "medium",
-          "action_flag": "watch",
-          "reason": "Strong Q1 fundamentals but EPS estimates cut; BNP commentary drove 6% drop",
+          "direction": "neutral",
+          "severity": "none",
+          "action_flag": "pass",
+          "reason": "No material news in 24h window; sector tailwind from power grid demand for AI data centers",
           "confidence": "medium"
         }
       ],
       "clean_tickers": [
+        "CRDO",
         "AAOI",
-        "STM",
-        "TMO"
+        "DVN",
+        "TMO",
+        "GEV"
       ],
       "data_issues": [
-        "yfinance news feed unavailable (network blocked); all articles sourced via WebSearch.",
-        "STM Q1 results published April 2026, no new material event in 24h window.",
-        "AAOI speculation about NVDA deal is unconfirmed; rated low severity only."
+        "ENPH: only Tier 3 source (GuruFocus) for earnings recap; confidence medium, action_flag watch (not block).",
+        "AAOI and CRDO March optics selloff not within 24h window; excluded from flagged list.",
+        "ADP/macro news affects all tickers but classified under market_wide scope."
       ]
     },
     "macro_intelligence": {
       "agent": "Macro Intelligence Agent",
       "visibility": "blind_no_portfolio_no_cross_agent",
-      "cutoff_ts": "2026-06-03T21:02:16Z",
-      "run_ts": "2026-06-03T21:02:16Z",
-      "regime": "risk_on",
+      "cutoff_ts": "2026-06-04T21:06:47Z",
+      "run_ts": "2026-06-04T21:11:00Z",
+      "regime": "neutral",
       "event_lock": false,
       "event_lock_reason": "",
       "confidence": "medium",
-      "indicator_override": false,
-      "override_reason": "",
+      "indicator_override": true,
+      "override_reason": "Mechanical output was risk_on (VIX 16.50 < 18, 10Y 4.49% < 4.5%). Overriding to neutral: 10Y yield at 4.49% is 1bp below the risk_off threshold, ADP May +122K beats consensus hawkishly, markets now pricing 85% probability of Fed rate hike by year-end (up from 60% a week ago), CPI at 3-year high driven by energy, and April FOMC minutes note elevated inflation. Context does not support a risk_on call.",
       "vix": {
-        "value": 15.77,
-        "ts": "2026-06-02T21:00:00Z",
+        "value": 16.5,
+        "ts": "2026-06-04",
         "signal": "low"
       },
       "yield_10y": {
-        "value": 4.46,
-        "ts": "2026-06-03T20:00:00Z",
-        "signal": "normal"
+        "value": 4.49,
+        "ts": "2026-06-04",
+        "signal": "elevated"
       },
       "dxy": {
         "value": 99.52,
-        "ts": "2026-06-03T20:00:00Z",
+        "ts": "2026-06-03",
         "signal": "neutral"
       },
       "macro_events": [
         {
-          "event": "FOMC April 28-29 held rates at 3.50%–3.75%; next meeting June 16-17",
-          "date": "2026-04-29",
-          "direction": "neutral",
+          "event": "ADP National Employment Report — May 2026: Private payrolls +122K vs consensus +110K",
+          "date": "2026-06-03",
+          "direction": "hawkish",
           "severity": "medium",
-          "source": "federalreserve.gov",
+          "source": "ADP / CNBC",
+          "source_tier": "2",
+          "cutoff_safe": true,
+          "summary": "Private sector added 122K jobs in May, beating forecast of 110K and prior 109K. Broad-based growth reinforces expectations that the Fed could raise rates later in 2026."
+        },
+        {
+          "event": "Fed rate hike probability jumps to 85% for year-end 2026 following hot CPI and ADP data",
+          "date": "2026-06-04",
+          "direction": "hawkish",
+          "severity": "medium",
+          "source": "CNBC / FXStreet",
+          "source_tier": "2",
+          "cutoff_safe": true,
+          "summary": "CME FedWatch now prices ~85% probability of a 25bp hike by year-end 2026, up from ~60% a week ago. This follows a hot CPI print and the ADP beat. A rate hike would be the first since 2023."
+        },
+        {
+          "event": "US CPI at 3-year high led by energy prices; inflation comfortably above long-run average",
+          "date": "2026-05-12",
+          "direction": "hawkish",
+          "severity": "high",
+          "source": "CNBC",
+          "source_tier": "2",
+          "cutoff_safe": true,
+          "summary": "Energy accounted for >40% of CPI gain, bringing headline inflation to highest in nearly 3 years. Tariff effects and labor costs also elevated. Supplier price pressures intensified."
+        },
+        {
+          "event": "FOMC blackout period begins June 6, 2026 ahead of June 16-17 meeting",
+          "date": "2026-06-04",
+          "direction": "neutral",
+          "severity": "low",
+          "source": "Federal Reserve",
           "source_tier": "1",
           "cutoff_safe": true,
-          "summary": "Fed held rates unchanged; June 16-17 meeting upcoming with no consensus on cuts. Labor market showing strength (job openings 2-year high, ADP +122K May beats)."
+          "summary": "Fed speakers will be silent from June 6 through June 18. The June 16-17 FOMC meeting is the next policy decision. Uncertainty about rate path will persist until then."
         },
         {
-          "event": "ADP private payrolls May 2026: +122K, exceeds expectations",
-          "date": "2026-06-03",
-          "direction": "risk-positive",
+          "event": "April 2026 FOMC minutes confirm inflation elevated and moving higher, energy-driven",
+          "date": "2026-05-21",
+          "direction": "hawkish",
           "severity": "medium",
-          "source": "ADP Research / Reuters",
-          "source_tier": "2",
+          "source": "Federal Reserve",
+          "source_tier": "1",
           "cutoff_safe": true,
-          "summary": "Private sector added 122K jobs in May, beating consensus and marking a new high since Jan 2025. Reinforces expectations the Fed may hold or raise later this year, keeping yields elevated near 4.46%."
-        },
-        {
-          "event": "VIX spike above 30 in late March 2026 — now fully resolved at 15.77",
-          "date": "2026-06-02",
-          "direction": "risk-positive",
-          "severity": "low",
-          "source": "CNBC / CBOE",
-          "source_tier": "2",
-          "cutoff_safe": true,
-          "summary": "VIX retreated from >30 in late March (Middle East/oil shock) to 15.77 by June 2. Sustained risk appetite recovery. Event lock no longer warranted."
+          "summary": "April FOMC minutes showed committee noting inflation moved higher led by energy prices, while labor market conditions stabilized and GDP continued to expand."
         }
       ],
       "historical_study_invoked": false,
       "historical_study_summary": null,
       "lead_time_days": null,
       "preferred_groups": [
-        "AI Semiconductors",
-        "Cloud Technology",
-        "Uranium/Nuclear Energy",
-        "Cybersecurity"
+        "Energy",
+        "Defense",
+        "Healthcare",
+        "Quality Value"
       ],
       "reduce_groups": [
-        "Rate-sensitive (utilities, REITs)",
-        "High-beta unprofitable growth",
-        "Oil & Gas (near-term oil price pressure)"
+        "High-beta growth",
+        "Rate-sensitive tech",
+        "Unprofitable growth",
+        "Small-cap speculative"
       ]
     },
     "technical_screener": {
       "agent": "Technical Screener Agent",
       "visibility": "blind_no_portfolio_no_cross_agent",
-      "cutoff_ts": "2026-06-03T21:02:16Z",
-      "run_ts": "2026-06-03T21:02:16Z",
+      "cutoff_ts": "2026-06-04T21:06:47Z",
+      "run_ts": "2026-06-04T21:10:00Z",
       "ticker_count": 13,
-      "buy_candidates": [],
-      "sell_or_avoid": [],
-      "watch": [
-        {
-          "ticker": "CRDO",
-          "consensus_score": 0.2325,
-          "sub_scores": {
-            "candlestick": 0.0,
-            "ma_ema": 1.0,
-            "bollinger": -0.4,
-            "rsi": -0.25,
-            "momentum": 0.5,
-            "volume": 1.0
-          },
-          "data_quality": "partial"
-        },
-        {
-          "ticker": "STM",
-          "consensus_score": 0.24,
-          "sub_scores": {
-            "candlestick": 0.0,
-            "ma_ema": 1.0,
-            "bollinger": 0.2,
-            "rsi": -1.0,
-            "momentum": 1.0,
-            "volume": 0.5
-          },
-          "data_quality": "partial"
-        },
+      "buy_candidates": [
         {
           "ticker": "AAOI",
-          "consensus_score": 0.22,
+          "consensus_score": 0.47,
+          "entry_price": 202.37,
+          "stop_loss": 168.14,
+          "binding_signal": "candlestick_pattern",
           "sub_scores": {
-            "candlestick": 0.0,
+            "candlestick": 1.0,
             "ma_ema": 1.0,
             "bollinger": -0.4,
             "rsi": 0.0,
             "momentum": 1.0,
             "volume": 0.0
           },
-          "data_quality": "partial"
+          "candlestick_pattern": "Bullish Engulfing",
+          "candlestick_confidence": "high",
+          "data_quality": "complete"
+        }
+      ],
+      "sell_or_avoid": [],
+      "watch": [
+        {
+          "ticker": "STM",
+          "consensus_score": 0.39,
+          "sub_scores": {
+            "candlestick": 0.6,
+            "ma_ema": 1.0,
+            "bollinger": 0.2,
+            "rsi": -1.0,
+            "momentum": 1.0,
+            "volume": 0.5
+          },
+          "data_quality": "complete"
+        },
+        {
+          "ticker": "ENPH",
+          "consensus_score": 0.32,
+          "sub_scores": {
+            "candlestick": 1.0,
+            "ma_ema": 1.0,
+            "bollinger": -0.4,
+            "rsi": -1.0,
+            "momentum": 1.0,
+            "volume": 0.0
+          },
+          "data_quality": "complete"
+        },
+        {
+          "ticker": "CRDO",
+          "consensus_score": 0.31,
+          "sub_scores": {
+            "candlestick": 0.3,
+            "ma_ema": 1.0,
+            "bollinger": -0.4,
+            "rsi": -0.25,
+            "momentum": 0.5,
+            "volume": 1.0
+          },
+          "data_quality": "complete"
         },
         {
           "ticker": "NVDA",
@@ -2664,11 +2699,24 @@
             "momentum": 0.0,
             "volume": 0.0
           },
-          "data_quality": "partial"
+          "data_quality": "complete"
+        },
+        {
+          "ticker": "GEV",
+          "consensus_score": 0.145,
+          "sub_scores": {
+            "candlestick": 0.3,
+            "ma_ema": -0.5,
+            "bollinger": 0.4,
+            "rsi": 0.6,
+            "momentum": 0.0,
+            "volume": 0.0
+          },
+          "data_quality": "complete"
         },
         {
           "ticker": "CCJ",
-          "consensus_score": 0.0825,
+          "consensus_score": 0.083,
           "sub_scores": {
             "candlestick": 0.0,
             "ma_ema": 0.5,
@@ -2677,7 +2725,7 @@
             "momentum": 1.0,
             "volume": 0.0
           },
-          "data_quality": "partial"
+          "data_quality": "complete"
         },
         {
           "ticker": "AMD",
@@ -2690,33 +2738,7 @@
             "momentum": 0.5,
             "volume": 0.0
           },
-          "data_quality": "partial"
-        },
-        {
-          "ticker": "ENPH",
-          "consensus_score": 0.07,
-          "sub_scores": {
-            "candlestick": 0.0,
-            "ma_ema": 1.0,
-            "bollinger": -0.4,
-            "rsi": -1.0,
-            "momentum": 1.0,
-            "volume": 0.0
-          },
-          "data_quality": "partial"
-        },
-        {
-          "ticker": "GEV",
-          "consensus_score": 0.07,
-          "sub_scores": {
-            "candlestick": 0.0,
-            "ma_ema": -0.5,
-            "bollinger": 0.4,
-            "rsi": 0.6,
-            "momentum": 0.0,
-            "volume": 0.0
-          },
-          "data_quality": "partial"
+          "data_quality": "complete"
         },
         {
           "ticker": "MSFT",
@@ -2729,7 +2751,7 @@
             "momentum": 0.0,
             "volume": 0.0
           },
-          "data_quality": "partial"
+          "data_quality": "complete"
         },
         {
           "ticker": "AAPL",
@@ -2742,11 +2764,11 @@
             "momentum": 0.5,
             "volume": 0.0
           },
-          "data_quality": "partial"
+          "data_quality": "complete"
         },
         {
           "ticker": "TMO",
-          "consensus_score": -0.0175,
+          "consensus_score": -0.018,
           "sub_scores": {
             "candlestick": 0.0,
             "ma_ema": 0.5,
@@ -2755,7 +2777,7 @@
             "momentum": 0.0,
             "volume": 0.0
           },
-          "data_quality": "partial"
+          "data_quality": "complete"
         },
         {
           "ticker": "RBRK",
@@ -2768,7 +2790,7 @@
             "momentum": 0.0,
             "volume": 0.0
           },
-          "data_quality": "partial"
+          "data_quality": "complete"
         },
         {
           "ticker": "DVN",
@@ -2781,14 +2803,13 @@
             "momentum": 0.0,
             "volume": 0.0
           },
-          "data_quality": "partial"
+          "data_quality": "complete"
         }
       ],
       "data_issues": [
-        "No OHLCV bars available for any ticker (yfinance blocked); candlestick sub-scores set to 0.00 for all tickers.",
-        "All price indicators sourced from JSON fallback (last_close, moving averages, RSI, ATR, Bollinger). Data quality: partial.",
-        "No tickers reached buy_candidate (>=+0.40) or sell_or_avoid (<=-0.40) threshold — all 13 classified as watch.",
-        "Maximum absolute scores limited by absence of candlestick confirmation and mostly upper-BB positioning across the watchlist."
+        "yfinance blocked by container network policy; prices from ledger prices_json_fallback (last bar 2026-06-02). Latest close is T-2 relative to cutoff 2026-06-04.",
+        "volume_ratio unavailable for some tickers (set to 0.00 where absent); all 13 tickers screened.",
+        "ohlcv_recent used for candlestick analysis (full ohlcv field empty due to yfinance block)."
       ]
     }
   },
@@ -2799,7 +2820,7 @@
     },
     {
       "ticker": "AAPL",
-      "verdict": "intact"
+      "verdict": "watch"
     },
     {
       "ticker": "AMD",
@@ -2831,11 +2852,11 @@
     },
     {
       "ticker": "ENPH",
-      "verdict": "weakening"
+      "verdict": "watch"
     },
     {
       "ticker": "GEV",
-      "verdict": "intact"
+      "verdict": "watch"
     },
     {
       "ticker": "GOOGL",
@@ -2874,622 +2895,636 @@
       "verdict": "watch"
     }
   ],
-  "orders": [],
+  "orders": [
+    {
+      "order_id": 1,
+      "run_id": 5,
+      "ticker": "AAOI",
+      "side": "buy",
+      "intended_pct": 0.014,
+      "limit_price": 202.37,
+      "shares": 2,
+      "status": "filled",
+      "fill_price": 202.4712,
+      "slippage": 0.101185,
+      "ts": "2026-06-04T21:06:47Z"
+    }
+  ],
   "limits": {
-    "regime": "risk_on",
-    "regime_factor": 1.0,
-    "cash_floor_pct": 20.0,
-    "gross_exposure_cap_pct": 85.0,
+    "regime": "neutral",
+    "regime_factor": 0.9,
+    "cash_floor_pct": 17.0,
+    "gross_exposure_cap_pct": 76.5,
     "event_lock": false,
-    "news_addon_pct": 10.0,
+    "news_addon_pct": 6.0,
     "group_caps": {
-      "uncategorized": 15.56,
-      "consumer_tech": 18.0
+      "uncategorized": 13.99,
+      "consumer_tech": 13.77
     },
     "ticker_caps": {
-      "KTOS": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ALAB": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MA": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PANW": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MELI": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MGA": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "GD": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "SHOP": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "LDOS": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "VRT": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PBOG": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ST": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "BTU": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ASML": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "APP": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "SNDK": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "HCA": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "SCHW": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "SNPS": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "DVN": {
-        "single_name_cap_pct": 6.48,
-        "thesis_verdict": "weakening"
-      },
-      "IONQ": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "LNG": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "GOOGL": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "KLAC": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "QCOM": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "UNP": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "HON": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "BX": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "HII": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PRCT": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ORCL": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CRM": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ASTS": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "HCC": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CTSH": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "HOOD": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "WTW": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "LUNR": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MRK": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "GMAB": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "DRS": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "KGC": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ARLP": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "OXY": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ZETA": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "HTHT": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "WM": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "META": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "CVS": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "BIIB": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PLAB": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "LMT": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "XP": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CWEN": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ON": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "BA": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "COST": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "TWLO": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TDOC": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "GE": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ANET": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "HASI": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "LEU": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TMO": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "INTC": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "AAPL": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "RBRK": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "CRWV": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "STNE": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "NFLX": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "SOFI": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "FSLR": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TDG": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CRUS": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PFE": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "AAOI": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "watch"
-      },
-      "RKLB": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "HROW": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "FSLY": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "BKV": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "GRMN": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "UUUU": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "NEM": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MRVL": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "watch"
-      },
-      "GOLD": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "IOT": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "GEV": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "REGN": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ENB": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "AVAV": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MU": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CNQ": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "OKLO": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PSTG": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MP": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TEM": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "IIPR": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "JOBY": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ATRO": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "NBIS": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "RGTI": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ABNB": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ATI": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "LMND": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TMUS": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TSLA": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "watch"
-      },
-      "CRML": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "DHR": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CLPT": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "IBM": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MDB": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ARM": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
       "NOC": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "LAUR": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MSFT": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "PSN": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "RACE": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "FOJCF": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CRWD": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "VST": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TMDX": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "FICO": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "STM": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "APTV": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ADBE": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "AVGO": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "ENPH": {
-        "single_name_cap_pct": 6.48,
-        "thesis_verdict": "weakening"
-      },
-      "LHX": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "AMD": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "SMR": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "LLY": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PLTR": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CCJ": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "CRDO": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "NOW": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "GCT": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ORA": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "BWXT": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "DHI": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CELH": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PAAS": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CMP": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CEG": {
-        "single_name_cap_pct": 5.78,
-        "thesis_verdict": "not_reviewed"
-      },
-      "P": {
-        "single_name_cap_pct": 5.78,
+        "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
       "ACHR": {
-        "single_name_cap_pct": 5.78,
+        "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "FANG": {
-        "single_name_cap_pct": 5.78,
+      "ENPH": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "watch"
+      },
+      "REGN": {
+        "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "AMZN": {
-        "single_name_cap_pct": 8.0,
-        "thesis_verdict": "intact"
-      },
-      "ZS": {
-        "single_name_cap_pct": 5.78,
+      "TEM": {
+        "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "DAC": {
-        "single_name_cap_pct": 5.78,
+      "LNG": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "FOJCF": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ATI": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRUS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "UUUU": {
+        "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
       "ONTO": {
-        "single_name_cap_pct": 5.78,
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LUNR": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ABNB": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "VST": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MA": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "VRT": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "NFLX": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MU": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ON": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ALAB": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "STNE": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "IBM": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ORA": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "FANG": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CLPT": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TMUS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MP": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PAAS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "BWXT": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "KGC": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LDOS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "P": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CMP": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GOOGL": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "ASML": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "FSLR": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LHX": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AMD": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "SOFI": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TDG": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ASTS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "SCHW": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GE": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PANW": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "BA": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HON": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "SNDK": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TDOC": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "KLAC": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HASI": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRDO": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "OXY": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CWEN": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GOLD": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GMAB": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MGA": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CTSH": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "RGTI": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PLTR": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "FICO": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PSTG": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LAUR": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ORCL": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PFE": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "COST": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "CRM": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "NEM": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HROW": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "OKLO": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "NBIS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "BTU": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "DHR": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "DAC": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ANET": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRWD": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "APTV": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AAPL": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "watch"
+      },
+      "ARM": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AVGO": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "TMDX": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "IONQ": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "DRS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LEU": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GEV": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "watch"
+      },
+      "QCOM": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GD": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ST": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "SNPS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PRCT": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PLAB": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HCA": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HTHT": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ENB": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ARLP": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "IIPR": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MELI": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "WM": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ADBE": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MDB": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CVS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "STM": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "SMR": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AAOI": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "watch"
+      },
+      "CNQ": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "SHOP": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AMZN": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "META": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "AVAV": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "WTW": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "KTOS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "BX": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PBOG": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LMND": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "UNP": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TSLA": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "watch"
+      },
+      "JOBY": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TMO": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "TWLO": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MRK": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HCC": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "RACE": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HOOD": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "BIIB": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ATRO": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PSN": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ZETA": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "NOW": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "RBRK": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "LMT": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GRMN": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "APP": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MSFT": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "CEG": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CELH": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "DHI": {
+        "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
       "NVDA": {
-        "single_name_cap_pct": 8.0,
+        "single_name_cap_pct": 7.2,
         "thesis_verdict": "intact"
+      },
+      "GCT": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "FSLY": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRWV": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HII": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "BKV": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRML": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "INTC": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LLY": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MRVL": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "watch"
+      },
+      "RKLB": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "IOT": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ZS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "DVN": {
+        "single_name_cap_pct": 5.83,
+        "thesis_verdict": "weakening"
+      },
+      "CCJ": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "XP": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
       }
     }
   },
@@ -3505,7 +3540,15 @@
     {
       "ts": "2026-06-03T21:12:03.320042+00:00",
       "nav": 30000.0
+    },
+    {
+      "ts": "2026-06-04T08:14:16.413192+00:00",
+      "nav": 30000.0
+    },
+    {
+      "ts": "2026-06-04T21:20:05.570086+00:00",
+      "nav": 30000.0
     }
   ],
-  "runs_count": 3
+  "runs_count": 5
 }
