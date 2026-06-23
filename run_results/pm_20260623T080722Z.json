@@ -1,0 +1,90 @@
+{
+  "run_type": "pre_market",
+  "run_ts": "2026-06-23T08:07:22Z",
+  "cutoff_ts": "2026-06-23T08:03:38Z",
+  "macro": {
+    "regime": "neutral",
+    "event_lock": false,
+    "vix": 16.41,
+    "yield_10y": 4.5,
+    "dxy": 100.93,
+    "note": "No regime change overnight. 10Y touched 4.50% boundary. Sep hike odds 70%."
+  },
+  "fills": [
+    {
+      "ticker": "STM",
+      "side": "buy",
+      "shares": 7,
+      "fill_price": 79.5498,
+      "status": "filled",
+      "cash_delta": -556.85,
+      "actual_market_price": 79.85,
+      "gap_pct": 0.37
+    },
+    {
+      "ticker": "AAOI",
+      "side": "buy",
+      "shares": 2,
+      "fill_price": 202.4712,
+      "status": "filled",
+      "cash_delta": -404.94,
+      "actual_market_price": 171.23,
+      "gap_pct": -15.45
+    }
+  ],
+  "nav_ledger": 29911.56,
+  "nav_true_estimate": 29886.0,
+  "cash": 12043.54,
+  "positions_with_true_prices": [
+    {
+      "ticker": "AAOI",
+      "shares": 16,
+      "avg_cost": 202.47,
+      "ledger_price": 202.47,
+      "actual_price": 171.23,
+      "pnl_pct": -15.4
+    },
+    {
+      "ticker": "STM",
+      "shares": 124,
+      "avg_cost": 78.66,
+      "ledger_price": 79.55,
+      "actual_price": 79.85,
+      "pnl_pct": 1.5
+    },
+    {
+      "ticker": "CRDO",
+      "shares": 6,
+      "avg_cost": 249.45,
+      "ledger_price": 249.45,
+      "actual_price": 302.52,
+      "pnl_pct": 21.3
+    },
+    {
+      "ticker": "AMD",
+      "shares": 2,
+      "avg_cost": 537.64,
+      "ledger_price": 537.64,
+      "actual_price": 542.95,
+      "pnl_pct": 1.0
+    },
+    {
+      "ticker": "ENPH",
+      "shares": 44,
+      "avg_cost": 54.34,
+      "ledger_price": 49.82,
+      "actual_price": 52.28,
+      "pnl_pct": -3.8
+    }
+  ],
+  "infrastructure_issues": [
+    "Supabase DNS unreachable — ran on local SQLite fallback",
+    "Yahoo Finance 403 (query1/query2.finance.yahoo.com not in egress allowlist) — prices stale from early June",
+    "SPY/QQQ/RSP benchmark prices null — benchmark comparison unavailable"
+  ],
+  "action_required": [
+    "AAOI: actual price ~$171.23 vs fill price $202.47 — 15% gap. Review whether to hold or adjust intent.",
+    "Network: Add yahoo finance hosts to egress allowlist",
+    "Network: Allow outbound to bjiynevanmgopegmwcbi.supabase.co"
+  ]
+}
