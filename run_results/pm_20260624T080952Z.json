@@ -1,0 +1,98 @@
+{
+  "run_type": "pre_market",
+  "run_ts": "2026-06-24T08:09:52Z",
+  "cutoff_ts": "2026-06-24T08:05:04Z",
+  "infrastructure_issues": [
+    "Supabase blocked by proxy (403) — fell back to local SQLite",
+    "yfinance blocked by proxy (403) — all live price fetches failed",
+    "STM fill recorded at stale price 79.5498 (last known, not pre-market)"
+  ],
+  "macro": {
+    "regime": "neutral",
+    "event_lock": false,
+    "vix": 19.14,
+    "yield_10y": 4.51,
+    "dxy": 101.41,
+    "note": "VIX up 16.41→19.14. Korea KOSPI -10%, semi sell-off: MU -13.18%, NVDA -4.13%, SNDK -12.49%."
+  },
+  "news_flagged": [
+    "MU",
+    "NVDA",
+    "SNDK",
+    "AMD",
+    "INTC"
+  ],
+  "fills": [
+    {
+      "ticker": "STM",
+      "side": "buy",
+      "shares": 3,
+      "status": "filled",
+      "fill_price": 79.5498,
+      "cash_delta": -238.65
+    },
+    {
+      "ticker": "NVDA",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "CRDO",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "AAOI",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "DVN",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "MSFT",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "AMD",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "CCJ",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "ENPH",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "RBRK",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "TMO",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "AAPL",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "GEV",
+      "status": "skipped",
+      "reason": "intent=defer"
+    }
+  ],
+  "nav_before": 29911.56,
+  "nav_after": 29911.55,
+  "nav_true_estimate": "unknown — stale prices"
+}
