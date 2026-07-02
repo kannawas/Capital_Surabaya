@@ -1,0 +1,1014 @@
+{
+  "run_id": 53,
+  "ts": "2026-07-02T08:02:43Z",
+  "nav_before": 30903.37,
+  "nav_after": 30903.37,
+  "macro": {
+    "regime": "neutral",
+    "event_lock": false,
+    "vix": null
+  },
+  "limits": {
+    "regime": "neutral",
+    "regime_factor": 0.9,
+    "cash_floor_pct": 0.11,
+    "gross_exposure_cap_pct": 0.765,
+    "event_lock": false,
+    "news_addon": 0.0,
+    "group_caps": {
+      "uncategorized": 0.13986,
+      "consumer_tech": 0.162
+    },
+    "ticker_caps": {
+      "NOC": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "CELH": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "BIIB": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "FSLR": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "ORA": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "PBOG": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "TMUS": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "ASML": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "MGA": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "ON": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "CVS": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "P": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "HASI": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "NFLX": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "SOFI": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "CNQ": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "SCHW": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "PANW": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "CWEN": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "TMDX": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "OXY": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "META": {
+        "single_name_cap": 0.072,
+        "thesis_verdict": "intact",
+        "conviction": "not_reviewed"
+      },
+      "HII": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "AAPL": {
+        "single_name_cap": 0.05,
+        "thesis_verdict": "intact",
+        "conviction": 0.0
+      },
+      "SNPS": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "COST": {
+        "single_name_cap": 0.072,
+        "thesis_verdict": "intact",
+        "conviction": "not_reviewed"
+      },
+      "GD": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "IIPR": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "BA": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "PAAS": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "PSTG": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "XP": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "ENB": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "AAOI": {
+        "single_name_cap": 0.05,
+        "thesis_verdict": "watch",
+        "conviction": 0.33
+      },
+      "IONQ": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "GE": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "AVAV": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "DAC": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "HTHT": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "RACE": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "REGN": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "ADBE": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "APP": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "TSLA": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "watch",
+        "conviction": "not_reviewed"
+      },
+      "BKV": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "TWLO": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "MELI": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "CEG": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "WTW": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "ARM": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "TDOC": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "STNE": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "BTU": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "ARLP": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "GOLD": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "DHR": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "IBM": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "LEU": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "ACHR": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "ALAB": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "HCA": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "MP": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "AMZN": {
+        "single_name_cap": 0.072,
+        "thesis_verdict": "intact",
+        "conviction": "not_reviewed"
+      },
+      "ORCL": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "ASTS": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "ABNB": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "CRWD": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "MRK": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "QCOM": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "FICO": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "APTV": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "CRUS": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "CCJ": {
+        "single_name_cap": 0.05,
+        "thesis_verdict": "intact",
+        "conviction": 0.45
+      },
+      "KGC": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "GMAB": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "KTOS": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "LUNR": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "SMR": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "NOW": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "IOT": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "ATI": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "TMO": {
+        "single_name_cap": 0.05,
+        "thesis_verdict": "watch",
+        "conviction": 0.0
+      },
+      "LAUR": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "KLAC": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "ENPH": {
+        "single_name_cap": 0.05,
+        "thesis_verdict": "weakening",
+        "conviction": 0.39
+      },
+      "UUUU": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "MU": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "STM": {
+        "single_name_cap": 0.05,
+        "thesis_verdict": "intact",
+        "conviction": 0.0
+      },
+      "ATRO": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "HCC": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "RGTI": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "CMP": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "RBRK": {
+        "single_name_cap": 0.05,
+        "thesis_verdict": "intact",
+        "conviction": 0.0
+      },
+      "NBIS": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "SNDK": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "CRM": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "FOJCF": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "JOBY": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "SHOP": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "PLTR": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "PFE": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "GOOGL": {
+        "single_name_cap": 0.072,
+        "thesis_verdict": "intact",
+        "conviction": "not_reviewed"
+      },
+      "WM": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "PLAB": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "TEM": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "DHI": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "HROW": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "CRWV": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "AMD": {
+        "single_name_cap": 0.05,
+        "thesis_verdict": "intact",
+        "conviction": 0.0
+      },
+      "PRCT": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "MRVL": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "watch",
+        "conviction": "not_reviewed"
+      },
+      "GEV": {
+        "single_name_cap": 0.05,
+        "thesis_verdict": "intact",
+        "conviction": 0.0
+      },
+      "CTSH": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "CRML": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "ZS": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "OKLO": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "CLPT": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "LMND": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "LDOS": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "HOOD": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "MSFT": {
+        "single_name_cap": 0.05,
+        "thesis_verdict": "intact",
+        "conviction": 0.0
+      },
+      "PSN": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "LHX": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "BWXT": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "MDB": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "ONTO": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "DVN": {
+        "single_name_cap": 0.05,
+        "thesis_verdict": "watch",
+        "conviction": 0.0
+      },
+      "GCT": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "VRT": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "INTC": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "FANG": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "UNP": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "RKLB": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "ANET": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "LLY": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "NVDA": {
+        "single_name_cap": 0.05,
+        "thesis_verdict": "intact",
+        "conviction": 0.0
+      },
+      "ST": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "GRMN": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "NEM": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "FSLY": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "LNG": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "AVGO": {
+        "single_name_cap": 0.072,
+        "thesis_verdict": "intact",
+        "conviction": "not_reviewed"
+      },
+      "VST": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "CRDO": {
+        "single_name_cap": 0.05,
+        "thesis_verdict": "intact",
+        "conviction": 0.0
+      },
+      "DRS": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "LMT": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "HON": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "ZETA": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "BX": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "TDG": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      },
+      "MA": {
+        "single_name_cap": 0.05202,
+        "thesis_verdict": "not_reviewed",
+        "conviction": "not_reviewed"
+      }
+    }
+  },
+  "order_plans": [
+    {
+      "ticker": "AAOI",
+      "side": "buy",
+      "shares": 2,
+      "size_pct": 0.0132,
+      "actual_pct": 0.013097,
+      "limit_price": 202.37,
+      "is_market": false,
+      "binding_cap": "single_name_cap",
+      "conviction": 0.33,
+      "skipped_reason": null
+    },
+    {
+      "ticker": "ENPH",
+      "side": "buy",
+      "shares": 6,
+      "size_pct": 0.0156,
+      "actual_pct": 0.014043,
+      "limit_price": 72.33,
+      "is_market": false,
+      "binding_cap": "single_name_cap",
+      "conviction": 0.39,
+      "skipped_reason": null
+    },
+    {
+      "ticker": "CCJ",
+      "side": "buy",
+      "shares": 4,
+      "size_pct": 0.018,
+      "actual_pct": 0.015598,
+      "limit_price": 120.51,
+      "is_market": false,
+      "binding_cap": "single_name_cap",
+      "conviction": 0.45,
+      "skipped_reason": null
+    },
+    {
+      "ticker": "AMD",
+      "side": "skip",
+      "shares": 0,
+      "size_pct": 0.0,
+      "actual_pct": 0.0,
+      "limit_price": null,
+      "is_market": false,
+      "binding_cap": "none",
+      "conviction": 0.0,
+      "skipped_reason": "intent=defer"
+    },
+    {
+      "ticker": "STM",
+      "side": "skip",
+      "shares": 0,
+      "size_pct": 0.0,
+      "actual_pct": 0.0,
+      "limit_price": null,
+      "is_market": false,
+      "binding_cap": "none",
+      "conviction": 0.0,
+      "skipped_reason": "intent=defer"
+    },
+    {
+      "ticker": "AAPL",
+      "side": "skip",
+      "shares": 0,
+      "size_pct": 0.0,
+      "actual_pct": 0.0,
+      "limit_price": null,
+      "is_market": false,
+      "binding_cap": "none",
+      "conviction": 0.0,
+      "skipped_reason": "intent=defer"
+    },
+    {
+      "ticker": "CRDO",
+      "side": "skip",
+      "shares": 0,
+      "size_pct": 0.0,
+      "actual_pct": 0.0,
+      "limit_price": null,
+      "is_market": false,
+      "binding_cap": "none",
+      "conviction": 0.0,
+      "skipped_reason": "intent=defer"
+    },
+    {
+      "ticker": "NVDA",
+      "side": "skip",
+      "shares": 0,
+      "size_pct": 0.0,
+      "actual_pct": 0.0,
+      "limit_price": null,
+      "is_market": false,
+      "binding_cap": "none",
+      "conviction": 0.0,
+      "skipped_reason": "intent=defer"
+    },
+    {
+      "ticker": "GEV",
+      "side": "skip",
+      "shares": 0,
+      "size_pct": 0.0,
+      "actual_pct": 0.0,
+      "limit_price": null,
+      "is_market": false,
+      "binding_cap": "none",
+      "conviction": 0.0,
+      "skipped_reason": "intent=defer"
+    },
+    {
+      "ticker": "TMO",
+      "side": "skip",
+      "shares": 0,
+      "size_pct": 0.0,
+      "actual_pct": 0.0,
+      "limit_price": null,
+      "is_market": false,
+      "binding_cap": "none",
+      "conviction": 0.0,
+      "skipped_reason": "intent=defer"
+    },
+    {
+      "ticker": "DVN",
+      "side": "skip",
+      "shares": 0,
+      "size_pct": 0.0,
+      "actual_pct": 0.0,
+      "limit_price": null,
+      "is_market": false,
+      "binding_cap": "none",
+      "conviction": 0.0,
+      "skipped_reason": "intent=defer"
+    },
+    {
+      "ticker": "RBRK",
+      "side": "skip",
+      "shares": 0,
+      "size_pct": 0.0,
+      "actual_pct": 0.0,
+      "limit_price": null,
+      "is_market": false,
+      "binding_cap": "none",
+      "conviction": 0.0,
+      "skipped_reason": "intent=defer"
+    },
+    {
+      "ticker": "MSFT",
+      "side": "skip",
+      "shares": 0,
+      "size_pct": 0.0,
+      "actual_pct": 0.0,
+      "limit_price": null,
+      "is_market": false,
+      "binding_cap": "none",
+      "conviction": 0.0,
+      "skipped_reason": "intent=defer"
+    }
+  ],
+  "fills": [
+    {
+      "ticker": "AAOI",
+      "side": "buy",
+      "shares": 2,
+      "status": "filled",
+      "fill_price": 202.4712,
+      "cash_delta": -404.94
+    },
+    {
+      "ticker": "ENPH",
+      "side": "buy",
+      "shares": 6,
+      "status": "filled",
+      "fill_price": 72.3662,
+      "cash_delta": -434.2
+    },
+    {
+      "ticker": "CCJ",
+      "side": "buy",
+      "shares": 4,
+      "status": "filled",
+      "fill_price": 120.5703,
+      "cash_delta": -482.28
+    },
+    {
+      "ticker": "AMD",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "STM",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "AAPL",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "CRDO",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "NVDA",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "GEV",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "TMO",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "DVN",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "RBRK",
+      "status": "skipped",
+      "reason": "intent=defer"
+    },
+    {
+      "ticker": "MSFT",
+      "status": "skipped",
+      "reason": "intent=defer"
+    }
+  ]
+}
