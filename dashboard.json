@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-10T21:12:29.440095+00:00",
-  "latest_run_ts": "2026-07-10T21:02:01Z",
+  "generated_at": "2026-07-11T21:12:40.185894+00:00",
+  "latest_run_ts": "2026-07-11T21:01:47Z",
   "portfolio": {
     "nav": 30937.94,
     "cash": 311.17,
@@ -1745,8 +1745,8 @@
     "execution": {
       "agent": "Execution Agent",
       "visibility": "blind_no_portfolio_no_cross_agent",
-      "cutoff_ts": "2026-07-10T21:02:01Z",
-      "run_ts": "2026-07-10T21:02:01Z",
+      "cutoff_ts": "2026-07-11T21:01:47+00:00",
+      "run_ts": "2026-07-11T21:12:00+00:00",
       "regime_used": "neutral",
       "event_lock": false,
       "intents": [
@@ -1757,18 +1757,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "No gate. tech_class=watch → defer per synthesis table.",
+          "gate_reason": "",
           "conviction_base": 0.0,
           "conviction_modifiers": {
-            "thesis": 0.0,
-            "regime": 0.0,
-            "news": 0.0,
-            "group": 0.0
+            "thesis": 1.0,
+            "regime": 0.9,
+            "news": 0.85,
+            "group": 1.0
           },
           "tech_class": "watch",
           "thesis_verdict": "intact",
           "news_flag": "watch",
-          "data_quality": "partial"
+          "data_quality": "impaired"
         },
         {
           "ticker": "CRDO",
@@ -1777,18 +1777,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "No gate. tech_class=watch → defer.",
+          "gate_reason": "",
           "conviction_base": 0.0,
           "conviction_modifiers": {
-            "thesis": 0.0,
-            "regime": 0.0,
-            "news": 0.0,
-            "group": 0.0
+            "thesis": 1.0,
+            "regime": 0.9,
+            "news": 1.0,
+            "group": 1.0
           },
           "tech_class": "watch",
           "thesis_verdict": "intact",
           "news_flag": "pass",
-          "data_quality": "partial"
+          "data_quality": "impaired"
         },
         {
           "ticker": "AAOI",
@@ -1797,18 +1797,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "No gate. tech_class=watch → defer.",
+          "gate_reason": "",
           "conviction_base": 0.0,
           "conviction_modifiers": {
-            "thesis": 0.0,
-            "regime": 0.0,
-            "news": 0.0,
-            "group": 0.0
+            "thesis": 0.7,
+            "regime": 0.9,
+            "news": 1.0,
+            "group": 1.0
           },
           "tech_class": "watch",
           "thesis_verdict": "watch",
           "news_flag": "pass",
-          "data_quality": "partial"
+          "data_quality": "impaired"
         },
         {
           "ticker": "DVN",
@@ -1817,18 +1817,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "No gate. tech_class=watch → defer. Note: news_flag=watch (activist pressure) reduces future conviction if signal triggers.",
+          "gate_reason": "",
           "conviction_base": 0.0,
           "conviction_modifiers": {
-            "thesis": 0.0,
-            "regime": 0.0,
-            "news": 0.0,
-            "group": 0.0
+            "thesis": 0.85,
+            "regime": 0.9,
+            "news": 0.85,
+            "group": 1.0
           },
           "tech_class": "watch",
-          "thesis_verdict": "watch",
+          "thesis_verdict": "weakening",
           "news_flag": "watch",
-          "data_quality": "partial"
+          "data_quality": "impaired"
         },
         {
           "ticker": "MSFT",
@@ -1837,18 +1837,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "No gate. tech_class=watch (overbought RSI, -4.2% today pullback neutralized momentum). Thesis intact; pre-earnings Jul 28 creates uncertainty. Defer.",
+          "gate_reason": "",
           "conviction_base": 0.0,
           "conviction_modifiers": {
-            "thesis": 0.0,
-            "regime": 0.0,
-            "news": 0.0,
-            "group": 0.0
+            "thesis": 1.0,
+            "regime": 0.9,
+            "news": 1.0,
+            "group": 1.1
           },
           "tech_class": "watch",
           "thesis_verdict": "intact",
           "news_flag": "pass",
-          "data_quality": "partial"
+          "data_quality": "impaired"
         },
         {
           "ticker": "AMD",
@@ -1857,18 +1857,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "No gate. tech_class=watch (RSI 70 overbought, BB upper zone). Thesis intact; up 131% YTD. Defer until technical setup improves.",
+          "gate_reason": "",
           "conviction_base": 0.0,
           "conviction_modifiers": {
-            "thesis": 0.0,
-            "regime": 0.0,
-            "news": 0.0,
-            "group": 0.0
+            "thesis": 1.0,
+            "regime": 0.9,
+            "news": 1.0,
+            "group": 1.1
           },
           "tech_class": "watch",
           "thesis_verdict": "intact",
           "news_flag": "pass",
-          "data_quality": "partial"
+          "data_quality": "impaired"
         },
         {
           "ticker": "CCJ",
@@ -1877,18 +1877,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "No gate. tech_class=watch. news_flag=watch (mine suspension). Thesis intact but near-term production risk; earnings Jul 31. Defer.",
+          "gate_reason": "",
           "conviction_base": 0.0,
           "conviction_modifiers": {
-            "thesis": 0.0,
-            "regime": 0.0,
-            "news": 0.0,
-            "group": 0.0
+            "thesis": 0.7,
+            "regime": 0.9,
+            "news": 0.85,
+            "group": 1.1
           },
           "tech_class": "watch",
-          "thesis_verdict": "intact",
+          "thesis_verdict": "watch",
           "news_flag": "watch",
-          "data_quality": "partial"
+          "data_quality": "impaired"
         },
         {
           "ticker": "ENPH",
@@ -1897,18 +1897,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "No gate. tech_class=watch. Thesis=weakening but no gate applies (news_flag=pass, no block). RSI 78.95 extreme overbought despite fundamental weakness is a warning. Defer — tech and fundamental conflict.",
+          "gate_reason": "",
           "conviction_base": 0.0,
           "conviction_modifiers": {
-            "thesis": 0.0,
-            "regime": 0.0,
-            "news": 0.0,
-            "group": 0.0
+            "thesis": 0.85,
+            "regime": 0.9,
+            "news": 1.0,
+            "group": 1.0
           },
           "tech_class": "watch",
           "thesis_verdict": "weakening",
           "news_flag": "pass",
-          "data_quality": "partial"
+          "data_quality": "impaired"
         },
         {
           "ticker": "RBRK",
@@ -1917,18 +1917,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "No gate. tech_class=watch (RSI 77.4 overbought, price outside BB upper band with reversal signal today: -3.2% 1d). Thesis intact. Defer — technical pullback signal warrants caution.",
+          "gate_reason": "",
           "conviction_base": 0.0,
           "conviction_modifiers": {
-            "thesis": 0.0,
-            "regime": 0.0,
-            "news": 0.0,
-            "group": 0.0
+            "thesis": 1.0,
+            "regime": 0.9,
+            "news": 1.0,
+            "group": 1.0
           },
           "tech_class": "watch",
           "thesis_verdict": "intact",
           "news_flag": "pass",
-          "data_quality": "partial"
+          "data_quality": "impaired"
         },
         {
           "ticker": "STM",
@@ -1937,18 +1937,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "No gate. tech_class=watch (RSI 80.7 extreme overbought, +15.2% today). Thesis=watch. Defer — parabolic move with fundamental uncertainty; earnings Jul 23.",
+          "gate_reason": "",
           "conviction_base": 0.0,
           "conviction_modifiers": {
-            "thesis": 0.0,
-            "regime": 0.0,
-            "news": 0.0,
-            "group": 0.0
+            "thesis": 0.7,
+            "regime": 0.9,
+            "news": 1.0,
+            "group": 1.0
           },
           "tech_class": "watch",
           "thesis_verdict": "watch",
           "news_flag": "pass",
-          "data_quality": "partial"
+          "data_quality": "impaired"
         },
         {
           "ticker": "TMO",
@@ -1957,18 +1957,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "No gate. tech_class=watch. Thesis=watch (1% organic growth, NIH headwinds). Defer.",
+          "gate_reason": "",
           "conviction_base": 0.0,
           "conviction_modifiers": {
-            "thesis": 0.0,
-            "regime": 0.0,
-            "news": 0.0,
-            "group": 0.0
+            "thesis": 1.0,
+            "regime": 0.9,
+            "news": 1.0,
+            "group": 1.1
           },
           "tech_class": "watch",
-          "thesis_verdict": "watch",
+          "thesis_verdict": "intact",
           "news_flag": "pass",
-          "data_quality": "partial"
+          "data_quality": "impaired"
         },
         {
           "ticker": "AAPL",
@@ -1977,18 +1977,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "No gate. tech_class=watch (RSI 75.6 extreme overbought). Thesis=intact but GM guide-down in Q3 and chip shortage noted. Defer — overbought into earnings Jul 30.",
+          "gate_reason": "",
           "conviction_base": 0.0,
           "conviction_modifiers": {
-            "thesis": 0.0,
-            "regime": 0.0,
-            "news": 0.0,
-            "group": 0.0
+            "thesis": 0.7,
+            "regime": 0.9,
+            "news": 0.85,
+            "group": 1.1
           },
           "tech_class": "watch",
-          "thesis_verdict": "intact",
-          "news_flag": "pass",
-          "data_quality": "partial"
+          "thesis_verdict": "watch",
+          "news_flag": "watch",
+          "data_quality": "impaired"
         },
         {
           "ticker": "GEV",
@@ -1997,18 +1997,18 @@
           "limit_price": null,
           "stop_loss": null,
           "gate_fired": "none",
-          "gate_reason": "No gate. tech_class=watch. Thesis=intact (fundamentals strong Q1) but -10% today on sector concern is a news_flag=watch event. Defer — let dust settle before earnings Jul 22.",
+          "gate_reason": "",
           "conviction_base": 0.0,
           "conviction_modifiers": {
-            "thesis": 0.0,
-            "regime": 0.0,
-            "news": 0.0,
-            "group": 0.0
+            "thesis": 0.7,
+            "regime": 0.9,
+            "news": 0.85,
+            "group": 1.1
           },
           "tech_class": "watch",
-          "thesis_verdict": "intact",
+          "thesis_verdict": "watch",
           "news_flag": "watch",
-          "data_quality": "partial"
+          "data_quality": "impaired"
         }
       ],
       "watchlist_removals": [],
@@ -2018,13 +2018,14 @@
         "defer_count": 13,
         "avoid_count": 0,
         "removal_count": 0
-      }
+      },
+      "execution_note": "CRITICAL: All 13 tickers classified as DEFER. Primary driver: Technical Screener returned all tickers as 'watch' (no buy_candidates, no sell_or_avoid) due to stale packet price data from 2026-06-02 (39 days before cutoff). No hard gates fired. Macro regime NEUTRAL with event_lock false. News flags: AAPL/GEV/DVN/CCJ/NVDA flagged 'watch' (no 'block' flags). No buy intents can be generated from watch-classified technical signals per synthesis rules. Recommend refreshing price data pipeline before next run."
     },
     "fundamental_thesis": {
       "agent": "Fundamental Thesis Agent",
       "visibility": "blind_no_portfolio_no_cross_agent",
-      "cutoff_ts": "2026-07-10T21:02:01Z",
-      "run_ts": "2026-07-10T21:02:01Z",
+      "cutoff_ts": "2026-07-11T21:01:47+00:00",
+      "run_ts": "2026-07-11T21:10:00+00:00",
       "triggered_count": 13,
       "total_count": 13,
       "verdicts": [
@@ -2034,17 +2035,17 @@
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
           "confidence": "high",
-          "data_coverage": "strong",
-          "key_evidence": "Q1 FY2027 revenue +85% YoY to $81.6B; Data Center $75.2B +92%; Q2 guide $91B well above street $86.8B; $80B buyback and 25x dividend hike announced.",
-          "source": "NVIDIA Newsroom / SEC 8-K",
-          "source_date": "2026-05-20",
+          "data_coverage": "partial",
+          "key_evidence": "Wells Fargo (July 10) estimates China GPU sales of ~$6-8B from H200; core AI GPU demand (datacenter) remains dominant revenue driver with Blackwell ramp ongoing",
+          "source": "Wells Fargo analyst note via Seeking Alpha",
+          "source_date": "2026-07-10",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Structural: Growing ASIC substitution programs at hyperscalers (Google TPU, Amazon Trainium)",
-            "Regulatory: China H20 ban lapped but geopolitical supply chain risk persists",
-            "Valuation: Premium multiples leave little room for any demand deceleration"
+            "China export controls limiting addressable market expansion",
+            "AMD MI300X competition ramping in AI inference workloads",
+            "Valuation premium depends on sustained hypercaler capex growth"
           ]
         },
         {
@@ -2053,17 +2054,16 @@
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
           "confidence": "high",
-          "data_coverage": "strong",
-          "key_evidence": "Q4 FY2026 revenue $437M +157% YoY; FY2026 total $1.3B +206%; FY2027 guide >80% YoY growth; optical portfolio expected >$600M in FY2027.",
-          "source": "Credo IR Q4 FY2026 / SEC",
-          "source_date": "2026-06-01",
+          "data_coverage": "partial",
+          "key_evidence": "Q4 FY2026 revenue $437M, +157% YoY (reported prior to July 10-11 window); no material adverse news in 24h window; current price ~$265 vs June 2 packet $229 (+16%)",
+          "source": "Yahoo Finance / StockTitan Q4 FY2026 earnings summary",
+          "source_date": "2026-07-10",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Insider selling (CEO, CFO, CTO) — profit-taking risk",
-            "Concentration: hyperscaler customer concentration in AI connectivity spend",
-            "Valuation: high multiple on accelerating but still relatively small revenue base"
+            "Hyper-concentrated customer base (hyperscalers); single-customer risk",
+            "High valuation multiple vulnerable to any growth deceleration"
           ]
         },
         {
@@ -2071,38 +2071,37 @@
           "verdict": "watch",
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
-          "confidence": "medium",
-          "data_coverage": "partial",
-          "key_evidence": "Q1 2026 revenue $151M record +51% YoY; DC revenue $81M +154%; but non-GAAP EPS -$0.07 (missed -$0.05 est.); full-year guide >$1.1B implies ~4x Q1 run rate — steep H2 ramp required.",
-          "source": "AAOI IR Q1 2026 / SEC 8-K",
-          "source_date": "2026-05-07",
+          "confidence": "low",
+          "data_coverage": "weak",
+          "key_evidence": "Current price ~$120 represents a 41% decline from June 2 packet price of $202.37 and ~49% off May 2026 ATH of ~$233; earnings due July 30 — insufficient data to confirm or deny thesis reversal pre-earnings",
+          "source": "StockAnalysis price data, CNN Markets",
+          "source_date": "2026-07-11",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Execution risk: requires steep H2 ramp to meet >$1.1B full-year guide",
-            "Margin: non-GAAP GM ~29% structurally thin; earnings quality unclear until scale achieved",
-            "Competition: faces Coherent, II-VI in AI photonics transceivers"
+            "Massive price decline (-41% in ~39 days) suggests either sector rotation or company-specific adverse development not yet fully public",
+            "Earnings July 30 — high binary risk event",
+            "Optical transceiver market capacity additions by incumbents may be pressuring ASPs"
           ]
         },
         {
           "ticker": "DVN",
-          "verdict": "watch",
+          "verdict": "weakening",
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
           "confidence": "medium",
           "data_coverage": "partial",
-          "key_evidence": "Q1 2026 revenue $3.81B missed $4.18B estimate; Coterra merger closed ~May 7 2026 — standalone DVN thesis superseded by combined entity thesis; activist pressure from Kimmeridge and Toms Capital on asset divestiture pace (July 9).",
-          "source": "Devon IR / GlobeNewswire merger announcement / GuruFocus",
-          "source_date": "2026-07-09",
+          "key_evidence": "Three separate analyst PT cuts (Truist: $66→$61, JPMorgan: $62→$55, RBC: Hold initiation) all landing July 8-10; Coterra merger integration risk; current price ~$42 vs analyst avg target ~$60",
+          "source": "StockTitan, MarketBeat analyst data",
+          "source_date": "2026-07-10",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Merger integration risk: $25B Coterra combination creates execution complexity",
-            "Activist pressure: public criticism of divestiture pace could force management changes",
-            "Commodity: revenue and FCF highly sensitive to oil/gas prices",
-            "Debt: leverage from merger reduces financial flexibility"
+            "Post-merger integration complexity and balance sheet leverage",
+            "Oil price uncertainty weighing on E&P sector broadly",
+            "Multiple consecutive analyst PT cuts signal eroding sell-side confidence"
           ]
         },
         {
@@ -2111,17 +2110,17 @@
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
           "confidence": "high",
-          "data_coverage": "strong",
-          "key_evidence": "Q3 FY2026: revenue $82.9B +18%, Azure +40% CC, AI ARR >$37B +123% YoY, operating margin 46.3% +60bps; Q4 guide $86.7-87.8B; capex >$40B/quarter indicating supply build-out.",
-          "source": "Microsoft Source / SEC 8-K",
-          "source_date": "2026-04-29",
+          "data_coverage": "partial",
+          "key_evidence": "HSBC projects Q4 FY2026 revenue $89.3B (+16.8% YoY) with 39.6% Azure growth; earnings July 28; consensus 97 analysts mostly Strong Buy; AI capex driving cloud demand acceleration",
+          "source": "GuruFocus / HSBC research summary",
+          "source_date": "2026-07-10",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Capex intensity: $190B CY2026 capex must generate returns — ROI timeline unclear",
-            "Capacity constrained: Azure growth could be limited by datacenter build-out through year-end",
-            "Valuation: premium multiple requires continued execution"
+            "Current price ~$384 significantly below June 2 packet price of $441 (-13%) — investigate cause",
+            "Earnings July 28 is binary risk; high expectations priced in",
+            "Antitrust and regulatory scrutiny on cloud and AI bundling"
           ]
         },
         {
@@ -2130,36 +2129,36 @@
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
           "confidence": "high",
-          "data_coverage": "strong",
-          "key_evidence": "Q1 2026: revenue $10.3B +38% (beat $9.9B), DC revenue $5.8B +57%, Q2 guide $11.2B +46% YoY; non-GAAP gross margin expanding to 55-56%.",
-          "source": "AMD SEC 8-K / TECHi",
-          "source_date": "2026-05-01",
+          "data_coverage": "partial",
+          "key_evidence": "Goldman Sachs raised PT to $640 (from $450) on July 5, citing underappreciated EPYC server CPU demand; AMD guided Q2 revenue ~$11.2B (+46% YoY) with 70% YoY server CPU growth",
+          "source": "TheStreet / Goldman Sachs analyst note",
+          "source_date": "2026-07-05",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "NVDA entrenched: MI-series must prove software ecosystem (ROCm) can compete with CUDA",
-            "Execution: 131% YTD price increase bakes in very high expectations for Aug 4 earnings",
-            "Customer concentration: hyperscaler capex cycles create lumpiness"
+            "High valuation — stock at ~$558 has run significantly since 2025 lows",
+            "MI300X GPU still trails NVDA H100/H200 in software ecosystem (CUDA moat)",
+            "Data center spending could slow if AI ROI scrutiny increases"
           ]
         },
         {
           "ticker": "CCJ",
-          "verdict": "intact",
+          "verdict": "watch",
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
           "confidence": "medium",
-          "data_coverage": "strong",
-          "key_evidence": "Q1 2026: adj. EBITDA +44% to $509M on +7% revenue — operational leverage from higher uranium realized prices; FY2026 guidance unchanged at $3.13-3.37B revenue; Cigar Lake mine temporarily suspended (2 weeks, ~Jul 1).",
-          "source": "Cameco Investor Relations / StockTitan",
-          "source_date": "2026-05-01",
+          "data_coverage": "partial",
+          "key_evidence": "Cameco acquired TEPCO Resources' 5% Cigar Lake stake (July 2, +ve long-term) but faces temporary mining suspension due to Orano McClean Lake mill acid plant issue; current price ~$95 vs packet $120.51 (-21%); BofA cut PT to $140 (July 6, maintains Buy)",
+          "source": "TipRanks, Investing.com",
+          "source_date": "2026-07-07",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Cigar Lake suspension: if repair drags beyond 2 weeks, full-year guidance may be at risk",
-            "Commodity price: uranium spot vs. long-term contract price differential",
-            "Concentration: Cigar Lake is ~50% of annual production — single-mine risk"
+            "Temporary Cigar Lake mining suspension — risk of extension beyond two weeks",
+            "Uranium spot price sensitivity; nuclear policy risk",
+            "Price decline of 21% since June 2 packet — warrants investigation"
           ]
         },
         {
@@ -2167,18 +2166,18 @@
           "verdict": "weakening",
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
-          "confidence": "high",
-          "data_coverage": "strong",
-          "key_evidence": "Q1 2026: revenue -29% YoY to $282.9M; GAAP operating loss of -$29.6M; tariffs added ~430bps GM headwind; Q2 2026 guide flat sequential ($280-310M) — no recovery signal; US residential solar demand has not recovered.",
-          "source": "ENPH SEC 8-K / Investing.com transcript",
-          "source_date": "2026-04-28",
+          "confidence": "medium",
+          "data_coverage": "partial",
+          "key_evidence": "Current price ~$44.94, down 38% from June 2 packet of $72.33 and down ~22% in last month per Susquehanna note (July 10); PT raised to $45 (Neutral) by Susquehanna — consensus pricing in significant deterioration",
+          "source": "Yahoo Finance / Barchart / Susquehanna note",
+          "source_date": "2026-07-10",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Demand: US residential solar adoption showing persistent weakness post-IRA benefit changes",
-            "Tariffs: reciprocal tariff regime adding ~430bps to COGS — structurally negative",
-            "Competition: SolarEdge and string inverters gaining ground on cost"
+            "Solar installer demand weakness in key markets (California NEM 3.0, Europe policy reversals)",
+            "Pricing pressure from Chinese competitors",
+            "Earnings timing uncertain — high binary risk"
           ]
         },
         {
@@ -2188,16 +2187,16 @@
           "verdict_changed": true,
           "confidence": "high",
           "data_coverage": "strong",
-          "key_evidence": "Q1 FY2027 revenue $387M +39%; subscription ARR $1.57B +32%; raised FY2027 guide to $1.638-1.648B; non-GAAP operating profitable at $24.6M; FCF guide $293-303M.",
-          "source": "Rubrik IR / Motley Fool earnings call",
-          "source_date": "2026-06-05",
+          "key_evidence": "FY2026 revenue $1.32B (+48% YoY); BMO Capital raised PT to $98 on July 11; announced $500M UK investment over 5 years establishing London as European HQ; analyst consensus Strong Buy with median PT $111.50",
+          "source": "Rubrik IR / StockTitan / BMO Capital",
+          "source_date": "2026-07-11",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Valuation: early-stage profitability at premium multiple — any miss will be punished",
-            "Competition: Cohesity, Commvault, legacy backup vendors with larger installed bases",
-            "Stock-comp: GAAP losses remain due to SBC despite non-GAAP profitability"
+            "Pre-profitability company; cash burn rate at expansion pace",
+            "Cybersecurity space competitive with CrowdStrike, Palo Alto, Cohesity",
+            "Current price ~$90 vs packet $82.33 — approaching some analyst PTs"
           ]
         },
         {
@@ -2206,75 +2205,74 @@
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
           "confidence": "medium",
-          "data_coverage": "strong",
-          "key_evidence": "Q1 2026: revenue $3.1B +23% (beat) but non-GAAP EPS $0.13 (missed); non-GAAP operating margin only ~5.5% (deep below peak ~20%+); restructuring charges ongoing; Q2 guide $3.45B (recovering).",
-          "source": "STM Newsroom / SEC Form 6-K",
-          "source_date": "2026-04-01",
+          "data_coverage": "partial",
+          "key_evidence": "Routine share repurchase update July 6; earnings scheduled July 23 — will be key data point; current price ~$71 vs June 2 packet $79.51 (-10%); GF Score 72/100 per GuruFocus (borderline)",
+          "source": "GlobeNewswire, GuruFocus",
+          "source_date": "2026-07-10",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Margin recovery: restructuring ongoing; path to >15% operating margin depends on automotive demand recovery",
-            "Automotive: microcontroller demand remains soft (EV production cycle uncertainty)",
-            "Guidance: Q3/Q4 visibility limited; recovery priced into stock on multiple expansion"
+            "Auto/industrial semiconductor demand remains soft (inventory digestion cycle)",
+            "Earnings July 23 — any guidance cut could accelerate stock pressure",
+            "European semi competitor facing macro headwinds vs. Asian peers"
           ]
         },
         {
           "ticker": "TMO",
-          "verdict": "watch",
+          "verdict": "intact",
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
           "confidence": "medium",
-          "data_coverage": "strong",
-          "key_evidence": "Q1 2026: revenue $11.01B +6% (+1% organic); adj. operating margin 21.8% flat YoY; tariffs -80bps; FY2026 organic growth guide 3-4% requires H2 acceleration; NIH cuts and China headwinds structurally pressuring government/academic segment.",
-          "source": "TMO IR Q1 2026 / GuruFocus",
-          "source_date": "2026-04-23",
+          "data_coverage": "partial",
+          "key_evidence": "Quarterly dividend maintained at $0.47/share (July 10) — consistent capital return policy; Arcturus Therapeutics Phase 3 mRNA manufacturing collaboration (CF drug ARCT-032) announced recently; current price ~$525 vs packet $482 (+9%)",
+          "source": "GuruFocus, Simply Wall St",
+          "source_date": "2026-07-10",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Organic growth: 1% Q1 is below full-year 3-4% guide — requires meaningful acceleration",
-            "NIH budget cuts: US academic/government accounts under pressure from federal spending reduction",
-            "China: regulatory and macro headwinds compressing Asia/Pacific growth"
+            "Life sciences tools spending by biotech/pharma customers remains below 2021-2022 peak",
+            "China revenues have faced headwinds from geopolitical tension and domestic alternatives",
+            "Dividend maintenance does not confirm thesis; need quarterly earnings for confirmation"
           ]
         },
         {
           "ticker": "AAPL",
-          "verdict": "intact",
+          "verdict": "watch",
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
           "confidence": "medium",
-          "data_coverage": "strong",
-          "key_evidence": "Q2 FY2026: revenue $111.2B +17%, EPS $2.01 +22%; gross margin 49.3% strong; Q3 FY2026 guide: GM 47.5-48.5% (step-down due to memory chip shortage and higher costs).",
-          "source": "InsiderFinance / StockTitan 10-Q",
-          "source_date": "2026-05-01",
+          "data_coverage": "partial",
+          "key_evidence": "Apple filed blockbuster lawsuit against OpenAI on July 10 alleging trade secret theft involving former Apple VP Tang Tan (now OpenAI Chief Hardware Officer) and engineer Chang Liu; stock fell ~1% to ~$312; current price ~$315",
+          "source": "Bloomberg, CNBC — July 10, 2026",
+          "source_date": "2026-07-10",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Memory chip shortage constraining iPhone 17 and Mac supply in Q3",
-            "Gross margin guided down 80-180bps for Q3 — chip cost pressure",
-            "US revenue decline 6% flagged by UBS for June quarter — market-specific weakness"
+            "OpenAI lawsuit creates strategic uncertainty around Apple's AI hardware roadmap and partnerships",
+            "Loss of senior AI hardware talent (Tang Tan) represents execution risk",
+            "Near-term litigation overhang may suppress multiple; outcome highly uncertain"
           ]
         },
         {
           "ticker": "GEV",
-          "verdict": "intact",
+          "verdict": "watch",
           "prior_verdict": "not_reviewed",
           "verdict_changed": true,
           "confidence": "medium",
-          "data_coverage": "strong",
-          "key_evidence": "Q1 2026: revenue $9.3B +16%; adj. EBITDA $0.9B ~doubled YoY (+390bps); FY2026 FCF guide raised to $6.5-7.5B from $5.0-5.5B; raised revenue and EBITDA margin guidance. Stock -10% today on Barclays/Siemens Energy sector downgrade.",
-          "source": "GE Vernova Newsroom / SEC 8-K",
-          "source_date": "2026-04-22",
+          "data_coverage": "partial",
+          "key_evidence": "Barclays downgraded Siemens Energy (July 7) citing peak gas turbine orders (~50 GW annualized vs. sustainable ~80-90 GW); sector read-across sent GEV down ~10%; insider selling (CEO and executives) reported; current price ~$1,076 vs packet $969.67 (+11% recovery from intra-period low)",
+          "source": "TipRanks, Seeking Alpha — July 7-10, 2026",
+          "source_date": "2026-07-10",
           "cutoff_safe": true,
           "dcf_invoked": false,
           "dcf_verdict": null,
           "risk_flags": [
-            "Peak cycle concern: Barclays argues gas turbine market is at cyclical peak (Siemens downgrade Jul 10)",
-            "Valuation: 30x forward P/E after 70% YTD run — sympathy selloff today -10% shows valuation sensitivity",
-            "Wind: offshore wind segment facing economics headwinds (IRA uncertainty, supply chain costs)",
-            "Earnings Jul 22 is key: order backlog and margin guidance will determine if fundamental thesis holds"
+            "Gas turbine order cycle may be peaking per Barclays analysis",
+            "Insider selling by CEO and top executives in a high-flying stock is a yellow flag",
+            "Stock still +62% YTD — high expectations embedded; any guidance trim could cause outsized decline"
           ]
         }
       ]
@@ -2282,75 +2280,96 @@
     "news_reporter": {
       "agent": "News Reporter Agent",
       "visibility": "blind_no_portfolio_no_cross_agent",
-      "cutoff_ts": "2026-07-10T21:02:01Z",
-      "run_ts": "2026-07-10T21:02:01Z",
+      "cutoff_ts": "2026-07-11T21:01:47+00:00",
+      "run_ts": "2026-07-11T21:08:00+00:00",
       "output_language": "th",
       "ticker_count": 13,
       "news_flagged": [
-        "NVDA",
-        "DVN",
+        "AAPL",
         "GEV",
-        "CCJ"
+        "DVN",
+        "CCJ",
+        "NVDA"
       ],
       "events": [
         {
-          "ticker_or_scope": "NVDA",
+          "ticker_or_scope": "AAPL",
           "related_tickers": [
-            "NVDA"
+            "AAPL"
           ],
-          "headline_th": "Seeking Alpha ปรับลด NVDA เป็น Sell ชี้ AI ชิปจีนและ ASIC คุกคามส่วนแบ่งตลาด",
-          "summary_th": "นักวิเคราะห์จาก Seeking Alpha ปรับลด Nvidia เป็น Sell เมื่อวันที่ 9 ก.ค. โดยอ้างถึงการเติบโตของคู่แข่งชิป AI จากจีนและโปรแกรม ASIC ของ hyperscaler เช่น Google TPU และ Amazon Trainium ที่อาจกัดกินส่วนแบ่งตลาดของ Nvidia ในระยะยาว แม้ผลประมาณการ EPS ปี FY2027 จะถูกปรับขึ้น 44 ครั้ง แต่การเปลี่ยนอารมณ์ตลาดครั้งนี้อาจสร้างแรงกดดันระยะสั้น",
-          "source": "Seeking Alpha",
-          "url": "https://seekingalpha.com/news/4612727-sa-analyst-upgradesdowngrades-nvda-gm-axp-ddog",
-          "published_at": "2026-07-09T00:00:00Z",
+          "headline_th": "Apple ฟ้อง OpenAI ขโมยความลับทางการค้า กรณีใหญ่ที่สุดในวงการ AI",
+          "summary_th": "Apple ยื่นฟ้อง OpenAI เมื่อวันที่ 10 ก.ค. 2569 กล่าวหาว่า OpenAI และพนักงานเก่าของ Apple ร่วมกันขโมยข้อมูลลับเกี่ยวกับการออกแบบผลิตภัณฑ์ ส่วนประกอบ และแบบแปลน หลังจาก OpenAI ซื้อบริษัท IO Products ของ Jony Ive และรับ Tang Tan อดีต VP Apple มาเป็น Chief Hardware Officer คดีนี้ถือเป็นการแตกหักครั้งสำคัญระหว่างสองบริษัท และอาจส่งผลต่อกลยุทธ์ AI hardware ของทั้งคู่",
+          "source": "Bloomberg, CNBC, TechCrunch",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-10/apple-sues-openai-for-trade-secret-theft-in-blockbuster-case",
+          "published_at": "2026-07-10T00:00:00+00:00",
           "source_tier": "2",
           "scope": "ticker",
           "direction": "negative",
-          "severity": "medium",
+          "severity": "high",
           "action_flag": "watch",
-          "reason": "Rare sell-side downgrade on a mega-cap; structural thesis challenge (ASIC substitution). Not yet Tier 1 source — monitoring needed.",
+          "reason": "Major litigation event involving trade secrets and key AI hardware personnel; could disrupt Apple's AI partnership strategy and attract regulatory scrutiny",
           "cutoff_safe": true,
-          "duplicate_group": "NVDA_downgrade_0709",
-          "confidence": "medium"
-        },
-        {
-          "ticker_or_scope": "DVN",
-          "related_tickers": [
-            "DVN"
-          ],
-          "headline_th": "นักลงทุน Activist กดดัน Devon Energy ให้เร่งขายสินทรัพย์หลังซื้อ Coterra",
-          "summary_th": "Kimmeridge และ Toms Capital ออกแถลงการณ์วิจารณ์การบริหารของ Devon Energy เมื่อวันที่ 9 ก.ค. ว่าเร่งการขายสินทรัพย์จากการซื้อ Coterra มูลค่า 25 พันล้านดอลลาร์ช้าเกินไป พร้อมกันนั้น Truist ปรับลดเป้าราคาเหลือ 61 ดอลลาร์ ความเสี่ยงด้านการจัดการเพิ่มขึ้น และผลประกอบการจะออกวันที่ 4 ส.ค.",
-          "source": "GuruFocus / MarketBeat",
-          "url": "https://www.gurufocus.com/news/8952306/devon-energy-dvn-faces-criticism-over-slow-asset-divestment-process",
-          "published_at": "2026-07-09T00:00:00Z",
-          "source_tier": "3",
-          "scope": "ticker",
-          "direction": "negative",
-          "severity": "medium",
-          "action_flag": "watch",
-          "reason": "Activist pressure + analyst PT cut signals elevated management risk. Earnings Aug 4 is a key event.",
-          "cutoff_safe": true,
-          "duplicate_group": "DVN_activist_0709",
-          "confidence": "medium"
+          "duplicate_group": "AAPL-openai-lawsuit",
+          "confidence": "high"
         },
         {
           "ticker_or_scope": "GEV",
           "related_tickers": [
             "GEV"
           ],
-          "headline_th": "GE Vernova ร่วง 10% หลัง Barclays ปรับลด Siemens Energy ชี้ตลาด Gas Turbine ถึงจุดสูงสุดแล้ว",
-          "summary_th": "GEV ร่วงลง 10% ในวันที่ 10 ก.ค. จากการที่ Barclays ปรับลด Siemens Energy คู่แข่งในยุโรป เป็น Sell โดยอ้างว่าอุปสงค์ Gas Turbine อยู่ในจุดพีคของวัฏจักร ซึ่งส่งผลกระทบโดยตรงต่อ GEV ที่ซื้อขายที่ P/E 30 เท่า หลังปรับขึ้น 70% YTD จากธีม AI Data Center Power ผลประกอบการจะออกวันที่ 22 ก.ค.",
-          "source": "TipRanks",
-          "url": "https://www.tipranks.com/news/ge-vernova-stock-gev-is-down-10-today-heres-why",
-          "published_at": "2026-07-10T00:00:00Z",
+          "headline_th": "หุ้น GE Vernova ร่วงกว่า 10% หลัง Barclays ปรับลดอันดับ Siemens Energy เตือนยอดสั่งซื้อกังหันก๊าซถึงจุดสูงสุด",
+          "summary_th": "Barclays ปรับลดอันดับ Siemens Energy เป็น Underweight เมื่อ 7 ก.ค. โดยระบุว่ายอดสั่งซื้อกังหันก๊าซที่วิ่งสูงถึง 50 GW ต่อปีนั้นเกินระดับยั่งยืน นักลงทุนขยายผลไปยัง GE Vernova ซึ่งขายในตลาดเดียวกัน ส่งให้ GEV ร่วงกว่า 9-10% ใน session วันที่ 7 ก.ค. และยังซื้อขายอยู่ในแดนลบต่อเนื่องรอบ 10 ก.ค. นอกจากนี้ยังมีรายงานการขายหุ้นของ CEO และผู้บริหารระดับสูง",
+          "source": "Barclays research cited by TipRanks, Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4612069-ge-vernova-leads-power-generation-equipment-stocks-lower-after-siemens-energy-downgrade",
+          "published_at": "2026-07-07T00:00:00+00:00",
+          "source_tier": "2",
+          "scope": "sector",
+          "direction": "negative",
+          "severity": "medium",
+          "action_flag": "watch",
+          "reason": "Sector-level read-across from Siemens downgrade signals near-term peak in gas turbine order cycle; insider selling adds pressure",
+          "cutoff_safe": true,
+          "duplicate_group": "GEV-sector-downgrade",
+          "confidence": "high"
+        },
+        {
+          "ticker_or_scope": "DVN",
+          "related_tickers": [
+            "DVN"
+          ],
+          "headline_th": "Devon Energy โดนปรับลด Price Target จากหลายธนาคาร หลังควบรวม Coterra สำเร็จ",
+          "summary_th": "ในช่วง 8-10 ก.ค. Truist ปรับลด PT เหลือ $61 จาก $66, JPMorgan ลดเหลือ $55 จาก $62 และ RBC Capital เริ่มต้นด้วยคำแนะนำ Hold หลัง Devon Energy ควบรวมกิจการกับ Coterra Energy สำเร็จเมื่อ 7 พ.ค. 2569 นักวิเคราะห์กังวลเรื่องความไม่แน่นอนของราคาน้ำมันและการ integrate หลังควบรวม",
+          "source": "StockTitan, MarketBeat",
+          "url": "https://www.marketbeat.com/stocks/NYSE/DVN/",
+          "published_at": "2026-07-10T00:00:00+00:00",
           "source_tier": "3",
           "scope": "ticker",
           "direction": "negative",
-          "severity": "high",
+          "severity": "medium",
           "action_flag": "watch",
-          "reason": "10% single-day drop on sector thesis challenge. High valuation + peak-cycle concern = elevated risk. Earnings July 22 is near-term catalyst.",
+          "reason": "Multiple concurrent analyst price target cuts signal cautious Wall Street view on post-merger execution and energy price uncertainty",
           "cutoff_safe": true,
-          "duplicate_group": "GEV_selloff_0710",
+          "duplicate_group": "DVN-pt-cuts",
+          "confidence": "medium"
+        },
+        {
+          "ticker_or_scope": "NVDA",
+          "related_tickers": [
+            "NVDA"
+          ],
+          "headline_th": "Wells Fargo เตือน Nvidia ขาย GPU ให้จีนได้จำกัด คาดรายได้เพิ่มเพียง $6-8B",
+          "summary_th": "Wells Fargo ออกบทวิเคราะห์ระบุว่าการที่ Nvidia กลับเข้าตลาดจีนนั้นมีข้อจำกัด คาดว่าจะขาย H200 GPU ได้ประมาณ 200,000 หน่วย สร้างรายได้เพิ่มราว $6-8 พันล้าน ซึ่งไม่ได้เป็น game-changer เนื่องจากตลาดจีนไม่ได้อยู่ในสมมติฐานของนักลงทุน ส่งผลให้หุ้นปรับตัวลงเล็กน้อย",
+          "source": "Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4612701-nvidia-likely-only-to-sell-small-number-of-gpus-to-china-wells-fargo-says",
+          "published_at": "2026-07-10T00:00:00+00:00",
+          "source_tier": "3",
+          "scope": "ticker",
+          "direction": "mixed",
+          "severity": "medium",
+          "action_flag": "watch",
+          "reason": "China GPU access limited per Wells Fargo — modest positive but below some bull-case expectations; could cap near-term upside",
+          "cutoff_safe": true,
+          "duplicate_group": "NVDA-china-wells-fargo",
           "confidence": "medium"
         },
         {
@@ -2358,141 +2377,137 @@
           "related_tickers": [
             "CCJ"
           ],
-          "headline_th": "Cameco หยุดการทำเหมือง Cigar Lake ชั่วคราว 2 สัปดาห์ จากเหตุโรงงานกรดซัลฟิวริก",
-          "summary_th": "Cameco แจ้งระงับการทำเหมือง Cigar Lake ชั่วคราวประมาณ 2 สัปดาห์ เนื่องจากโรงงานกรดซัลฟิวริกของ Orano ที่ McClean Lake ขัดข้อง แม้บริษัทยืนยันว่าเป้าหมายการผลิตทั้งปียังคงเดิม แต่ความเสี่ยงจะเพิ่มขึ้นหากการซ่อมแซมล่าช้ากว่า 2 สัปดาห์ ผลประกอบการกำหนดออกวันที่ 31 ก.ค.",
-          "source": "Mining.com / StockTitan",
-          "url": "https://www.stocktitan.net/news/CCJ/cigar-lake-operation-yfp5eh0i8159.html",
-          "published_at": "2026-07-01T00:00:00Z",
+          "headline_th": "Cameco ซื้อหุ้น Cigar Lake เพิ่ม แต่การผลิตชะงักชั่วคราวจากปัญหาโรงงานกรดซัลฟิวริก",
+          "summary_th": "Cameco ซื้อหุ้น 5% ของ TEPCO Resources ใน Cigar Lake Joint Venture เมื่อ 2 ก.ค. ส่งผลให้ถือหุ้น 57.4% แต่ในเวลาเดียวกัน เกิดปัญหาโรงงานกรดซัลฟิวริกของ Orano ที่ McClean Lake mill ทำให้ต้องหยุดการทำเหมืองชั่วคราว บริษัทระบุว่าไม่คาดว่าจะกระทบการผลิตปี 2569 หากแก้ปัญหาได้ภายใน 2 สัปดาห์",
+          "source": "TipRanks, Investing.com",
+          "url": "https://www.tipranks.com/news/company-announcements/cameco-boosts-cigar-lake-stake-with-july-2026-joint-venture-deal",
+          "published_at": "2026-07-07T00:00:00+00:00",
           "source_tier": "3",
           "scope": "ticker",
-          "direction": "negative",
+          "direction": "mixed",
           "severity": "medium",
           "action_flag": "watch",
-          "reason": "Production disruption at world's largest high-grade uranium mine is operationally material even with unchanged guidance.",
+          "reason": "Operational disruption at key uranium mine is a near-term production risk; acquisition positive long-term but offset by temporary shutdown",
           "cutoff_safe": true,
-          "duplicate_group": "CCJ_mine_suspension_0701",
+          "duplicate_group": "CCJ-cigar-lake",
           "confidence": "medium"
         },
         {
-          "ticker_or_scope": "CRDO",
+          "ticker_or_scope": "RBRK",
           "related_tickers": [
-            "CRDO"
+            "RBRK"
           ],
-          "headline_th": "CRDO ได้รับการปรับเป้าราคาสูงขึ้นจาก 3 สถาบัน: Evercore, Stifel, BofA",
-          "summary_th": "CRDO ได้รับการปรับเพิ่มเป้าราคาจากสามสถาบันใหญ่ในสัปดาห์ที่ผ่านมา: Evercore ISI เริ่มต้นติดตาม Outperform ที่ 325 ดอลลาร์, Stifel ปรับเป้าเป็น 350 ดอลลาร์, BofA ปรับเป็น 340 ดอลลาร์ โดยมีแรงหนุนจากอุปสงค์ AI Data Center Connectivity หุ้นพุ่ง 9.5% เมื่อวันที่ 6 ก.ค.",
-          "source": "TimothySykes / QuiverQuant",
-          "url": "",
-          "published_at": "2026-07-06T00:00:00Z",
-          "source_tier": "3",
-          "scope": "ticker",
-          "direction": "positive",
-          "severity": "medium",
-          "action_flag": "pass",
-          "reason": "Bullish catalysts — multiple analyst upgrades on AI connectivity demand. Not a risk event.",
-          "cutoff_safe": true,
-          "duplicate_group": "CRDO_upgrades_0706",
-          "confidence": "medium"
-        },
-        {
-          "ticker_or_scope": "AMD",
-          "related_tickers": [
-            "AMD"
-          ],
-          "headline_th": "AMD เซ็นดีล Rackspace 30MW; Goldman Sachs ปรับเป้าราคาเป็น 640 ดอลลาร์",
-          "summary_th": "AMD ประกาศดีลติดตั้ง AI Compute 30MW กับ Rackspace และ Goldman Sachs ปรับเพิ่มเป้าราคาเป็น 640 ดอลลาร์ โดยมีงาน 'Advancing AI' วันที่ 22-23 ก.ค. เป็นตัวเร่งสำคัญ หุ้น AMD ปรับขึ้น 131% YTD สะท้อนความคาดหวังสูง ผลประกอบการออกวันที่ 4 ส.ค.",
-          "source": "GlobeNewswire / Motley Fool",
-          "url": "",
-          "published_at": "2026-07-08T00:00:00Z",
+          "headline_th": "Rubrik เปิดตัวศูนย์ยุโรปในลอนดอน ลงทุน $500M พร้อม BMO ขึ้น PT เป็น $98",
+          "summary_th": "Rubrik ประกาศลงทุน $500 ล้านในสหราชอาณาจักรตลอด 5 ปี โดยตั้งลอนดอนเป็น European HQ เพื่อขยายธุรกิจ AI และ cyber resilience นอกจากนี้ BMO Capital ยังปรับขึ้น Price Target เป็น $98 จาก $87 เมื่อ 11 ก.ค. บริษัทรายงานรายได้ปี FY2026 อยู่ที่ $1.32B (+48% YoY)",
+          "source": "StockTitan, Rubrik IR",
+          "url": "https://www.stocktitan.net/news/RBRK/",
+          "published_at": "2026-07-11T00:00:00+00:00",
           "source_tier": "2",
           "scope": "ticker",
           "direction": "positive",
-          "severity": "low",
+          "severity": "medium",
           "action_flag": "pass",
-          "reason": "Positive catalyst — AI deal confirmation. Not a risk event.",
+          "reason": "Large investment commitment and analyst PT raise are positive momentum signals; no material adverse implication",
           "cutoff_safe": true,
-          "duplicate_group": "AMD_rackspace_0708",
+          "duplicate_group": "RBRK-uk-expansion",
           "confidence": "high"
         },
         {
-          "ticker_or_scope": "MSFT",
+          "ticker_or_scope": "ENPH",
           "related_tickers": [
-            "MSFT"
+            "ENPH"
           ],
-          "headline_th": "Microsoft คาดรายได้ Q4 FY2026 แข็งแกร่ง; ผลประกอบการออก 28 ก.ค.",
-          "summary_th": "นักวิเคราะห์ HSBC คาดรายได้ Q4 FY2026 ของ Microsoft ที่ 89.3 พันล้านดอลลาร์ (+16.8% YoY) ขับเคลื่อนโดยการเติบโตของ Azure Cloud การคาดการณ์โดยรวมเป็นบวก consensus ส่วนใหญ่เป็น Buy/Strong Buy ผลประกอบการจะออกวันที่ 28 ก.ค.",
-          "source": "GuruFocus",
-          "url": "",
-          "published_at": "2026-07-09T00:00:00Z",
-          "source_tier": "3",
-          "scope": "ticker",
-          "direction": "positive",
-          "severity": "low",
-          "action_flag": "pass",
-          "reason": "Pre-earnings preview — positive setup. Not an adverse event.",
-          "cutoff_safe": true,
-          "duplicate_group": "MSFT_earnings_preview_0709",
-          "confidence": "medium"
-        },
-        {
-          "ticker_or_scope": "AAPL",
-          "related_tickers": [
-            "AAPL"
-          ],
-          "headline_th": "Apple ต่อสัญญา Broadcom ถึงปี 2031; JPMorgan ปรับเป้าเป็น 345 ดอลลาร์ — แต่ UBS เตือนรายได้สหรัฐฯ อาจลด 6%",
-          "summary_th": "Apple ต่ออายุสัญญา supply chain กับ Broadcom ถึงปี 2031 สำหรับชิป Wi-Fi/Bluetooth ส่งผลบวกต่อความมั่นใจใน supply chain JPMorgan ปรับเพิ่มเป้าราคาเป็น 345 ดอลลาร์ แต่ UBS คงแนะนำ Neutral พร้อมเตือนรายได้สหรัฐฯ ไตรมาส มิ.ย. อาจลด 6% ผลประกอบการกำหนดออก 30 ก.ค.",
-          "source": "Yahoo Finance / GuruFocus",
-          "url": "",
-          "published_at": "2026-07-06T00:00:00Z",
+          "headline_th": "Susquehanna ปรับขึ้น PT Enphase เป็น $45 จาก $32 คง Neutral",
+          "summary_th": "Susquehanna ปรับเพิ่ม Price Target ของ Enphase เป็น $45 จาก $32 เมื่อวันที่ 10 ก.ค. แต่ยังคงคำแนะนำ Neutral หุ้นร่วงลงประมาณ 22% ในเดือนที่ผ่านมา TD Cowen เคยปรับขึ้น PT เป็น $70 (Hold) ในปลายเดือนพ.ค. โดยอ้างถึงโอกาสในธุรกิจ solid-state transformer สำหรับ AI data center",
+          "source": "Yahoo Finance, Barchart",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/enphase-energy-enph-price-target-032930553.html",
+          "published_at": "2026-07-10T00:00:00+00:00",
           "source_tier": "3",
           "scope": "ticker",
           "direction": "mixed",
           "severity": "low",
           "action_flag": "pass",
-          "reason": "Mixed signals but overall positive momentum. Pre-earnings watch only.",
+          "reason": "PT raise is modest and below current PT from other analysts; Neutral rating maintained; no material adverse implication",
           "cutoff_safe": true,
-          "duplicate_group": "AAPL_broadcom_0706",
+          "duplicate_group": "ENPH-pt-raise",
           "confidence": "medium"
+        },
+        {
+          "ticker_or_scope": "TMO",
+          "related_tickers": [
+            "TMO"
+          ],
+          "headline_th": "Thermo Fisher ประกาศปันผลรายไตรมาส $0.47 ต่อหุ้น ไม่เปลี่ยนแปลง",
+          "summary_th": "Thermo Fisher ประกาศจ่ายปันผลรายไตรมาส $0.47 ต่อหุ้น (เท่าเดิม) เมื่อวันที่ 10 ก.ค. กำหนดจ่าย 15 ต.ค. วันปิดสมุดทะเบียน 15 ก.ย. เป็นการประกาศปกติ ไม่มีการเปลี่ยนแปลง guidance",
+          "source": "GuruFocus",
+          "url": "https://www.gurufocus.com/news/8953109",
+          "published_at": "2026-07-10T00:00:00+00:00",
+          "source_tier": "3",
+          "scope": "ticker",
+          "direction": "neutral",
+          "severity": "low",
+          "action_flag": "pass",
+          "reason": "Routine dividend declaration; no guidance change; no material impact",
+          "cutoff_safe": true,
+          "duplicate_group": "TMO-dividend",
+          "confidence": "high"
         }
       ],
       "ticker_summary": [
         {
-          "ticker": "NVDA",
+          "ticker": "AAPL",
+          "direction": "negative",
+          "severity": "high",
+          "action_flag": "watch",
+          "reason": "OpenAI trade secret lawsuit filed July 10 — material litigation risk",
+          "confidence": "high"
+        },
+        {
+          "ticker": "GEV",
           "direction": "negative",
           "severity": "medium",
           "action_flag": "watch",
-          "reason": "Rare sell-side downgrade citing ASIC/China structural threat",
-          "confidence": "medium"
-        },
-        {
-          "ticker": "CRDO",
-          "direction": "positive",
-          "severity": "medium",
-          "action_flag": "pass",
-          "reason": "Triple analyst PT upgrades on AI data-center connectivity",
-          "confidence": "medium"
-        },
-        {
-          "ticker": "AAOI",
-          "direction": "positive",
-          "severity": "low",
-          "action_flag": "pass",
-          "reason": "Russell 1000 inclusion + Houston cleanroom expansion (within 10 days)",
-          "confidence": "medium"
+          "reason": "~10% decline from Barclays/Siemens sector downgrade July 7; insider selling noted",
+          "confidence": "high"
         },
         {
           "ticker": "DVN",
           "direction": "negative",
           "severity": "medium",
           "action_flag": "watch",
-          "reason": "Activist pressure + Truist PT cut July 9",
+          "reason": "Multiple PT cuts (Truist, JPMorgan, RBC) July 8-10 post-Coterra merger",
           "confidence": "medium"
+        },
+        {
+          "ticker": "CCJ",
+          "direction": "mixed",
+          "severity": "medium",
+          "action_flag": "watch",
+          "reason": "Temporary Cigar Lake mining suspension (acid plant issue); stake acquisition positive",
+          "confidence": "medium"
+        },
+        {
+          "ticker": "NVDA",
+          "direction": "mixed",
+          "severity": "medium",
+          "action_flag": "watch",
+          "reason": "Wells Fargo: China GPU access limited to ~$6-8B; below some bull-case expectations",
+          "confidence": "medium"
+        },
+        {
+          "ticker": "RBRK",
+          "direction": "positive",
+          "severity": "medium",
+          "action_flag": "pass",
+          "reason": "BMO PT raise to $98; $500M UK investment announced July 11",
+          "confidence": "high"
         },
         {
           "ticker": "MSFT",
           "direction": "positive",
           "severity": "low",
           "action_flag": "pass",
-          "reason": "Positive earnings preview; no adverse events",
+          "reason": "Pre-earnings analyst drumbeat positive; HSBC projects $89.3B Q4 rev (+16.8% YoY)",
           "confidence": "medium"
         },
         {
@@ -2500,31 +2515,39 @@
           "direction": "positive",
           "severity": "low",
           "action_flag": "pass",
-          "reason": "Rackspace AI deal + Goldman PT hike",
-          "confidence": "high"
-        },
-        {
-          "ticker": "CCJ",
-          "direction": "negative",
-          "severity": "medium",
-          "action_flag": "watch",
-          "reason": "Cigar Lake mine temporary suspension — production risk",
+          "reason": "Goldman PT raise to $640 July 5; EPYC server CPU demand strong",
           "confidence": "medium"
         },
         {
           "ticker": "ENPH",
-          "direction": "positive",
+          "direction": "mixed",
           "severity": "low",
           "action_flag": "pass",
-          "reason": "New IQ Air product launch; pre-earnings positive",
+          "reason": "Susquehanna PT raise to $45 (Neutral); stock -22% prior month",
           "confidence": "medium"
         },
         {
-          "ticker": "RBRK",
-          "direction": "positive",
+          "ticker": "TMO",
+          "direction": "neutral",
           "severity": "low",
           "action_flag": "pass",
-          "reason": "UK £375M investment; strong momentum run",
+          "reason": "Routine quarterly dividend declaration; no guidance change",
+          "confidence": "high"
+        },
+        {
+          "ticker": "CRDO",
+          "direction": "neutral",
+          "severity": "none",
+          "action_flag": "pass",
+          "reason": "No material news July 10-11; prior Q4 FY2026 strong report already priced",
+          "confidence": "medium"
+        },
+        {
+          "ticker": "AAOI",
+          "direction": "neutral",
+          "severity": "none",
+          "action_flag": "pass",
+          "reason": "No material news July 10-11; earnings July 30",
           "confidence": "medium"
         },
         {
@@ -2532,54 +2555,26 @@
           "direction": "neutral",
           "severity": "none",
           "action_flag": "pass",
-          "reason": "No breaking catalyst; earnings Jul 23 upcoming",
-          "confidence": "medium"
-        },
-        {
-          "ticker": "TMO",
-          "direction": "neutral",
-          "severity": "none",
-          "action_flag": "pass",
-          "reason": "Dividend declared flat; no adverse news",
+          "reason": "Routine share repurchase filing July 6; earnings July 23",
           "confidence": "high"
-        },
-        {
-          "ticker": "AAPL",
-          "direction": "mixed",
-          "severity": "low",
-          "action_flag": "pass",
-          "reason": "Broadcom deal positive; UBS US revenue warning mixed",
-          "confidence": "medium"
-        },
-        {
-          "ticker": "GEV",
-          "direction": "negative",
-          "severity": "high",
-          "action_flag": "watch",
-          "reason": "10% single-day drop on sector selloff (Barclays/Siemens Energy downgrade)",
-          "confidence": "medium"
         }
       ],
       "clean_tickers": [
-        "MSFT",
-        "AMD",
-        "ENPH",
-        "RBRK",
-        "STM",
-        "TMO",
+        "CRDO",
         "AAOI",
-        "AAPL"
+        "STM"
       ],
       "data_issues": [
-        "yfinance article feed blocked (container network policy); all news sourced via WebSearch",
-        "CCJ mine suspension event date Jul 1 (9 days before cutoff) — included as within material monitoring window given guidance implications still open"
+        "Pre-fetched news in packet was empty (yfinance blocked); all events sourced via WebSearch",
+        "GEV news event from July 7 (4 days before cutoff) included as it caused ongoing market impact through July 10-11",
+        "AMD Goldman PT raise from July 5 noted as context; excluded from news_flagged as >24h before cutoff and no new adverse information"
       ]
     },
     "macro_intelligence": {
       "agent": "Macro Intelligence Agent",
       "visibility": "blind_no_portfolio_no_cross_agent",
-      "cutoff_ts": "2026-07-10T21:02:01Z",
-      "run_ts": "2026-07-10T21:02:01Z",
+      "cutoff_ts": "2026-07-11T21:01:47+00:00",
+      "run_ts": "2026-07-11T21:07:00+00:00",
       "regime": "neutral",
       "event_lock": false,
       "event_lock_reason": "",
@@ -2587,108 +2582,111 @@
       "indicator_override": false,
       "override_reason": "",
       "vix": {
-        "value": 15.71,
-        "ts": "2026-07-10T16:12:00Z",
+        "value": 15.03,
+        "ts": "2026-07-10T20:00:00+00:00",
         "signal": "low"
       },
       "yield_10y": {
-        "value": 4.54,
-        "ts": "2026-07-10T00:00:00Z",
+        "value": 4.56,
+        "ts": "2026-07-10T20:00:00+00:00",
         "signal": "elevated"
       },
       "dxy": {
-        "value": 101.13,
-        "ts": "2026-07-10T16:09:00Z",
-        "signal": "neutral"
+        "value": 100.9,
+        "ts": "2026-07-11T18:00:00+00:00",
+        "signal": "weak"
       },
       "macro_events": [
         {
-          "event": "NFP June 2026 — +57K jobs vs +110K consensus (severe miss)",
-          "date": "2026-07-02",
-          "direction": "risk-negative",
-          "severity": "high",
-          "source": "BLS Employment Situation Summary",
-          "source_tier": "1",
-          "cutoff_safe": true,
-          "summary": "June payrolls +57K, well below +110K consensus; April and May revised sharply lower (-31K, -43K). Unemployment 4.2%. Labor market cracking."
-        },
-        {
-          "event": "FOMC Minutes (June 16-17 meeting) — 9-9 split on rate direction",
-          "date": "2026-07-08",
-          "direction": "mixed",
-          "severity": "high",
-          "source": "Federal Reserve",
-          "source_tier": "1",
-          "cutoff_safe": true,
-          "summary": "Fed held rates at 3.50-3.75%. Minutes showed a 9-9 split between cuts and hikes for 2026. Inflation risks 'still tilted to the upside'. Strait of Hormuz and tariffs cited as inflationary pressures."
-        },
-        {
-          "event": "ISM Services PMI June 2026 — 54.0 (24th consecutive expansion month)",
-          "date": "2026-07-06",
-          "direction": "risk-positive",
-          "severity": "low",
-          "source": "ISM / PR Newswire",
-          "source_tier": "2",
-          "cutoff_safe": true,
-          "summary": "Services PMI 54.0, Prices Index 67.7 (still elevated but declining). Employment sub-index returned to expansion at 51.2."
-        },
-        {
-          "event": "ISM Manufacturing PMI June 2026 — 53.3 (expansion)",
-          "date": "2026-07-01",
-          "direction": "risk-positive",
-          "severity": "low",
-          "source": "ISM",
-          "source_tier": "2",
-          "cutoff_safe": true,
-          "summary": "Manufacturing PMI at 53.3 — back in expansion. Positive signal but offset by labor weakness."
-        },
-        {
-          "event": "Upcoming CPI release July 14 — key event risk",
+          "event": "June CPI due July 14 — inflation watch",
           "date": "2026-07-14",
           "direction": "neutral",
-          "severity": "medium",
-          "source": "BLS (scheduled)",
+          "severity": "high",
+          "source": "US Bureau of Labor Statistics (scheduled release)",
           "source_tier": "1",
           "cutoff_safe": false,
-          "summary": "CPI scheduled July 14. Hot print reopens rate-hike debate; cool print could reignite cut expectations. CPI was running 4.2% YoY as of May 2026. Key binary risk for the next session."
+          "summary": "June CPI scheduled July 14 — next major inflation catalyst. May CPI was 4.2% YoY (highest since April 2023). Market on watch for confirmation of disinflation trend before pricing Fed cuts."
+        },
+        {
+          "event": "FOMC meeting July 28-29 — rate decision",
+          "date": "2026-07-29",
+          "direction": "neutral",
+          "severity": "medium",
+          "source": "Federal Reserve (federalreserve.gov)",
+          "source_tier": "1",
+          "cutoff_safe": false,
+          "summary": "FOMC meets July 28-29. No SEP/dot plot this meeting. Market debating rate trajectory given elevated CPI (4.2% May) vs. easing growth signals. Consensus expects hold."
+        },
+        {
+          "event": "S&P 500 within 0.45% of all-time high; +10.7% YTD",
+          "date": "2026-07-10",
+          "direction": "risk-positive",
+          "severity": "low",
+          "source": "Seeking Alpha / Slickcharts",
+          "source_tier": "3",
+          "cutoff_safe": true,
+          "summary": "Equity market near ATH. Recovery from tariff-driven Q1 selloff. Mag 7 led last week (+4.9%). Bull market regime intact on a price basis."
+        },
+        {
+          "event": "VIX at 15.03 — subdued volatility",
+          "date": "2026-07-10",
+          "direction": "risk-positive",
+          "severity": "low",
+          "source": "CNBC",
+          "source_tier": "2",
+          "cutoff_safe": true,
+          "summary": "VIX closed at 15.03, well below the 20 stress level, supporting equity risk appetite. No systemic stress signals."
+        },
+        {
+          "event": "May CPI printed 4.2% YoY — above Fed target",
+          "date": "2026-06-11",
+          "direction": "hawkish",
+          "severity": "medium",
+          "source": "BLS",
+          "source_tier": "1",
+          "cutoff_safe": true,
+          "summary": "Most recent CPI (May 2026) at 4.2% YoY is the highest since April 2023, well above the 2% Fed target. Keeps the Fed on hold and is driving elevated 10Y yields."
         }
       ],
       "historical_study_invoked": false,
       "historical_study_summary": null,
       "lead_time_days": null,
       "preferred_groups": [
-        "Defensive",
         "Quality Technology",
         "Healthcare",
-        "Energy-Infrastructure"
+        "Energy Infrastructure"
       ],
       "reduce_groups": [
-        "High-beta unprofitable growth",
-        "Rate-sensitive utilities",
-        "Speculative small-cap"
-      ]
+        "Rate-sensitive growth",
+        "Unprofitable small-cap",
+        "High-multiple speculative"
+      ],
+      "regime_reasoning": "VIX=15.03 is below the <18 threshold for risk_on, but 10Y yield=4.56% exceeds the 4.5% ceiling required for risk_on. The mechanical output is therefore NEUTRAL. No override: macro context is consistent with neutral — equity prices are near ATH (bullish surface) but inflation remains elevated (4.2% CPI) and the Fed is on hold, creating a rate-constrained environment. Confidence is medium because indicator data is from July 10 (within 24h), but June CPI on July 14 is a near-term binary risk. Event lock is false; VIX at 15.03 is far from the 30 threshold.",
+      "dxy_note": "DXY ~100.9, soft/weak — modestly supportive for commodity names and international revenues."
     },
     "technical_screener": {
       "agent": "Technical Screener Agent",
       "visibility": "blind_no_portfolio_no_cross_agent",
-      "cutoff_ts": "2026-07-10T21:02:01Z",
-      "run_ts": "2026-07-10T21:02:01Z",
+      "cutoff_ts": "2026-07-11T21:01:47+00:00",
+      "run_ts": "2026-07-11T21:05:00+00:00",
       "ticker_count": 13,
+      "data_warning": "CRITICAL: Packet price data is from 2026-06-02 (39 days stale) — yfinance blocked at container. Candlestick sub-scores set to 0.00 (no OHLCV bars in packet). All consensus scores are suppressed; WebSearch confirms significant price moves since packet date. Treat signals as LOW CONFIDENCE.",
       "buy_candidates": [],
       "sell_or_avoid": [],
       "watch": [
         {
-          "ticker": "NVDA",
-          "consensus_score": 0.2,
+          "ticker": "STM",
+          "consensus_score": 0.24,
           "sub_scores": {
             "candlestick": 0.0,
             "ma_ema": 1.0,
-            "bollinger": 0.0,
-            "rsi": 0.0,
-            "momentum": 0.0,
-            "volume": 0.0
+            "bollinger": 0.2,
+            "rsi": -1.0,
+            "momentum": 1.0,
+            "volume": 0.5
           },
-          "data_quality": "partial"
+          "data_quality": "impaired",
+          "note": "Packet: aligned uptrend; outside upper BB (breakout signal); extreme overbought RSI; strong momentum. Current price ~$71 vs packet $79.51."
         },
         {
           "ticker": "CRDO",
@@ -2701,7 +2699,8 @@
             "momentum": 0.5,
             "volume": 1.0
           },
-          "data_quality": "partial"
+          "data_quality": "impaired",
+          "note": "Packet: aligned uptrend; overbought BB; vol spike on up day. Current price ~$265 vs packet $229."
         },
         {
           "ticker": "AAOI",
@@ -2714,59 +2713,22 @@
             "momentum": 1.0,
             "volume": 0.0
           },
-          "data_quality": "partial"
+          "data_quality": "impaired",
+          "note": "Packet strong; CURRENT PRICE ~$120 (DOWN 41% from packet $202.37). Packet signals irrelevant."
         },
         {
-          "ticker": "DVN",
-          "consensus_score": -0.2,
+          "ticker": "NVDA",
+          "consensus_score": 0.2,
           "sub_scores": {
             "candlestick": 0.0,
-            "ma_ema": -1.0,
+            "ma_ema": 1.0,
             "bollinger": 0.0,
             "rsi": 0.0,
             "momentum": 0.0,
             "volume": 0.0
           },
-          "data_quality": "partial"
-        },
-        {
-          "ticker": "MSFT",
-          "consensus_score": 0.03,
-          "sub_scores": {
-            "candlestick": 0.0,
-            "ma_ema": 1.0,
-            "bollinger": -0.4,
-            "rsi": -0.6,
-            "momentum": 0.0,
-            "volume": 0.0
-          },
-          "data_quality": "partial"
-        },
-        {
-          "ticker": "AMD",
-          "consensus_score": 0.08,
-          "sub_scores": {
-            "candlestick": 0.0,
-            "ma_ema": 1.0,
-            "bollinger": -0.4,
-            "rsi": -0.6,
-            "momentum": 0.5,
-            "volume": 0.0
-          },
-          "data_quality": "partial"
-        },
-        {
-          "ticker": "CCJ",
-          "consensus_score": 0.0825,
-          "sub_scores": {
-            "candlestick": 0.0,
-            "ma_ema": 0.5,
-            "bollinger": -0.4,
-            "rsi": -0.25,
-            "momentum": 1.0,
-            "volume": 0.0
-          },
-          "data_quality": "partial"
+          "data_quality": "impaired",
+          "note": "Packet: aligned uptrend; neutral BB/RSI. Current price ~$211 vs packet $222.82."
         },
         {
           "ticker": "ENPH",
@@ -2779,59 +2741,22 @@
             "momentum": 1.0,
             "volume": 0.0
           },
-          "data_quality": "partial"
+          "data_quality": "impaired",
+          "note": "Packet: extreme overbought RSI 78.95; momentum strong but BB near upper. CURRENT PRICE ~$44.94 (DOWN 38% from packet $72.33). Packet data misleading."
         },
         {
-          "ticker": "RBRK",
-          "consensus_score": -0.11,
-          "sub_scores": {
-            "candlestick": 0.0,
-            "ma_ema": 1.0,
-            "bollinger": -0.8,
-            "rsi": -1.0,
-            "momentum": 0.0,
-            "volume": 0.0
-          },
-          "data_quality": "partial"
-        },
-        {
-          "ticker": "STM",
-          "consensus_score": 0.24,
-          "sub_scores": {
-            "candlestick": 0.0,
-            "ma_ema": 1.0,
-            "bollinger": 0.2,
-            "rsi": -1.0,
-            "momentum": 1.0,
-            "volume": 0.5
-          },
-          "data_quality": "partial"
-        },
-        {
-          "ticker": "TMO",
-          "consensus_score": -0.0175,
+          "ticker": "CCJ",
+          "consensus_score": 0.0825,
           "sub_scores": {
             "candlestick": 0.0,
             "ma_ema": 0.5,
             "bollinger": -0.4,
             "rsi": -0.25,
-            "momentum": 0.0,
+            "momentum": 1.0,
             "volume": 0.0
           },
-          "data_quality": "partial"
-        },
-        {
-          "ticker": "AAPL",
-          "consensus_score": 0.02,
-          "sub_scores": {
-            "candlestick": 0.0,
-            "ma_ema": 1.0,
-            "bollinger": -0.4,
-            "rsi": -1.0,
-            "momentum": 0.5,
-            "volume": 0.0
-          },
-          "data_quality": "partial"
+          "data_quality": "impaired",
+          "note": "Packet: recovering MA; strong momentum. Current price ~$95 vs packet $120.51 (DOWN 21%)."
         },
         {
           "ticker": "GEV",
@@ -2844,13 +2769,99 @@
             "momentum": 0.0,
             "volume": 0.0
           },
-          "data_quality": "partial"
+          "data_quality": "impaired",
+          "note": "Packet: price below EMA20; BB lower zone; RSI oversold 34.21. Current price ~$1,076 vs packet $969.67 (recovered +11%)."
+        },
+        {
+          "ticker": "AMD",
+          "consensus_score": 0.08,
+          "sub_scores": {
+            "candlestick": 0.0,
+            "ma_ema": 1.0,
+            "bollinger": -0.4,
+            "rsi": -0.6,
+            "momentum": 0.5,
+            "volume": 0.0
+          },
+          "data_quality": "impaired",
+          "note": "Packet: aligned uptrend; overbought RSI 70; overbought BB. Current price ~$558 vs packet $521."
+        },
+        {
+          "ticker": "RBRK",
+          "consensus_score": -0.11,
+          "sub_scores": {
+            "candlestick": 0.0,
+            "ma_ema": 1.0,
+            "bollinger": -0.8,
+            "rsi": -1.0,
+            "momentum": 0.0,
+            "volume": 0.0
+          },
+          "data_quality": "impaired",
+          "note": "Packet: outside upper BB; extreme overbought RSI 77.45; 5d momentum strong but 1d negative. Current price ~$90 vs packet $82.33."
+        },
+        {
+          "ticker": "AAPL",
+          "consensus_score": 0.02,
+          "sub_scores": {
+            "candlestick": 0.0,
+            "ma_ema": 1.0,
+            "bollinger": -0.4,
+            "rsi": -1.0,
+            "momentum": 0.5,
+            "volume": 0.0
+          },
+          "data_quality": "impaired",
+          "note": "Packet: aligned uptrend; extreme overbought RSI 75.58. Current price ~$315, ~flat from packet. NEWS: OpenAI lawsuit filed July 10."
+        },
+        {
+          "ticker": "MSFT",
+          "consensus_score": 0.03,
+          "sub_scores": {
+            "candlestick": 0.0,
+            "ma_ema": 1.0,
+            "bollinger": -0.4,
+            "rsi": -0.6,
+            "momentum": 0.0,
+            "volume": 0.0
+          },
+          "data_quality": "impaired",
+          "note": "Packet: aligned uptrend; overbought RSI 66.37; 1d sharp -4.17%. Current price ~$384 vs packet $441 (DOWN 13%)."
+        },
+        {
+          "ticker": "TMO",
+          "consensus_score": -0.0175,
+          "sub_scores": {
+            "candlestick": 0.0,
+            "ma_ema": 0.5,
+            "bollinger": -0.4,
+            "rsi": -0.25,
+            "momentum": 0.0,
+            "volume": 0.0
+          },
+          "data_quality": "impaired",
+          "note": "Packet: recovering (price>EMA20, EMA20<EMA50); mild overbought. Current price ~$525 vs packet $482 (recovered)."
+        },
+        {
+          "ticker": "DVN",
+          "consensus_score": -0.2,
+          "sub_scores": {
+            "candlestick": 0.0,
+            "ma_ema": -1.0,
+            "bollinger": 0.0,
+            "rsi": 0.0,
+            "momentum": 0.0,
+            "volume": 0.0
+          },
+          "data_quality": "impaired",
+          "note": "Packet: aligned downtrend (price<EMA20<EMA50). Current price ~$42 vs packet $46.22 (DOWN 9%). Multiple analyst PT cuts July 8-10."
         }
       ],
       "data_issues": [
-        "No OHLCV bars available for any ticker (yfinance blocked — container network policy). Candlestick sub-score set to 0.00 for all tickers. EMA cross-detection (golden/death cross) cannot be evaluated. All classifications therefore conservative.",
-        "No ticker reached buy_candidate threshold (≥+0.40) or sell_or_avoid threshold (≤−0.40). All 13 tickers classified as WATCH.",
-        "volume_ratio missing for DVN (0.5776 below 1.5 threshold — scored 0.00)"
+        "CRITICAL: All 13 tickers missing OHLCV bars — candlestick sub-score forced to 0.00 for all tickers",
+        "CRITICAL: Price data timestamp 2026-06-02 is 39 days before cutoff_ts 2026-07-11 — yfinance blocked at container",
+        "Large divergences between packet prices and current market prices: AAOI -41%, ENPH -38%, MSFT -13%, CCJ -21%, DVN -9%",
+        "Technical signals based on June 2 data are LOW CONFIDENCE and should not drive execution decisions without current price confirmation"
       ]
     }
   },
@@ -2861,7 +2872,7 @@
     },
     {
       "ticker": "AAPL",
-      "verdict": "intact"
+      "verdict": "watch"
     },
     {
       "ticker": "AMD",
@@ -2877,7 +2888,7 @@
     },
     {
       "ticker": "CCJ",
-      "verdict": "intact"
+      "verdict": "watch"
     },
     {
       "ticker": "COST",
@@ -2889,7 +2900,7 @@
     },
     {
       "ticker": "DVN",
-      "verdict": "watch"
+      "verdict": "weakening"
     },
     {
       "ticker": "ENPH",
@@ -2897,7 +2908,7 @@
     },
     {
       "ticker": "GEV",
-      "verdict": "intact"
+      "verdict": "watch"
     },
     {
       "ticker": "GOOGL",
@@ -2929,7 +2940,7 @@
     },
     {
       "ticker": "TMO",
-      "verdict": "watch"
+      "verdict": "intact"
     },
     {
       "ticker": "TSLA",
@@ -2940,176 +2951,16 @@
   "limits": {
     "regime": "neutral",
     "regime_factor": 0.9,
-    "cash_floor_pct": 19.0,
+    "cash_floor_pct": 21.0,
     "gross_exposure_cap_pct": 76.5,
     "event_lock": false,
-    "news_addon_pct": 8.0,
+    "news_addon_pct": 10.0,
     "group_caps": {
-      "uncategorized": 13.97,
-      "consumer_tech": 16.2
+      "uncategorized": 13.96,
+      "consumer_tech": 13.77
     },
     "ticker_caps": {
-      "CCJ": {
-        "single_name_cap_pct": 7.2,
-        "thesis_verdict": "intact"
-      },
-      "HOOD": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PRCT": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MGA": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "OXY": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "JOBY": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "DRS": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "RBRK": {
-        "single_name_cap_pct": 7.2,
-        "thesis_verdict": "intact"
-      },
-      "HCC": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ZETA": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ASTS": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "SMR": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "LHX": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CRWV": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "VRT": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "IIPR": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "LEU": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "XP": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TMO": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "watch"
-      },
-      "UUUU": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "BWXT": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "STM": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "watch"
-      },
-      "ABNB": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "AMZN": {
-        "single_name_cap_pct": 7.2,
-        "thesis_verdict": "intact"
-      },
-      "CMP": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "FICO": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ACHR": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ENPH": {
-        "single_name_cap_pct": 5.83,
-        "thesis_verdict": "weakening"
-      },
-      "SOFI": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CRM": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CRDO": {
-        "single_name_cap_pct": 7.2,
-        "thesis_verdict": "intact"
-      },
-      "QCOM": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ADBE": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "GD": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "KGC": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "UNP": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "NOW": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ALAB": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "AVAV": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "WTW": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ORA": {
+      "SNDK": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
@@ -3117,119 +2968,59 @@
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "TDOC": {
+      "RGTI": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "RKLB": {
+      "PANW": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "ATI": {
+      "OXY": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "TWLO": {
+      "CRML": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "OKLO": {
+      "WTW": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "SCHW": {
+      "FOJCF": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "BX": {
+      "GOLD": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "HCA": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "LAUR": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MA": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "SNPS": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PLTR": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MSFT": {
-        "single_name_cap_pct": 7.2,
-        "thesis_verdict": "intact"
-      },
-      "PLAB": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CLPT": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "AAOI": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "watch"
-      },
-      "LDOS": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PSN": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TDG": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ON": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "HON": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "DAC": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "FSLY": {
+      "KGC": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
       "DVN": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "watch"
-      },
-      "GCT": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TSLA": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "watch"
-      },
-      "ANET": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
+        "single_name_cap_pct": 5.83,
+        "thesis_verdict": "weakening"
       },
       "FANG": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "ARLP": {
+      "ALAB": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "RBRK": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "HON": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "SMR": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
@@ -3237,7 +3028,135 @@
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
+      "AVAV": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "DRS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LUNR": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "NFLX": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "VST": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
       "MP": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "META": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "AMZN": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "CVS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MSFT": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "MRVL": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "watch"
+      },
+      "LMT": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "APTV": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "RACE": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HROW": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LNG": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "IBM": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TSLA": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "watch"
+      },
+      "IOT": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ATRO": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CMP": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PLTR": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AVGO": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "ON": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MELI": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PBOG": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TDG": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ST": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CELH": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GEV": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "watch"
+      },
+      "UUUU": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "FICO": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PLAB": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
@@ -3245,31 +3164,27 @@
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "PSTG": {
+      "LLY": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "CRUS": {
+      "LAUR": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "GEV": {
-        "single_name_cap_pct": 7.2,
-        "thesis_verdict": "intact"
-      },
-      "KLAC": {
+      "BX": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "ASML": {
+      "BIIB": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "WM": {
+      "HCC": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "STNE": {
+      "CRWD": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
@@ -3277,11 +3192,259 @@
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
+      "SCHW": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PRCT": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ADBE": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TEM": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GMAB": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CEG": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "NEM": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ORCL": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ZS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GOOGL": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "ASTS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MA": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TMUS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "VRT": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LHX": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
       "ENB": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
+      "REGN": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MDB": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TMO": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "ZETA": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LEU": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "DHR": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PSTG": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "IONQ": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CWEN": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GCT": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ANET": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "BWXT": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "BKV": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MGA": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "IIPR": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ACHR": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "FSLR": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HASI": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "NOW": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "FSLY": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TMDX": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "STNE": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "LDOS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ABNB": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "JOBY": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "APP": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRUS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "GRMN": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "DAC": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AAPL": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "watch"
+      },
+      "PAAS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AAOI": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "watch"
+      },
+      "ARM": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
       "ONTO": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ENPH": {
+        "single_name_cap_pct": 5.83,
+        "thesis_verdict": "weakening"
+      },
+      "RKLB": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "COST": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "TWLO": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRDO": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "BTU": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "DHI": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "MU": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HTHT": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "HCA": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "ATI": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "QCOM": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "AMD": {
+        "single_name_cap_pct": 7.2,
+        "thesis_verdict": "intact"
+      },
+      "ORA": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
@@ -3293,63 +3456,11 @@
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "LLY": {
+      "NBIS": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "RGTI": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CEG": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "REGN": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "HASI": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "SHOP": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "APTV": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "INTC": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ATRO": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "COST": {
-        "single_name_cap_pct": 7.2,
-        "thesis_verdict": "intact"
-      },
-      "LMT": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "VST": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "META": {
-        "single_name_cap_pct": 7.2,
-        "thesis_verdict": "intact"
-      },
-      "CWEN": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "GOLD": {
+      "XP": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
@@ -3357,7 +3468,51 @@
         "single_name_cap_pct": 7.2,
         "thesis_verdict": "intact"
       },
-      "LNG": {
+      "WM": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "STM": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "watch"
+      },
+      "PSN": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "SHOP": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "SNPS": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRM": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CNQ": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "TDOC": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CCJ": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "watch"
+      },
+      "BA": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "CRWV": {
+        "single_name_cap_pct": 5.2,
+        "thesis_verdict": "not_reviewed"
+      },
+      "PFE": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
@@ -3365,51 +3520,39 @@
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "GMAB": {
+      "GD": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "DHR": {
+      "UNP": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "DHI": {
+      "SOFI": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "BIIB": {
+      "HOOD": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "AMD": {
-        "single_name_cap_pct": 7.2,
-        "thesis_verdict": "intact"
-      },
-      "IBM": {
+      "CLPT": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "ORCL": {
+      "ASML": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "GRMN": {
+      "ARLP": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "SNDK": {
+      "KLAC": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "LUNR": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TMUS": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CELH": {
+      "OKLO": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
@@ -3417,139 +3560,7 @@
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       },
-      "RACE": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MELI": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ARM": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CRML": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MRVL": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "watch"
-      },
-      "HTHT": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "FSLR": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PBOG": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "FOJCF": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "NEM": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "NFLX": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "HROW": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MU": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "BTU": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "GOOGL": {
-        "single_name_cap_pct": 7.2,
-        "thesis_verdict": "intact"
-      },
-      "ST": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "AVGO": {
-        "single_name_cap_pct": 7.2,
-        "thesis_verdict": "intact"
-      },
-      "PFE": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PAAS": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "BA": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CRWD": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "BKV": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "APP": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "AAPL": {
-        "single_name_cap_pct": 7.2,
-        "thesis_verdict": "intact"
-      },
-      "IONQ": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "ZS": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TMDX": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "PANW": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CVS": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "TEM": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "NBIS": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "MDB": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "IOT": {
-        "single_name_cap_pct": 5.2,
-        "thesis_verdict": "not_reviewed"
-      },
-      "CNQ": {
+      "INTC": {
         "single_name_cap_pct": 5.2,
         "thesis_verdict": "not_reviewed"
       }
@@ -3827,7 +3838,15 @@
     {
       "ts": "2026-07-10T21:11:54.253113+00:00",
       "nav": 30937.94
+    },
+    {
+      "ts": "2026-07-11T09:11:35.355751+00:00",
+      "nav": 30937.94
+    },
+    {
+      "ts": "2026-07-11T21:12:07.879919+00:00",
+      "nav": 30937.94
     }
   ],
-  "runs_count": 68
+  "runs_count": 70
 }
